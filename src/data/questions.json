@@ -1,0 +1,3079 @@
+{
+  "source": "NPTEL ANSWERS.md",
+  "generatedAt": "2026-04-21T14:44:28.003Z",
+  "count": 120,
+  "questions": [
+    {
+      "assignmentId": 12,
+      "assignmentLabel": "Assignment 12",
+      "questionId": "w12-q1-resources-are-those-that-exist-in-the-absence-of-human-intervention",
+      "prompt": "__resources are those that exist in the absence of human intervention.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Artificial"
+        },
+        {
+          "key": "B",
+          "text": "Natural"
+        },
+        {
+          "key": "C",
+          "text": "Fake"
+        },
+        {
+          "key": "D",
+          "text": "Real"
+        }
+      ],
+      "answerKey": "B",
+      "tricks": "NATURAL resources = Nature made (no human needed). Think \"Forest, Water, Soil\""
+    },
+    {
+      "assignmentId": 12,
+      "assignmentLabel": "Assignment 12",
+      "questionId": "w12-q2-the-food-sector-accounts-for-around-percent-of-total-greenhouse-gas-emissions",
+      "prompt": "The food sector accounts for around ___ percent of total greenhouse gas emissions.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "3"
+        },
+        {
+          "key": "B",
+          "text": "22"
+        },
+        {
+          "key": "C",
+          "text": "100"
+        },
+        {
+          "key": "D",
+          "text": "90"
+        }
+      ],
+      "answerKey": "B",
+      "tricks": "Food emissions = 22% (roughly 1/5 of climate impact). Remember: \"2-2\" (22%)"
+    },
+    {
+      "assignmentId": 12,
+      "assignmentLabel": "Assignment 12",
+      "questionId": "w12-q3-which-of-the-following-is-not-a-solution-for-natural-resource-depletion",
+      "prompt": "Which of the following is not a solution for natural resource depletion?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "use less renewable energy"
+        },
+        {
+          "key": "B",
+          "text": "promote sustainable fishing growth"
+        },
+        {
+          "key": "C",
+          "text": "reduce food waste"
+        },
+        {
+          "key": "D",
+          "text": "treat wastewater before discharging"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Renewable energy REDUCES depletion. If asked for NON-solution, pick \"use LESS renewable\""
+    },
+    {
+      "assignmentId": 12,
+      "assignmentLabel": "Assignment 12",
+      "questionId": "w12-q4-in-order-to-support-reform-on-green-fiscal-policy-un-environment-has-established",
+      "prompt": "In order to support reform on green fiscal policy, UN Environment has established the ___ in partnership with the International Monetary Fund.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Green Fiscal Policy Network"
+        },
+        {
+          "key": "B",
+          "text": "Blue Fiscal Policy Network"
+        },
+        {
+          "key": "C",
+          "text": "Green Fishery Policy Network"
+        },
+        {
+          "key": "D",
+          "text": "Green Fiscal Policy Natural"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "UN + IMF = Green Fiscal Policy Network. Think \"Green\" + \"Fiscal\" together"
+    },
+    {
+      "assignmentId": 12,
+      "assignmentLabel": "Assignment 12",
+      "questionId": "w12-q5-as-responsible-consumers-we-should-ask-ourselves-before-buying-anything",
+      "prompt": "As responsible consumers, we should ask ourselves \"___\" before buying anything.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "do I really need it?"
+        },
+        {
+          "key": "B",
+          "text": "how long will I use it?"
+        },
+        {
+          "key": "C",
+          "text": "can I borrow it from someone I know?"
+        },
+        {
+          "key": "D",
+          "text": "all of the given"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 12,
+      "assignmentLabel": "Assignment 12",
+      "questionId": "w12-q6-a-bulb-thrown-out-after-usage-forms",
+      "prompt": "A bulb thrown out after usage forms ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "wet waste"
+        },
+        {
+          "key": "B",
+          "text": "valuable waste"
+        },
+        {
+          "key": "C",
+          "text": "responsible waste"
+        },
+        {
+          "key": "D",
+          "text": "e-waste"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Old bulb = e-waste (electronic waste). Think \"bulb = electric = e-waste\""
+    },
+    {
+      "assignmentId": 12,
+      "assignmentLabel": "Assignment 12",
+      "questionId": "w12-q7-sdg-seeks-to-promote-international-trade-and-help-developing-countries-increase-",
+      "prompt": "SDG ___ seeks to promote international trade, and help developing countries increase their exports to ensure a universal rules-based and equitable trading system that is fair, open and beneficial to all.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "17"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "6"
+        },
+        {
+          "key": "D",
+          "text": "11"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 12,
+      "assignmentLabel": "Assignment 12",
+      "questionId": "w12-q8-according-to-gandhiji-wealth-should-be-used-for",
+      "prompt": "According to Gandhiji, wealth should be used for ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "the betterment of the humanity"
+        },
+        {
+          "key": "B",
+          "text": "personal indulgence"
+        },
+        {
+          "key": "C",
+          "text": "conflicts"
+        },
+        {
+          "key": "D",
+          "text": "politics"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Gandhi = Betterment of humanity. Think \"Give back to society\""
+    },
+    {
+      "assignmentId": 12,
+      "assignmentLabel": "Assignment 12",
+      "questionId": "w12-q9-the-initiated-and-spearheaded-by-gandhiji-is-the-preeminent-prototype-of-small-a",
+      "prompt": "The ___ initiated and spearheaded by Gandhiji is the preeminent prototype of small and cottage industries. Strengthening village economy, and thus, reducing excessive urbanization can make human settlements safe, resilient and sustainable.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Khadi Movement"
+        },
+        {
+          "key": "B",
+          "text": "Salt March"
+        },
+        {
+          "key": "C",
+          "text": "Cotton Movement"
+        },
+        {
+          "key": "D",
+          "text": "Non-violent Protest"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 12,
+      "assignmentLabel": "Assignment 12",
+      "questionId": "w12-q10-is-the-ability-of-a-system-to-absorb-disturbances-retain-its-basic-function-and-",
+      "prompt": "___ is the ability of a system to absorb disturbances & retain its basic function and structure.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "resilience"
+        },
+        {
+          "key": "B",
+          "text": "gratitude"
+        },
+        {
+          "key": "C",
+          "text": "mindfulness"
+        },
+        {
+          "key": "D",
+          "text": "sustainable consumption"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Resilience = Bounce back from problems. Think \"Elastic band\""
+    },
+    {
+      "assignmentId": 11,
+      "assignmentLabel": "Assignment 11",
+      "questionId": "w11-q1-there-is-one-universal-curriculum-to-become-a-sustainable-leader",
+      "prompt": "There is one universal curriculum to become a sustainable leader.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "True"
+        },
+        {
+          "key": "B",
+          "text": "False"
+        }
+      ],
+      "answerKey": "B",
+      "tricks": "FALSE - sustainable leaders need different paths. Think \"One size does NOT fit all\""
+    },
+    {
+      "assignmentId": 11,
+      "assignmentLabel": "Assignment 11",
+      "questionId": "w11-q2-a-sustainable-leader-has-a-decision-making-style",
+      "prompt": "A sustainable leader has a ___ decision-making style.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "forceful"
+        },
+        {
+          "key": "B",
+          "text": "autocratic"
+        },
+        {
+          "key": "C",
+          "text": "selfish"
+        },
+        {
+          "key": "D",
+          "text": "consensual"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Consensual = Everyone agrees. Think \"Consensus = Group decision\""
+    },
+    {
+      "assignmentId": 11,
+      "assignmentLabel": "Assignment 11",
+      "questionId": "w11-q3-a-sustainable-leader-must-have-awareness-of-contexts",
+      "prompt": "A sustainable leader must have awareness of ___ contexts.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "ecological"
+        },
+        {
+          "key": "B",
+          "text": "economic"
+        },
+        {
+          "key": "C",
+          "text": "political"
+        },
+        {
+          "key": "D",
+          "text": "all of the given"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "ALL contexts (ecological, economic, political, social). Think \"EEPS\" or \"All of them\""
+    },
+    {
+      "assignmentId": 11,
+      "assignmentLabel": "Assignment 11",
+      "questionId": "w11-q4-the-results-component-of-sustainable-leadership-relates-with-the-dimension",
+      "prompt": "The 'results' component of sustainable leadership relates with the ___ dimension.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "institutional"
+        },
+        {
+          "key": "B",
+          "text": "social"
+        },
+        {
+          "key": "C",
+          "text": "environmental"
+        },
+        {
+          "key": "D",
+          "text": "economic"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 11,
+      "assignmentLabel": "Assignment 11",
+      "questionId": "w11-q5-india-gives-a-theory-u-that-consists-of-aspects-like-co-initiating-co-sensing-an",
+      "prompt": "___ India gives a theory U that consists of aspects like co-initiating, co-sensing and co-evolving among others.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "HEAD"
+        },
+        {
+          "key": "B",
+          "text": "SAID"
+        },
+        {
+          "key": "C",
+          "text": "GEAD"
+        },
+        {
+          "key": "D",
+          "text": "LEAD"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 11,
+      "assignmentLabel": "Assignment 11",
+      "questionId": "w11-q6-the-component-in-theory-u-entails-prototyping-the-new",
+      "prompt": "The __ component in theory 'U' entails prototyping the new.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "co-evolving"
+        },
+        {
+          "key": "B",
+          "text": "co-initiating"
+        },
+        {
+          "key": "C",
+          "text": "co-sensing"
+        },
+        {
+          "key": "D",
+          "text": "co-creating"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 11,
+      "assignmentLabel": "Assignment 11",
+      "questionId": "w11-q7-which-of-the-following-factor-does-not-aid-in-becoming-a-global-leader",
+      "prompt": "Which of the following factor does not aid in becoming a global leader?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "willingness to stay in one's comfort zone"
+        },
+        {
+          "key": "B",
+          "text": "undesirable circumstances like poverty"
+        },
+        {
+          "key": "C",
+          "text": "confidence to embrace risk"
+        },
+        {
+          "key": "D",
+          "text": "willingness to learn from failure"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 11,
+      "assignmentLabel": "Assignment 11",
+      "questionId": "w11-q8-according-to-maxwell-there-are-levels-of-leadership",
+      "prompt": "According to Maxwell, there are ___ levels of leadership.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "15"
+        },
+        {
+          "key": "B",
+          "text": "25"
+        },
+        {
+          "key": "C",
+          "text": "50"
+        },
+        {
+          "key": "D",
+          "text": "5"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 11,
+      "assignmentLabel": "Assignment 11",
+      "questionId": "w11-q9-the-in-relation-to-their-global-leadership-fellowship-program-describes-global-l",
+      "prompt": "The ___, in relation to their Global Leadership Fellowship program, describes global leaders as dynamic, engaged and driven individuals who possess a high degree of intellectual curiosity and service-oriented humility; an entrepreneur in the global public interest with a profound sense of purpose regardless of the scale and scope of the challenge.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "World Health Organization"
+        },
+        {
+          "key": "B",
+          "text": "World Labor Organization"
+        },
+        {
+          "key": "C",
+          "text": "World Economic Forum"
+        },
+        {
+          "key": "D",
+          "text": "World Political Forum"
+        }
+      ],
+      "answerKey": "C",
+      "tricks": "Remember: The correct answer is C. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 11,
+      "assignmentLabel": "Assignment 11",
+      "questionId": "w11-q10-sdg-is-to-make-cities-and-human-settlements-inclusive-safe-resilient-and-sustain",
+      "prompt": "SDG ___ is to make cities and human settlements inclusive, safe, resilient, and sustainable.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "10"
+        },
+        {
+          "key": "C",
+          "text": "11"
+        },
+        {
+          "key": "D",
+          "text": "5"
+        }
+      ],
+      "answerKey": "C",
+      "tricks": "Remember: The correct answer is C. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 10,
+      "assignmentLabel": "Assignment 10",
+      "questionId": "w10-q1-sustainable-leaders-look-at-immediate-short-term-gains",
+      "prompt": "Sustainable leaders look at immediate, short-term gains.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "True"
+        },
+        {
+          "key": "B",
+          "text": "False"
+        }
+      ],
+      "answerKey": "B",
+      "tricks": "Remember: The correct answer is B. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 10,
+      "assignmentLabel": "Assignment 10",
+      "questionId": "w10-q2-the-need-of-the-hour-is-to-have-leaders-who",
+      "prompt": "The need of the hour is to have leaders who ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "focus only on business profit"
+        },
+        {
+          "key": "B",
+          "text": "focus only on building technical solutions"
+        },
+        {
+          "key": "C",
+          "text": "take a holistic approach"
+        },
+        {
+          "key": "D",
+          "text": "none of the given"
+        }
+      ],
+      "answerKey": "C",
+      "tricks": "Remember: The correct answer is C. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 10,
+      "assignmentLabel": "Assignment 10",
+      "questionId": "w10-q3-which-of-the-following-is-a-part-of-the-3ps-of-triple-bottom-line",
+      "prompt": "Which of the following is a part of the 3Ps of triple bottom line?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Profit"
+        },
+        {
+          "key": "B",
+          "text": "Passion"
+        },
+        {
+          "key": "C",
+          "text": "Party"
+        },
+        {
+          "key": "D",
+          "text": "Pivot"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 10,
+      "assignmentLabel": "Assignment 10",
+      "questionId": "w10-q4-organizations-need-leaders-who-create-value-for",
+      "prompt": "Organizations need leaders who create value for ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "internal stakeholders"
+        },
+        {
+          "key": "B",
+          "text": "external stakeholders"
+        },
+        {
+          "key": "C",
+          "text": "oneself"
+        },
+        {
+          "key": "D",
+          "text": "all stakeholders"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 10,
+      "assignmentLabel": "Assignment 10",
+      "questionId": "w10-q5-the-sustainability-mindset-involves",
+      "prompt": "The sustainability mindset involves ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "transparency"
+        },
+        {
+          "key": "B",
+          "text": "presencing"
+        },
+        {
+          "key": "C",
+          "text": "integrity"
+        },
+        {
+          "key": "D",
+          "text": "all of the given"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 10,
+      "assignmentLabel": "Assignment 10",
+      "questionId": "w10-q6-finding-ways-to-maintain-one-s-own-and-others-energy-is-an-unsustainable-leaders",
+      "prompt": "Finding ways to maintain one's own and others' energy is an unsustainable leadership practice.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "True"
+        },
+        {
+          "key": "B",
+          "text": "False"
+        }
+      ],
+      "answerKey": "B",
+      "tricks": "Remember: The correct answer is B. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 10,
+      "assignmentLabel": "Assignment 10",
+      "questionId": "w10-q7-systems-thinking-is-often-highlighted-by-the-ability-to",
+      "prompt": "Systems thinking is often highlighted by the ability to ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "zoom in"
+        },
+        {
+          "key": "B",
+          "text": "zoom out"
+        },
+        {
+          "key": "C",
+          "text": "zoom in and out"
+        },
+        {
+          "key": "D",
+          "text": "none of the given"
+        }
+      ],
+      "answerKey": "C",
+      "tricks": "Remember: The correct answer is C. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 10,
+      "assignmentLabel": "Assignment 10",
+      "questionId": "w10-q8-practicing-consciousness-awareness-includes",
+      "prompt": "Practicing consciousness awareness includes ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "ignoring self with others"
+        },
+        {
+          "key": "B",
+          "text": "forgetting about what has happened and moving on"
+        },
+        {
+          "key": "C",
+          "text": "living in denial"
+        },
+        {
+          "key": "D",
+          "text": "authentic interactions"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 10,
+      "assignmentLabel": "Assignment 10",
+      "questionId": "w10-q9-leadership-is-the-last-challenge-of-leadership-of-letting-go-moving-on-and-plann",
+      "prompt": "Leadership ___ is the last challenge of leadership; of letting go, moving on, and planning for one's own obsolescence.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "succession"
+        },
+        {
+          "key": "B",
+          "text": "regression"
+        },
+        {
+          "key": "C",
+          "text": "formation"
+        },
+        {
+          "key": "D",
+          "text": "integration"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 10,
+      "assignmentLabel": "Assignment 10",
+      "questionId": "w10-q10-leadership-is-also-called-missionary-leadership-and-is-different-from-quiet-lead",
+      "prompt": "___leadership is also called missionary leadership and is different from quiet leadership.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "participative"
+        },
+        {
+          "key": "B",
+          "text": "servant"
+        },
+        {
+          "key": "C",
+          "text": "radical"
+        },
+        {
+          "key": "D",
+          "text": "inspirational"
+        }
+      ],
+      "answerKey": "C",
+      "tricks": "Remember: The correct answer is C. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 9,
+      "assignmentLabel": "Assignment 9",
+      "questionId": "w9-q1-activities-like-fish-bowl-discussion-help",
+      "prompt": "Activities like fish bowl discussion help ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "passive thinking"
+        },
+        {
+          "key": "B",
+          "text": "critical and reflexive thinking"
+        },
+        {
+          "key": "C",
+          "text": "rote-memory"
+        },
+        {
+          "key": "D",
+          "text": "all of the given"
+        }
+      ],
+      "answerKey": "B",
+      "tricks": "Remember: The correct answer is B. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 9,
+      "assignmentLabel": "Assignment 9",
+      "questionId": "w9-q2-which-of-the-following-is-not-a-vision-building-exercise",
+      "prompt": "Which of the following is not a vision-building exercise?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "scenario analysis"
+        },
+        {
+          "key": "B",
+          "text": "classroom teaching"
+        },
+        {
+          "key": "C",
+          "text": "science fiction thinking"
+        },
+        {
+          "key": "D",
+          "text": "dystopian storytelling"
+        }
+      ],
+      "answerKey": "B",
+      "tricks": "Remember: The correct answer is B. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 9,
+      "assignmentLabel": "Assignment 9",
+      "questionId": "w9-q3-the-ability-to-hold-contradictory-thoughts-and-feelings-is-an-competency",
+      "prompt": "The ability to hold contradictory thoughts and feelings is an ___ competency.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "intellectual"
+        },
+        {
+          "key": "B",
+          "text": "interpersonal"
+        },
+        {
+          "key": "C",
+          "text": "intrapersonal"
+        },
+        {
+          "key": "D",
+          "text": "institutional"
+        }
+      ],
+      "answerKey": "C",
+      "tricks": "Remember: The correct answer is C. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 9,
+      "assignmentLabel": "Assignment 9",
+      "questionId": "w9-q4-intelligences-is-proposed-by-howard-gardner",
+      "prompt": "___intelligences is proposed by Howard Gardner.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "multiple"
+        },
+        {
+          "key": "B",
+          "text": "singular"
+        },
+        {
+          "key": "C",
+          "text": "double"
+        },
+        {
+          "key": "D",
+          "text": "triple"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 9,
+      "assignmentLabel": "Assignment 9",
+      "questionId": "w9-q5-intelligence-refers-to-using-one-s-body-in-skilled-ways",
+      "prompt": "___intelligence refers to using one's body in skilled ways.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "kinesthetic"
+        },
+        {
+          "key": "B",
+          "text": "musical"
+        },
+        {
+          "key": "C",
+          "text": "naturalist"
+        },
+        {
+          "key": "D",
+          "text": "spatial"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 9,
+      "assignmentLabel": "Assignment 9",
+      "questionId": "w9-q6-the-idea-of-big-transformation-implies-that-changes-in-individual-action-are-int",
+      "prompt": "The idea of big transformation implies that changes in individual action are intertwined with ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "reorganization of self"
+        },
+        {
+          "key": "B",
+          "text": "reorganization of societal structures"
+        },
+        {
+          "key": "C",
+          "text": "ignorance of others"
+        },
+        {
+          "key": "D",
+          "text": "none of the given"
+        }
+      ],
+      "answerKey": "B",
+      "tricks": "Remember: The correct answer is B. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 9,
+      "assignmentLabel": "Assignment 9",
+      "questionId": "w9-q7-in-learning-learners-start-to-question-all-the-things-they-knew-to-make-room-for",
+      "prompt": "In ___ learning, learners start to question all the things they knew to make room for new insights and information.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "transformative"
+        },
+        {
+          "key": "B",
+          "text": "transactional"
+        },
+        {
+          "key": "C",
+          "text": "trivial"
+        },
+        {
+          "key": "D",
+          "text": "trans-disciplinary"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 9,
+      "assignmentLabel": "Assignment 9",
+      "questionId": "w9-q8-which-of-the-following-is-a-key-principle-of-adult-education",
+      "prompt": "Which of the following is a key principle of adult education?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "need to know why"
+        },
+        {
+          "key": "B",
+          "text": "guilt"
+        },
+        {
+          "key": "C",
+          "text": "boredom"
+        },
+        {
+          "key": "D",
+          "text": "none of the given"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 9,
+      "assignmentLabel": "Assignment 9",
+      "questionId": "w9-q9-sustainable-development-is-a-process-through-which-people-influence-and-share-co",
+      "prompt": "___ Sustainable Development is a process through which people influence and share control over development initiatives, decisions and resources that affects them.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Internal"
+        },
+        {
+          "key": "B",
+          "text": "Societal"
+        },
+        {
+          "key": "C",
+          "text": "Participatory"
+        },
+        {
+          "key": "D",
+          "text": "Transformational"
+        }
+      ],
+      "answerKey": "C",
+      "tricks": "Remember: The correct answer is C. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 9,
+      "assignmentLabel": "Assignment 9",
+      "questionId": "w9-q10-is-the-common-regulatory-body-for-higher-education-in-india",
+      "prompt": "___ is the common regulatory body for higher education in India.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "HECI"
+        },
+        {
+          "key": "B",
+          "text": "WHO"
+        },
+        {
+          "key": "C",
+          "text": "AIIMS"
+        },
+        {
+          "key": "D",
+          "text": "None of the given"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Assignment 8",
+      "questionId": "w8-q1-the-okayama-commitment-is-from",
+      "prompt": "The Okayama Commitment is from ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Russia"
+        },
+        {
+          "key": "B",
+          "text": "South Korea"
+        },
+        {
+          "key": "C",
+          "text": "North Korea"
+        },
+        {
+          "key": "D",
+          "text": "Japan"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Assignment 8",
+      "questionId": "w8-q2-which-of-the-following-is-a-policy-support-mechanism-of-okayama-commitment",
+      "prompt": "Which of the following is a policy support mechanism of Okayama Commitment?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Taking money"
+        },
+        {
+          "key": "B",
+          "text": "Content development"
+        },
+        {
+          "key": "C",
+          "text": "Exploitation of resources"
+        },
+        {
+          "key": "D",
+          "text": "None of the given"
+        }
+      ],
+      "answerKey": "B",
+      "tricks": "Remember: The correct answer is B. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Assignment 8",
+      "questionId": "w8-q3-education-is-related-to-sdg-9-such-that",
+      "prompt": "Education is related to SDG 9 such that ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "education helps in skills required to build resilient infrastructure"
+        },
+        {
+          "key": "B",
+          "text": "education enhances skills to use natural resources more sustainably"
+        },
+        {
+          "key": "C",
+          "text": "education is critical to lifting people out of poverty"
+        },
+        {
+          "key": "D",
+          "text": "education helps reduce gender gaps"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Assignment 8",
+      "questionId": "w8-q4-the-frame-model-structures-sustainability-competencies-into-goal-dimensions",
+      "prompt": "The frame model structures sustainability competencies into ___ goal dimensions.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "8"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "11"
+        },
+        {
+          "key": "D",
+          "text": "45"
+        }
+      ],
+      "answerKey": "B",
+      "tricks": "Remember: The correct answer is B. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Assignment 8",
+      "questionId": "w8-q5-sustainability-issues-must-be-looked-at-through-a-approach",
+      "prompt": "Sustainability issues must be looked at through a ___ approach.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "isolated thinking"
+        },
+        {
+          "key": "B",
+          "text": "independent thinking"
+        },
+        {
+          "key": "C",
+          "text": "silos thinking"
+        },
+        {
+          "key": "D",
+          "text": "systems thinking"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Assignment 8",
+      "questionId": "w8-q6-technology-and-science-can-alone-solve-all-our-sustainability-problems",
+      "prompt": "Technology and Science can alone solve all our sustainability problems.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "True"
+        },
+        {
+          "key": "B",
+          "text": "False"
+        }
+      ],
+      "answerKey": "B",
+      "tricks": "Remember: The correct answer is B. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Assignment 8",
+      "questionId": "w8-q7-gap-in-the-context-of-esd-stands-for",
+      "prompt": "GAP in the context of ESD stands for ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Global Action Programme"
+        },
+        {
+          "key": "B",
+          "text": "Great Activity Plan"
+        },
+        {
+          "key": "C",
+          "text": "Global Attention Programme"
+        },
+        {
+          "key": "D",
+          "text": "Great Action Policy"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Assignment 8",
+      "questionId": "w8-q8-competency-is-the-ability-to-understand-and-evaluate-multiple-futures",
+      "prompt": "___ competency is the ability to understand and evaluate multiple futures.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "anticipatory"
+        },
+        {
+          "key": "B",
+          "text": "normative"
+        },
+        {
+          "key": "C",
+          "text": "strategic"
+        },
+        {
+          "key": "D",
+          "text": "collaborative"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Assignment 8",
+      "questionId": "w8-q9-the-ability-to-question-norms-is-competency",
+      "prompt": "The ability to question norms is ___ competency.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "critical thinking"
+        },
+        {
+          "key": "B",
+          "text": "normative"
+        },
+        {
+          "key": "C",
+          "text": "anticipatory"
+        },
+        {
+          "key": "D",
+          "text": "self-awareness"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Assignment 8",
+      "questionId": "w8-q10-action-oriented-learning-draws-on-kolb-s-concept-of",
+      "prompt": "Action-oriented learning draws on Kolb's concept of ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "experiential learning"
+        },
+        {
+          "key": "B",
+          "text": "experimental learning"
+        },
+        {
+          "key": "C",
+          "text": "rote learning"
+        },
+        {
+          "key": "D",
+          "text": "direct learning"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Assignment 7",
+      "questionId": "w7-q1-which-of-the-following-is-a-type-of-energy",
+      "prompt": "Which of the following is a type of energy?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "fossil fuels"
+        },
+        {
+          "key": "B",
+          "text": "nuclear power"
+        },
+        {
+          "key": "C",
+          "text": "traditional biomass"
+        },
+        {
+          "key": "D",
+          "text": "all of the given"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Assignment 7",
+      "questionId": "w7-q2-in-ipcc-by-un-i-stands-for",
+      "prompt": "In IPCC by UN, I stands for ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Industrial"
+        },
+        {
+          "key": "B",
+          "text": "Internal"
+        },
+        {
+          "key": "C",
+          "text": "International"
+        },
+        {
+          "key": "D",
+          "text": "Intergovernmental"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Assignment 7",
+      "questionId": "w7-q3-the-extraction-transport-and-refinement-of-nuclear-fuels-results-in",
+      "prompt": "The extraction, transport and refinement of nuclear fuels results in___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "improvement of land from mining"
+        },
+        {
+          "key": "B",
+          "text": "pollution of air and water"
+        },
+        {
+          "key": "C",
+          "text": "replenishment of biodiversity"
+        },
+        {
+          "key": "D",
+          "text": "all of the given"
+        }
+      ],
+      "answerKey": "B",
+      "tricks": "Remember: The correct answer is B. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Assignment 7",
+      "questionId": "w7-q4-the-greatest-contributor-to-air-pollution-in-china-is",
+      "prompt": "The greatest contributor to air pollution in China is ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "cooking and heating"
+        },
+        {
+          "key": "B",
+          "text": "coal burning"
+        },
+        {
+          "key": "C",
+          "text": "transport"
+        },
+        {
+          "key": "D",
+          "text": "forest burning"
+        }
+      ],
+      "answerKey": "B",
+      "tricks": "Remember: The correct answer is B. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Assignment 7",
+      "questionId": "w7-q5-in-the-wake-of-tsunami-and-nuclear-disaster-following-severe-earthquake-in-2011-",
+      "prompt": "In the wake of tsunami and nuclear disaster following severe earthquake in 2011, a city in Japan set a target for ___ by 2022.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "hundred net energy"
+        },
+        {
+          "key": "B",
+          "text": "one net energy"
+        },
+        {
+          "key": "C",
+          "text": "million net energy"
+        },
+        {
+          "key": "D",
+          "text": "zero net energy"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Assignment 7",
+      "questionId": "w7-q6-the-term-energy-democracy-grew-out-of-the-movement",
+      "prompt": "The term 'energy democracy' grew out of the ___ movement.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "hunger justice"
+        },
+        {
+          "key": "B",
+          "text": "hunger revolt"
+        },
+        {
+          "key": "C",
+          "text": "climate revolt"
+        },
+        {
+          "key": "D",
+          "text": "climate justice"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Assignment 7",
+      "questionId": "w7-q7-the-paris-agreement-is-a-legally-binding-treaty-on-adopted-by-196-parties-at-cop",
+      "prompt": "The Paris Agreement is a legally binding treaty on ___ adopted by 196 parties at COP 21 in 2015.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "climate change"
+        },
+        {
+          "key": "B",
+          "text": "education"
+        },
+        {
+          "key": "C",
+          "text": "poverty"
+        },
+        {
+          "key": "D",
+          "text": "none of the given"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Assignment 7",
+      "questionId": "w7-q8-the-government-of-india-launched-the-napcc-in-2008-outlining-national-missions-o",
+      "prompt": "The Government of India launched the NAPCC in 2008 outlining ___ National Missions on climate change.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "8"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "100"
+        },
+        {
+          "key": "D",
+          "text": "78"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Assignment 7",
+      "questionId": "w7-q9-stubble-burning-usually-takes-place-in-the-months-of",
+      "prompt": "Stubble burning usually takes place in the months of ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "October-November"
+        },
+        {
+          "key": "B",
+          "text": "May-June"
+        },
+        {
+          "key": "C",
+          "text": "January-February"
+        },
+        {
+          "key": "D",
+          "text": "July-August"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Assignment 7",
+      "questionId": "w7-q10-stubble-burning-is",
+      "prompt": "Stubble burning is ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "intentional"
+        },
+        {
+          "key": "B",
+          "text": "natural"
+        },
+        {
+          "key": "C",
+          "text": "healthy for air quality"
+        },
+        {
+          "key": "D",
+          "text": "related to burning of paper"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Assignment 6",
+      "questionId": "w6-q1-poor-infrastructure-can-cause-hunger-in-a-country",
+      "prompt": "Poor infrastructure can cause hunger in a country.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "True"
+        },
+        {
+          "key": "B",
+          "text": "False"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Assignment 6",
+      "questionId": "w6-q2-in-high-income-countries-hunger-is-mainly-caused-due-to-poverty-that-results-fro",
+      "prompt": "In high income countries, hunger is mainly caused due to poverty that results from ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "low GDP of the country"
+        },
+        {
+          "key": "B",
+          "text": "lack of access to food"
+        },
+        {
+          "key": "C",
+          "text": "poor public transport infrastructure"
+        },
+        {
+          "key": "D",
+          "text": "lack of jobs"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Assignment 6",
+      "questionId": "w6-q3-which-of-the-following-is-true-about-hunger",
+      "prompt": "Which of the following is true about hunger?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "It is a cause of war"
+        },
+        {
+          "key": "B",
+          "text": "It is an effect of war"
+        },
+        {
+          "key": "C",
+          "text": "It is both a cause and effect of war"
+        },
+        {
+          "key": "D",
+          "text": "It is neither a cause nor an effect of war"
+        }
+      ],
+      "answerKey": "C",
+      "tricks": "Remember: The correct answer is C. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Assignment 6",
+      "questionId": "w6-q4-are-most-vulnerable-to-the-harmful-effects-of-hidden-hunger",
+      "prompt": "___ are most vulnerable to the harmful effects of hidden hunger.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "adults"
+        },
+        {
+          "key": "B",
+          "text": "infants"
+        },
+        {
+          "key": "C",
+          "text": "adolescents"
+        },
+        {
+          "key": "D",
+          "text": "elderly"
+        }
+      ],
+      "answerKey": "B",
+      "tricks": "Remember: The correct answer is B. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Assignment 6",
+      "questionId": "w6-q5-desertification-is-typically-a-result-of",
+      "prompt": "Desertification is typically a result of ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "drought"
+        },
+        {
+          "key": "B",
+          "text": "deforestation"
+        },
+        {
+          "key": "C",
+          "text": "inappropriate agriculture"
+        },
+        {
+          "key": "D",
+          "text": "all of the given"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Assignment 6",
+      "questionId": "w6-q6-which-of-the-following-is-a-key-initiative-in-india-for-the-problem-of-hunger",
+      "prompt": "Which of the following is a key initiative in India for the problem of hunger?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "One Nation, One Plate"
+        },
+        {
+          "key": "B",
+          "text": "One Nation, One Hunger"
+        },
+        {
+          "key": "C",
+          "text": "One Nation, No Ration Card"
+        },
+        {
+          "key": "D",
+          "text": "One Nation, One Ration Card"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Assignment 6",
+      "questionId": "w6-q7-in-the-past-mgnrega-has",
+      "prompt": "In the past, MGNREGA has ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "decreased rural wages"
+        },
+        {
+          "key": "B",
+          "text": "increased gender wage gaps"
+        },
+        {
+          "key": "C",
+          "text": "enabled poor access to food"
+        },
+        {
+          "key": "D",
+          "text": "reduced distress migration from rural areas"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Assignment 6",
+      "questionId": "w6-q8-wheat-productivity-can-suffer-if",
+      "prompt": "Wheat productivity can suffer if ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "temperature rises"
+        },
+        {
+          "key": "B",
+          "text": "temperature does not change"
+        },
+        {
+          "key": "C",
+          "text": "temperature falls"
+        },
+        {
+          "key": "D",
+          "text": "none of the given"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Assignment 6",
+      "questionId": "w6-q9-bringing-forgotten-and-neglected-foods-like-yam-into-cultivation-and-onto-the-ma",
+      "prompt": "Bringing forgotten and neglected foods like yam into cultivation and onto the market is called ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "diversifying food basket"
+        },
+        {
+          "key": "B",
+          "text": "restricting food basket"
+        },
+        {
+          "key": "C",
+          "text": "completing food box"
+        },
+        {
+          "key": "D",
+          "text": "wasting food basket"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Assignment 6",
+      "questionId": "w6-q10-home-gardening-has-been-proven-as-a-reliable-source-to-supplement-food-and-nutri",
+      "prompt": "Home gardening has been proven as a reliable source to supplement food and nutritional security at the household level.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "True"
+        },
+        {
+          "key": "B",
+          "text": "False"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Assignment 5",
+      "questionId": "w5-q1-siddha-comes-under-the",
+      "prompt": "Siddha comes under the ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "public health sector"
+        },
+        {
+          "key": "B",
+          "text": "voluntary health agencies"
+        },
+        {
+          "key": "C",
+          "text": "indigenous system of medicine"
+        },
+        {
+          "key": "D",
+          "text": "private health sector"
+        }
+      ],
+      "answerKey": "C",
+      "tricks": "Remember: The correct answer is C. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Assignment 5",
+      "questionId": "w5-q2-which-of-the-following-is-not-a-problem-of-healthcare-infrastructure-in-india",
+      "prompt": "Which of the following is not a problem of healthcare infrastructure in India?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "shortage of staff"
+        },
+        {
+          "key": "B",
+          "text": "skewed favor to urban areas"
+        },
+        {
+          "key": "C",
+          "text": "no proper regulatory mechanism"
+        },
+        {
+          "key": "D",
+          "text": "standard procedures in all regions"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Assignment 5",
+      "questionId": "w5-q3-which-of-the-following-is-a-health-system-building-block-as-suggested-by-who",
+      "prompt": "Which of the following is a health system building block as suggested by WHO?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Economic growth"
+        },
+        {
+          "key": "B",
+          "text": "Access to public transport"
+        },
+        {
+          "key": "C",
+          "text": "Politics"
+        },
+        {
+          "key": "D",
+          "text": "Service delivery"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Assignment 5",
+      "questionId": "w5-q4-an-ecologically-sustainable-approach-broadens-the-definition-of",
+      "prompt": "An ecologically sustainable approach broadens the definition of ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "objective"
+        },
+        {
+          "key": "B",
+          "text": "outcome"
+        },
+        {
+          "key": "C",
+          "text": "cost"
+        },
+        {
+          "key": "D",
+          "text": "value"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Assignment 5",
+      "questionId": "w5-q5-a-is-an-environment-in-which-data-of-medical-interest-can-be-stored-and-made-eas",
+      "prompt": "A ______________ is an environment in which data of medical interest can be stored and made easily available.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "health repository"
+        },
+        {
+          "key": "B",
+          "text": "health bank"
+        },
+        {
+          "key": "C",
+          "text": "health bag"
+        },
+        {
+          "key": "D",
+          "text": "health grid"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Assignment 5",
+      "questionId": "w5-q6-the-poshan-abhiyan-in-india-aims-to-improve-nutritional-outcomes-for",
+      "prompt": "The POSHAN Abhiyan in India aims to improve nutritional outcomes for _____________.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "children"
+        },
+        {
+          "key": "B",
+          "text": "lactating mothers"
+        },
+        {
+          "key": "C",
+          "text": "pregnant women"
+        },
+        {
+          "key": "D",
+          "text": "all of the given"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Assignment 5",
+      "questionId": "w5-q7-sus-qi-stands-for",
+      "prompt": "Sus-QI stands for ____________.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Sustainable quality improvement"
+        },
+        {
+          "key": "B",
+          "text": "Sustainable quality improvisation"
+        },
+        {
+          "key": "C",
+          "text": "Sustainable quantity improvement"
+        },
+        {
+          "key": "D",
+          "text": "Sustainable quantity improvisation"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Assignment 5",
+      "questionId": "w5-q8-which-of-the-following-is-not-a-stage-of-sus-qi",
+      "prompt": "Which of the following is not a stage of Sus-QI?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "set goals"
+        },
+        {
+          "key": "B",
+          "text": "measure impacts"
+        },
+        {
+          "key": "C",
+          "text": "design the improvement effort"
+        },
+        {
+          "key": "D",
+          "text": "ignore the system"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Assignment 5",
+      "questionId": "w5-q9-food-insecurity-is-measured-on-the",
+      "prompt": "Food insecurity is measured on the ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "FIES"
+        },
+        {
+          "key": "B",
+          "text": "FAIS"
+        },
+        {
+          "key": "C",
+          "text": "FIET"
+        },
+        {
+          "key": "D",
+          "text": "FAIR"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Assignment 5",
+      "questionId": "w5-q10-the-un-lists-levels-of-food-security-for-any-given-country",
+      "prompt": "The UN lists ___ levels of food security for any given country.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "5"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "2"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Assignment 4",
+      "questionId": "w4-q1-geso-stands-for",
+      "prompt": "GESO stands for ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Green Education for Sustainable Occupation"
+        },
+        {
+          "key": "B",
+          "text": "Green Enhanced Sustainable Occupation"
+        },
+        {
+          "key": "C",
+          "text": "Green Enhanced Skills Occupation"
+        },
+        {
+          "key": "D",
+          "text": "None of the above"
+        }
+      ],
+      "answerKey": "C",
+      "tricks": "Remember: The correct answer is C. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Assignment 4",
+      "questionId": "w4-q2-the-classification-of-occupations-into-gido-geso-and-gneo-is-given-by-us-nationa",
+      "prompt": "The classification of occupations into GIDO, GESO and GNEO is given by US National Center for ___ .",
+      "choices": [
+        {
+          "key": "A",
+          "text": "G*NET"
+        },
+        {
+          "key": "B",
+          "text": "A*NET"
+        },
+        {
+          "key": "C",
+          "text": "I*NET"
+        },
+        {
+          "key": "D",
+          "text": "O*NET"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Assignment 4",
+      "questionId": "w4-q3-the-international-framework-for-greening-tvet-consists-of-the-following-tiers-ex",
+      "prompt": "The International Framework for Greening TVET consists of the following tiers, except ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Breaking TVET institutions"
+        },
+        {
+          "key": "B",
+          "text": "Transforming TVET institutions"
+        },
+        {
+          "key": "C",
+          "text": "Formulating National Policies"
+        },
+        {
+          "key": "D",
+          "text": "Forming International Alliance"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Assignment 4",
+      "questionId": "w4-q4-energy-water-and-waste-management-comes-under-the-dimension-of-greening-tvet",
+      "prompt": "Energy, water and waste management comes under the ___ dimension of Greening TVET.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Green research"
+        },
+        {
+          "key": "B",
+          "text": "Green culture"
+        },
+        {
+          "key": "C",
+          "text": "Green teaching"
+        },
+        {
+          "key": "D",
+          "text": "Green campus"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Assignment 4",
+      "questionId": "w4-q5-industry-institute-interaction-is-an-indicator-of",
+      "prompt": "Industry-institute interaction is an indicator of ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "green house"
+        },
+        {
+          "key": "B",
+          "text": "green teaching"
+        },
+        {
+          "key": "C",
+          "text": "green campus"
+        },
+        {
+          "key": "D",
+          "text": "green curriculum"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Assignment 4",
+      "questionId": "w4-q6-sustainable-entrepreneurship-includes",
+      "prompt": "Sustainable entrepreneurship includes ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "social entrepreneurship"
+        },
+        {
+          "key": "B",
+          "text": "eco-preneurship"
+        },
+        {
+          "key": "C",
+          "text": "intra-preneurship"
+        },
+        {
+          "key": "D",
+          "text": "all of the given"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Assignment 4",
+      "questionId": "w4-q7-esd-requires-learning-methods",
+      "prompt": "ESD requires ___ learning methods.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "participatory"
+        },
+        {
+          "key": "B",
+          "text": "passive"
+        },
+        {
+          "key": "C",
+          "text": "rigid"
+        },
+        {
+          "key": "D",
+          "text": "static"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Assignment 4",
+      "questionId": "w4-q8-which-of-the-following-is-a-transversal-competency",
+      "prompt": "Which of the following is a transversal competency?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "creativity"
+        },
+        {
+          "key": "B",
+          "text": "empathy"
+        },
+        {
+          "key": "C",
+          "text": "systems thinking"
+        },
+        {
+          "key": "D",
+          "text": "all of the given"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Assignment 4",
+      "questionId": "w4-q9-is-the-ability-to-create-good-relationships-and-adapt-to-different-social-situat",
+      "prompt": "___________ is the ability to create good relationships and adapt to different social situations.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "emotional fitness"
+        },
+        {
+          "key": "B",
+          "text": "mental health"
+        },
+        {
+          "key": "C",
+          "text": "social health"
+        },
+        {
+          "key": "D",
+          "text": "physical health"
+        }
+      ],
+      "answerKey": "C",
+      "tricks": "Remember: The correct answer is C. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Assignment 4",
+      "questionId": "w4-q10-sustainable-health-is",
+      "prompt": "Sustainable health is ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "a curative approach"
+        },
+        {
+          "key": "B",
+          "text": "only about the body"
+        },
+        {
+          "key": "C",
+          "text": "a balance of mind, body and spirit"
+        },
+        {
+          "key": "D",
+          "text": "only about mental health"
+        }
+      ],
+      "answerKey": "C",
+      "tricks": "Remember: The correct answer is C. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Assignment 3",
+      "questionId": "w3-q1-global-citizenship-is-a-belief-that-individuals-are-members-of-networks",
+      "prompt": "Global citizenship is a belief that individuals are members of ___ networks.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "multiple"
+        },
+        {
+          "key": "B",
+          "text": "diverse"
+        },
+        {
+          "key": "C",
+          "text": "local and non-local"
+        },
+        {
+          "key": "D",
+          "text": "all of the given"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Assignment 3",
+      "questionId": "w3-q2-a-global-citizen",
+      "prompt": "A global citizen ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "is not aware of the wider world"
+        },
+        {
+          "key": "B",
+          "text": "is confused about their place in the world"
+        },
+        {
+          "key": "C",
+          "text": "takes an active role in their community"
+        },
+        {
+          "key": "D",
+          "text": "do not care much about the planet"
+        }
+      ],
+      "answerKey": "C",
+      "tricks": "Remember: The correct answer is C. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Assignment 3",
+      "questionId": "w3-q3-global-citizenship-education-is-based-on-domains-of-learning",
+      "prompt": "Global citizenship education is based on ___ domains of learning.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "three"
+        },
+        {
+          "key": "B",
+          "text": "two"
+        },
+        {
+          "key": "C",
+          "text": "four"
+        },
+        {
+          "key": "D",
+          "text": "seven"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Assignment 3",
+      "questionId": "w3-q4-is-unesco-s-first-categogory-1-education-releated-institute-in-the-asia-pacific-",
+      "prompt": "___ is UNESCO's first Categogory 1 education-releated institute in the Asia-Pacific region.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "MGEIN"
+        },
+        {
+          "key": "B",
+          "text": "MGIER"
+        },
+        {
+          "key": "C",
+          "text": "MGIEP"
+        },
+        {
+          "key": "D",
+          "text": "MGOEL"
+        }
+      ],
+      "answerKey": "C",
+      "tricks": "Remember: The correct answer is C. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Assignment 3",
+      "questionId": "w3-q5-sdg-target-4-7-rearticulates-a-agenda-for-education",
+      "prompt": "SDG target 4.7 rearticulates a ____ agenda for education.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "regional"
+        },
+        {
+          "key": "B",
+          "text": "behavioral"
+        },
+        {
+          "key": "C",
+          "text": "political"
+        },
+        {
+          "key": "D",
+          "text": "humanistic"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Assignment 3",
+      "questionId": "w3-q6-sel-stands-for",
+      "prompt": "SEL stands for________.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Sustainable education and learning"
+        },
+        {
+          "key": "B",
+          "text": "Social and environmental learning"
+        },
+        {
+          "key": "C",
+          "text": "Social and emotional learning"
+        },
+        {
+          "key": "D",
+          "text": "Sustainable and economic learning"
+        }
+      ],
+      "answerKey": "C",
+      "tricks": "Remember: The correct answer is C. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Assignment 3",
+      "questionId": "w3-q7-which-of-the-following-is-a-role-taken-by-a-teacher-in-education-for-sustainable",
+      "prompt": "Which of the following is a role taken by a teacher in education for sustainable development?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "facilitator"
+        },
+        {
+          "key": "B",
+          "text": "guide"
+        },
+        {
+          "key": "C",
+          "text": "role model"
+        },
+        {
+          "key": "D",
+          "text": "all of the given"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Assignment 3",
+      "questionId": "w3-q8-target-calls-for-strengthening-efforts-to-protect-and-safeguard-the-world-s-cult",
+      "prompt": "Target ___ calls for strengthening efforts to protect and safeguard the world's cultural and natural heritage.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "9.5"
+        },
+        {
+          "key": "B",
+          "text": "1.5"
+        },
+        {
+          "key": "C",
+          "text": "2.3"
+        },
+        {
+          "key": "D",
+          "text": "11.4"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Assignment 3",
+      "questionId": "w3-q9-the-unesco-international-centre-for-technical-and-vocational-education-and-train",
+      "prompt": "The UNESCO International Centre for Technical and Vocational Education and Training enables ___ in member states.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "green TVET"
+        },
+        {
+          "key": "B",
+          "text": "blue TVET"
+        },
+        {
+          "key": "C",
+          "text": "orange TVET"
+        },
+        {
+          "key": "D",
+          "text": "white TVET"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Assignment 3",
+      "questionId": "w3-q10-which-of-the-following-statements-is-not-true",
+      "prompt": "Which of the following statements is not true?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "green jobs contribute to preserving environmental quality"
+        },
+        {
+          "key": "B",
+          "text": "green jobs ensure workers' rights"
+        },
+        {
+          "key": "C",
+          "text": "green jobs are only found in the agriculture sector"
+        },
+        {
+          "key": "D",
+          "text": "green jobs must be accessible to all"
+        }
+      ],
+      "answerKey": "C",
+      "tricks": "Remember: The correct answer is C. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Assignment 2",
+      "questionId": "w2-q1-which-of-the-following-is-a-characteristic-of-esd-as-described-in-the-framework",
+      "prompt": "Which of the following is a characteristic of ESD as described in the framework?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "It is not locally relevant"
+        },
+        {
+          "key": "B",
+          "text": "It promotes learning only for children"
+        },
+        {
+          "key": "C",
+          "text": "It is interdisciplinary"
+        },
+        {
+          "key": "D",
+          "text": "It uses only two pedagogical techniques"
+        }
+      ],
+      "answerKey": "C",
+      "tricks": "Remember: The correct answer is C. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Assignment 2",
+      "questionId": "w2-q2-the-declaration-on-the-right-to-development-1986-established-that-everyone-is-en",
+      "prompt": "The Declaration on the Right to Development (1986) established that everyone is entitled to participate in and enjoy:",
+      "choices": [
+        {
+          "key": "A",
+          "text": "only economic and social development"
+        },
+        {
+          "key": "B",
+          "text": "economic, political, psychological and communist development"
+        },
+        {
+          "key": "C",
+          "text": "economic, social, cultural and political development"
+        },
+        {
+          "key": "D",
+          "text": "only cultural development"
+        }
+      ],
+      "answerKey": "C",
+      "tricks": "Remember: The correct answer is C. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Assignment 2",
+      "questionId": "w2-q3-text-based-methods-for-assessing-esd-programs-can-be-improved-by-using",
+      "prompt": "Text based methods for assessing ESD programs can be improved by using ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "interpretive methodologies"
+        },
+        {
+          "key": "B",
+          "text": "strict curriculum"
+        },
+        {
+          "key": "C",
+          "text": "only quantitative techniques"
+        },
+        {
+          "key": "D",
+          "text": "only qualitative methods"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Assignment 2",
+      "questionId": "w2-q4-sdgs-are-for-the-following-except",
+      "prompt": "SDGS are for the following except ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "people"
+        },
+        {
+          "key": "B",
+          "text": "practice"
+        },
+        {
+          "key": "C",
+          "text": "planet"
+        },
+        {
+          "key": "D",
+          "text": "partnership"
+        }
+      ],
+      "answerKey": "B",
+      "tricks": "Remember: The correct answer is B. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Assignment 2",
+      "questionId": "w2-q5-policies-like-employment-and-labor-rights-care-and-family-leves-and-financial-re",
+      "prompt": "Policies like employment and labor rights, care and family leves, and financial regulation are often called the ___ policies.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "post-regulation"
+        },
+        {
+          "key": "B",
+          "text": "self-care"
+        },
+        {
+          "key": "C",
+          "text": "forceful"
+        },
+        {
+          "key": "D",
+          "text": "pre-distributive"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Assignment 2",
+      "questionId": "w2-q6-which-of-the-following-is-involved-in-the-development-of-the-hre-indicator-frame",
+      "prompt": "Which of the following is involved in the development of the HRE indicator framework to measure progress on national implementation of human rights education.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Danish Institute of Human Rights"
+        },
+        {
+          "key": "B",
+          "text": "The Office of the High Commissioner for Human Rights"
+        },
+        {
+          "key": "C",
+          "text": "Both A and B"
+        },
+        {
+          "key": "D",
+          "text": "Neither A nor B"
+        }
+      ],
+      "answerKey": "C",
+      "tricks": "Remember: The correct answer is C. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Assignment 2",
+      "questionId": "w2-q7-plays-a-role-in-peace-education",
+      "prompt": "___ plays a role in peace education.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "schools"
+        },
+        {
+          "key": "B",
+          "text": "parents"
+        },
+        {
+          "key": "C",
+          "text": "community"
+        },
+        {
+          "key": "D",
+          "text": "all the given"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Assignment 2",
+      "questionId": "w2-q8-the-enterprise-of-education-at-its-most-profound-level-is",
+      "prompt": "The enterprise of education at its most profound level is ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "discriminatory"
+        },
+        {
+          "key": "B",
+          "text": "selective"
+        },
+        {
+          "key": "C",
+          "text": "restricted"
+        },
+        {
+          "key": "D",
+          "text": "transformative"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Assignment 2",
+      "questionId": "w2-q9-unesco-s-world-in-2030-survey-revealed-that-respondents-see-as-one-of-the-top-gl",
+      "prompt": "UNESCO's World in 2030 survey revealed that respondents see ___ as one of the top global challenges",
+      "choices": [
+        {
+          "key": "A",
+          "text": "climate change"
+        },
+        {
+          "key": "B",
+          "text": "hunger"
+        },
+        {
+          "key": "C",
+          "text": "unemployment"
+        },
+        {
+          "key": "D",
+          "text": "mental health"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Assignment 2",
+      "questionId": "w2-q10-education-for-sustainable-development-and-peace-develops-people-s-skills-to-take",
+      "prompt": "Education for sustainable development and peace develops people's skills to take actions that improve our quality of life__________.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "only now"
+        },
+        {
+          "key": "B",
+          "text": "only for the future"
+        },
+        {
+          "key": "C",
+          "text": "for now and for the future"
+        },
+        {
+          "key": "D",
+          "text": "only for the past"
+        }
+      ],
+      "answerKey": "C",
+      "tricks": "Remember: The correct answer is C. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Assignment 1",
+      "questionId": "w1-q1-the-global-goals-were-adopted-by-all-united-nations-member-states-in-as-a-univer",
+      "prompt": "The Global Goals were adopted by all United Nations member states in ___ as a universal call to action to end poverty, protect the planet and ensure that all people enjoy peace and prosperity by ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "2025, 2080"
+        },
+        {
+          "key": "B",
+          "text": "2020, 2060"
+        },
+        {
+          "key": "C",
+          "text": "2012, 2050"
+        },
+        {
+          "key": "D",
+          "text": "2015, 2030"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Assignment 1",
+      "questionId": "w1-q2-which-of-the-following-is-true",
+      "prompt": "Which of the following is true?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "The SDGs are a bold commitment to solely increase the GDP of India"
+        },
+        {
+          "key": "B",
+          "text": "Dealing with climate change has no impact on gender equality"
+        },
+        {
+          "key": "C",
+          "text": "Success in one SDG affects success of the others"
+        },
+        {
+          "key": "D",
+          "text": "Only 14 out of the 17 SDGs are interconnected"
+        }
+      ],
+      "answerKey": "C",
+      "tricks": "Remember: The correct answer is C. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Assignment 1",
+      "questionId": "w1-q3-in-june-1992-at-the-earth-summit-in-rio-de-janeiro-brazil-more-than-178-countrie",
+      "prompt": "In June 1992, at the Earth Summit in Rio de Janeiro, Brazil, more than 178 countries adopted ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Agenda 21"
+        },
+        {
+          "key": "B",
+          "text": "Millennium Development Goals"
+        },
+        {
+          "key": "C",
+          "text": "Agenda 51"
+        },
+        {
+          "key": "D",
+          "text": "Sustainable Development Goals"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Assignment 1",
+      "questionId": "w1-q4-brundtland-report-was-released-in-1987-by-the-wced-wced-stands-for",
+      "prompt": "Brundtland Report was released in 1987 by the WCED. WCED stands for ___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "World Commission on Environment Degradation"
+        },
+        {
+          "key": "B",
+          "text": "World Commission on Environment and Development"
+        },
+        {
+          "key": "C",
+          "text": "World Committee on Environmental Depletion"
+        },
+        {
+          "key": "D",
+          "text": "World Commission on Earth Development"
+        }
+      ],
+      "answerKey": "B",
+      "tricks": "Remember: The correct answer is B. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Assignment 1",
+      "questionId": "w1-q5-extreme-poverty-means-living-on-less-than-a-day",
+      "prompt": "Extreme poverty means living on less than ___ a day.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "$1.25"
+        },
+        {
+          "key": "B",
+          "text": "$4.25"
+        },
+        {
+          "key": "C",
+          "text": "$10.25"
+        },
+        {
+          "key": "D",
+          "text": "$100.25"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Assignment 1",
+      "questionId": "w1-q6-poverty-measures-reveal-who-is-poor-and-how-they-are-poor",
+      "prompt": "____________ poverty measures reveal who is poor and how they are poor.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Unidimensional"
+        },
+        {
+          "key": "B",
+          "text": "Bidimensional"
+        },
+        {
+          "key": "C",
+          "text": "Multidimensional"
+        },
+        {
+          "key": "D",
+          "text": "Multidirectional"
+        }
+      ],
+      "answerKey": "C",
+      "tricks": "Remember: The correct answer is C. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Assignment 1",
+      "questionId": "w1-q7-sdg-2-aims-end-all-forms-of-by-2030",
+      "prompt": "SDG 2 aims end all forms of ___ by 2030.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "crime"
+        },
+        {
+          "key": "B",
+          "text": "hunger and malnutrition"
+        },
+        {
+          "key": "C",
+          "text": "pollution"
+        },
+        {
+          "key": "D",
+          "text": "drought"
+        }
+      ],
+      "answerKey": "B",
+      "tricks": "Remember: The correct answer is B. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Assignment 1",
+      "questionId": "w1-q8-which-of-the-following-is-not-one-of-the-indicators-of-the-global-hunder-index",
+      "prompt": "Which of the following is not one of the indicators of the Global Hunder Index?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "prevalence of wasting and stunting in children under 5 years"
+        },
+        {
+          "key": "B",
+          "text": "under 5 child mortality rate"
+        },
+        {
+          "key": "C",
+          "text": "proportion of undernourished in the population"
+        },
+        {
+          "key": "D",
+          "text": "proportion of obese people in the population"
+        }
+      ],
+      "answerKey": "D",
+      "tricks": "Remember: The correct answer is D. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Assignment 1",
+      "questionId": "w1-q9-as-per-ministry-of-housing-and-urban-affairs-135-litre-per-capita-per-day-lpcd-h",
+      "prompt": "As per Ministry of Housing and Urban Affairs, 135 litre per capita per day (lpcd) has been suggested as the benchmark for urban water supply. For rural areas, a minimum service delivery of 55 lpcd has been fixed under___.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Jal Jeevan Mission"
+        },
+        {
+          "key": "B",
+          "text": "Jal Shakti Mission"
+        },
+        {
+          "key": "C",
+          "text": "Jal Protection Mission"
+        },
+        {
+          "key": "D",
+          "text": "Jal Janta Mission"
+        }
+      ],
+      "answerKey": "A",
+      "tricks": "Remember: The correct answer is A. Think about the key concept in this question."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Assignment 1",
+      "questionId": "w1-q10-forests-cover-about-percent-of-the-earth-s-surface",
+      "prompt": "Forests cover about ___ percent of the Earth's surface",
+      "choices": [
+        {
+          "key": "A",
+          "text": "5"
+        },
+        {
+          "key": "B",
+          "text": "85"
+        },
+        {
+          "key": "C",
+          "text": "30"
+        },
+        {
+          "key": "D",
+          "text": "50"
+        }
+      ],
+      "answerKey": "C",
+      "tricks": "Remember: The correct answer is C. Think about the key concept in this question."
+    }
+  ]
+}

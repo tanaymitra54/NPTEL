@@ -1,0 +1,163 @@
+import { useMemo } from 'react'
+import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
+import { bank } from '../lib/questions'
+import { clearAttempts, getAttempts, getPracticeStats } from '../lib/storage'
+
+export default function Stats() {
+  const attempts = getAttempts()
+  const practice = getPracticeStats()
+
+  const totals = useMemo(() => {
+    let seen = 0
+    let correct = 0
+    let incorrect = 0
+    for (const qid of Object.keys(practice)) {
+      const s = practice[qid]
+      seen += s.seen
+      correct += s.correct
+      incorrect += s.incorrect
+    }
+    return { seen, correct, incorrect }
+  }, [practice])
+
+  return (
+    <motion.div 
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.4 }}
+      className="max-w-4xl mx-auto w-full space-y-8 pb-20 pt-8"
+    >
+      {/* Header Panel */}
+      <div className="surface-card p-6 md:p-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+        
+        <div>
+          <h1 className="text-2xl font-semibold text-[#2C2A29] mb-2">Your Statistics</h1>
+          <div className="flex flex-wrap items-center gap-3 text-xs font-medium text-[#787470]">
+            <span className="bg-[#FAF9F6] px-2.5 py-1 rounded-md border border-[#E8E6DF]">
+              Bank: {bank.count} Questions
+            </span>
+            <span className="bg-[#FAF9F6] px-2.5 py-1 rounded-md border border-[#E8E6DF]">
+              Saved: {attempts.length} Attempts
+            </span>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap items-center gap-3">
+          <Link 
+            to="/"
+            className="px-5 py-2.5 rounded-lg text-sm font-medium bg-[#2C2A29] text-white hover:bg-[#3A3532] transition-colors"
+          >
+            Home
+          </Link>
+          <button
+            type="button"
+            onClick={() => {
+              if (window.confirm('Are you sure you want to clear your attempt history?')) {
+                clearAttempts()
+                window.location.reload()
+              }
+            }}
+            title="Clears attempt history"
+            className="px-5 py-2.5 rounded-lg text-sm font-medium bg-white border border-[#E8E6DF] text-[#9A4248] hover:bg-[#F9EBEB] transition-colors"
+          >
+            Clear History
+          </button>
+        </div>
+      </div>
+
+      {/* KPI Cards */}
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
+        <motion.div 
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3, delay: 0.1 }}
+          className="surface-card p-6 flex flex-col items-center justify-center text-center"
+        >
+          <div className="text-3xl font-semibold text-[#2C2A29] mb-1">{totals.seen}</div>
+          <div className="text-xs font-semibold text-[#787470] uppercase tracking-widest">Practice Answers</div>
+        </motion.div>
+
+        <motion.div 
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3, delay: 0.2 }}
+          className="surface-card p-6 flex flex-col items-center justify-center text-center"
+        >
+          <div className="text-3xl font-semibold text-[#557B5E] mb-1">{totals.correct}</div>
+          <div className="text-xs font-semibold text-[#787470] uppercase tracking-widest">Correct</div>
+        </motion.div>
+
+        <motion.div 
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3, delay: 0.3 }}
+          className="surface-card p-6 flex flex-col items-center justify-center text-center"
+        >
+          <div className="text-3xl font-semibold text-[#9A4248] mb-1">{totals.incorrect}</div>
+          <div className="text-xs font-semibold text-[#787470] uppercase tracking-widest">Incorrect</div>
+        </motion.div>
+      </div>
+
+      {/* History Table */}
+      <div className="surface-card overflow-hidden">
+        <div className="p-6 border-b border-[#E8E6DF] bg-[#FAF9F6]">
+          <h2 className="text-lg font-medium text-[#2C2A29]">
+            Attempt History
+          </h2>
+        </div>
+
+        {attempts.length === 0 ? (
+          <div className="p-12 text-center text-[#787470]">
+            <p className="text-sm font-medium">No attempts yet. Time to start practicing!</p>
+          </div>
+        ) : (
+          <div className="overflow-x-auto custom-scrollbar">
+            <table className="w-full text-left border-collapse">
+              <thead>
+                <tr className="bg-white border-b border-[#E8E6DF] text-xs uppercase tracking-widest text-[#A8A4A0] font-semibold">
+                  <th className="px-6 py-4 whitespace-nowrap">Date</th>
+                  <th className="px-6 py-4 whitespace-nowrap">Mode</th>
+                  <th className="px-6 py-4 whitespace-nowrap">Weeks</th>
+                  <th className="px-6 py-4 whitespace-nowrap">Score</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-[#E8E6DF] bg-white">
+                {attempts.map((a) => {
+                  const pct = a.total ? Math.round((a.correct / a.total) * 1000) / 10 : 0
+                  return (
+                    <tr key={a.id} className="hover:bg-[#FAF9F6] transition-colors">
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-[#2C2A29]">
+                        {new Date(a.createdAt).toLocaleString(undefined, {
+                          month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'
+                        })}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap">
+                        <span className={`inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-semibold capitalize
+                          ${a.mode === 'exam' ? 'bg-[#F0DADA] text-[#C28F8F]' : 'bg-[#EBF2ED] text-[#557B5E]'}`}
+                        >
+                          {a.mode}
+                        </span>
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-[#787470]">
+                        {a.assignmentIds.join(', ')}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap">
+                        <div className="flex items-center gap-2">
+                          <span className="text-sm font-medium text-[#2C2A29]">{a.correct}/{a.total}</span>
+                          <span className="text-xs font-semibold px-2 py-0.5 rounded border border-[#E8E6DF] text-[#787470]">
+                            {pct}%
+                          </span>
+                        </div>
+                      </td>
+                    </tr>
+                  )
+                })}
+              </tbody>
+            </table>
+          </div>
+        )}
+      </div>
+    </motion.div>
+  )
+}
