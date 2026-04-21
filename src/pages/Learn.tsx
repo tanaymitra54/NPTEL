@@ -136,32 +136,32 @@ export default function Learn() {
       transition={{ duration: 0.4 }}
       className="max-w-5xl mx-auto w-full flex flex-col min-h-[75vh] pb-12"
     >
-      {/* Header with Navigation */}
-      <div className="mb-8">
-        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
-          <div>
-            <h1 className="text-3xl sm:text-4xl font-bold text-[#2C2A29] flex items-center gap-3">
-              <BookIcon className="w-8 h-8" />
-              Learn Mode
-              <span className="text-base px-3 py-1.5 rounded-lg font-semibold bg-[#F0DADA] text-[#9B7A7A]">
-                {idx + 1}/{questions.length}
-              </span>
-            </h1>
-            <p className="text-base text-[#787470] mt-2">Study all questions with detailed explanations</p>
-          </div>
+       {/* Header with Navigation */}
+       <div className="mb-8">
+         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
+           <div>
+             <h1 className="text-2xl sm:text-3xl font-bold text-[#2C2A29] flex items-center gap-3">
+               <BookIcon className="w-7 h-7" />
+               Learn Mode
+               <span className="text-sm px-3 py-1.5 rounded-lg font-semibold bg-[#F0DADA] text-[#9B7A7A]">
+                 {idx + 1}/{questions.length}
+               </span>
+             </h1>
+             <p className="text-sm text-[#787470] mt-2">Study all questions with detailed explanations</p>
+           </div>
 
-          <motion.div
-            whileHover={{ y: -2 }}
-            whileTap={{ y: 0 }}
-          >
-            <Link
-              to="/"
-              className="flex items-center gap-2 px-6 py-3 rounded-xl text-base font-semibold transition-all duration-300 gradient-dark text-white shadow-md hover:shadow-lg"
-            >
-              ← Back to Home
-            </Link>
-          </motion.div>
-        </div>
+           <motion.div
+             whileHover={{ y: -2 }}
+             whileTap={{ y: 0 }}
+           >
+             <Link
+               to="/"
+               className="flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-semibold transition-all duration-300 gradient-dark text-white shadow-md hover:shadow-lg"
+             >
+               ← Back to Home
+             </Link>
+           </motion.div>
+         </div>
 
         {/* Progress Bar */}
         <div className="w-full space-y-2">
@@ -207,14 +207,14 @@ export default function Learn() {
                 <span className="text-xs font-semibold text-[#9B7A7A] tracking-wide uppercase">Question</span>
               </div>
               
-              <h2 className="text-3xl sm:text-4xl font-bold text-[#2C2A29] leading-snug">
+              <h2 className="text-xl sm:text-2xl font-bold text-[#2C2A29] leading-snug">
                 {q.prompt}
               </h2>
             </section>
 
             {/* Answer Section */}
             <section className="space-y-4">
-              <h3 className="text-lg font-semibold text-[#2C2A29] flex items-center gap-2">
+              <h3 className="text-base font-semibold text-[#2C2A29] flex items-center gap-2">
                 <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#A8CBAE] text-white text-sm font-bold">
                   <CheckIcon className="w-4 h-4" />
                 </span>
@@ -245,7 +245,7 @@ export default function Learn() {
                         {c.key}
                       </div>
                       <div className="flex-1">
-                        <p className="text-lg font-medium">{c.text}</p>
+                        <p className="text-base font-medium">{c.text}</p>
                         {isCorrect && (
                           <p className="text-xs font-semibold mt-3 text-[#3F6347] inline-flex items-center gap-1">
                             ✓ This is the correct answer
@@ -260,7 +260,7 @@ export default function Learn() {
 
             {/* Memory Toolkit */}
             <section className="border-t border-[#E8E6DF] pt-10 space-y-6">
-              <h3 className="text-lg font-semibold text-[#2C2A29] flex items-center gap-2">
+              <h3 className="text-base font-semibold text-[#2C2A29] flex items-center gap-2">
                 <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#D6A3A3] text-white text-sm font-bold">
                   <LightbulbIcon className="w-4 h-4" />
                 </span>
@@ -281,8 +281,8 @@ export default function Learn() {
                         {tipIdx + 1}
                       </div>
                       <div className="flex-1">
-                        <p className="text-sm font-semibold text-[#9B7A7A] tracking-wide uppercase">{tip.title}</p>
-                        <p className="mt-2 text-base text-[#2C2A29] leading-relaxed">{tip.body}</p>
+                        <p className="text-xs font-semibold text-[#9B7A7A] tracking-wide uppercase">{tip.title}</p>
+                        <p className="mt-2 text-sm text-[#2C2A29] leading-relaxed">{tip.body}</p>
                       </div>
                     </div>
                   </motion.div>
@@ -294,36 +294,36 @@ export default function Learn() {
       </motion.div>
 
       {/* Bottom Navigation */}
-      <div className="mt-8 flex items-center justify-between gap-4">
-        <motion.button
-          whileHover={idx !== 0 ? { x: -4 } : {}}
-          onClick={() => go(-1)}
-          disabled={idx === 0}
-          className={`flex items-center gap-2 px-6 py-2.5 rounded-xl text-base font-semibold transition-all
-            ${idx === 0 
-              ? 'text-[#A8A4A0] cursor-not-allowed bg-[#FAF9F6]' 
-              : 'text-white gradient-dark shadow-md hover:shadow-lg hover:-translate-y-1'
-            }`}
-        >
-          <LeftArrowIcon className="w-5 h-5" />
-          Previous
-        </motion.button>
+       <div className="mt-8 flex items-center justify-between gap-4">
+         <motion.button
+           whileHover={idx !== 0 ? { x: -4 } : {}}
+           onClick={() => go(-1)}
+           disabled={idx === 0}
+           className={`flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-semibold transition-all
+             ${idx === 0 
+               ? 'text-[#A8A4A0] cursor-not-allowed bg-[#FAF9F6]' 
+               : 'text-white gradient-dark shadow-md hover:shadow-lg hover:-translate-y-1'
+             }`}
+         >
+           <LeftArrowIcon className="w-5 h-5" />
+           Previous
+         </motion.button>
 
-        <div className="text-center space-y-1">
-          <p className="text-sm font-semibold text-[#2C2A29]">{idx + 1} / {questions.length}</p>
-          <p className="text-xs text-[#787470]">Use arrow keys to navigate</p>
-        </div>
+         <div className="text-center space-y-1">
+           <p className="text-xs font-semibold text-[#2C2A29]">{idx + 1} / {questions.length}</p>
+           <p className="text-xs text-[#787470]">Use arrow keys to navigate</p>
+         </div>
 
-        <motion.button
-          whileHover={idx !== questions.length - 1 ? { x: 4 } : {}}
-          onClick={() => go(1)}
-          disabled={idx === questions.length - 1}
-          className={`flex items-center gap-2 px-6 py-2.5 rounded-xl text-base font-semibold transition-all
-            ${idx === questions.length - 1 
-              ? 'text-[#A8A4A0] cursor-not-allowed bg-[#FAF9F6]' 
-              : 'text-white gradient-accent shadow-md hover:shadow-lg hover:-translate-y-1'
-            }`}
-        >
+         <motion.button
+           whileHover={idx !== questions.length - 1 ? { x: 4 } : {}}
+           onClick={() => go(1)}
+           disabled={idx === questions.length - 1}
+           className={`flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-semibold transition-all
+             ${idx === questions.length - 1 
+               ? 'text-[#A8A4A0] cursor-not-allowed bg-[#FAF9F6]' 
+               : 'text-white gradient-accent shadow-md hover:shadow-lg hover:-translate-y-1'
+             }`}
+         >
           Next
           <RightArrowIcon className="w-5 h-5" />
         </motion.button>
