@@ -85,7 +85,7 @@ export default function Layout() {
         )}
       </header>
 
-      <main className="flex-1 w-full max-w-6xl mx-auto p-4 sm:p-6 lg:p-8 flex flex-col">
+      <main className="flex-1 w-full px-4 sm:px-6 lg:px-10 py-4 sm:py-6 lg:py-8 flex flex-col">
         <Outlet />
       </main>
 

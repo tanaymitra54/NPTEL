@@ -132,7 +132,7 @@ export default function Run() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.4 }}
-      className="max-w-4xl mx-auto w-full flex flex-col min-h-[75vh] pb-12"
+      className="w-full flex flex-col min-h-[75vh] pb-12"
     >
       {/* Header with Context */}
       <div className="mb-8">
@@ -200,23 +200,24 @@ export default function Run() {
         </div>
       </div>
 
-      {/* Main Question Panel */}
-      <motion.div 
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.3, delay: 0.1 }}
-        className="surface-elevated flex-1 p-8 sm:p-12 relative overflow-hidden flex flex-col min-h-[450px]"
-      >
-        <AnimatePresence mode="wait" custom={direction}>
-          <motion.div
-            key={idx}
-            custom={direction}
-            initial={{ opacity: 0, x: direction > 0 ? 15 : -15 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: direction > 0 ? -15 : 15 }}
-            transition={{ duration: 0.3, ease: "easeOut" }}
-            className="flex-1 flex flex-col"
-          >
+      <div className="flex-1 grid gap-6 lg:grid-cols-[minmax(0,1fr)_300px]">
+        {/* Main Question Panel */}
+        <motion.div 
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3, delay: 0.1 }}
+          className="surface-elevated p-8 sm:p-12 relative overflow-hidden flex flex-col min-h-[450px]"
+        >
+          <AnimatePresence mode="wait" custom={direction}>
+            <motion.div
+              key={idx}
+              custom={direction}
+              initial={{ opacity: 0, x: direction > 0 ? 15 : -15 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: direction > 0 ? -15 : 15 }}
+              transition={{ duration: 0.3, ease: "easeOut" }}
+              className="flex-1 flex flex-col"
+            >
             {/* Question Marker */}
             <div className="inline-flex items-center gap-2 mb-6 w-fit">
               <div className="w-8 h-8 rounded-lg gradient-accent flex items-center justify-center text-white text-sm font-bold">
@@ -278,23 +279,58 @@ export default function Run() {
               })}
             </div>
             
-            {/* Feedback Message */}
-            {mode === 'practice' && isLocked && (
-              <motion.div 
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                className={`p-5 rounded-xl mt-8 font-semibold text-lg flex items-center gap-3 ${
-                  isCorrect 
-                    ? 'bg-[#F2F8F5] text-[#3F6347]' 
-                    : 'bg-[#FCF5F5] text-[#8C464B]'
-                }`}
-              >
-                {isCorrect ? '✓ Correct!' : `✗ Incorrect. The correct answer is ${q.answerKey}.`}
-              </motion.div>
-            )}
-          </motion.div>
-        </AnimatePresence>
-      </motion.div>
+              {/* Feedback Message */}
+              {mode === 'practice' && isLocked && (
+                <motion.div 
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className={`p-5 rounded-xl mt-8 font-semibold text-lg flex items-center gap-3 ${
+                    isCorrect 
+                      ? 'bg-[#F2F8F5] text-[#3F6347]' 
+                      : 'bg-[#FCF5F5] text-[#8C464B]'
+                  }`}
+                >
+                  {isCorrect ? '✓ Correct!' : `✗ Incorrect. The correct answer is ${q.answerKey}.`}
+                </motion.div>
+              )}
+            </motion.div>
+          </AnimatePresence>
+        </motion.div>
+
+        {/* Question Navigator (Desktop Right, Mobile Below) */}
+        <aside className="surface-card p-4 sm:p-5 h-fit lg:sticky lg:top-24">
+          <div className="mb-3 flex items-center justify-between">
+            <p className="text-xs font-semibold tracking-wider uppercase text-[#9B7A7A]">Question Map</p>
+            <p className="text-xs text-[#787470]">{attemptedCount}/{questions.length}</p>
+          </div>
+
+          <div className="max-h-56 lg:max-h-[28rem] overflow-y-auto custom-scrollbar pr-1">
+            <div className="grid grid-cols-6 gap-2">
+              {questions.map((qq, i) => {
+                const a = answers[qq.questionId]
+                const isCurrent = i === idx
+                return (
+                  <motion.button
+                    key={qq.questionId}
+                    whileHover={!isCurrent ? { y: -2 } : {}}
+                    whileTap={{ y: 0 }}
+                    onClick={() => { setDirection(i > idx ? 1 : -1); setIdx(i) }}
+                    className={`h-10 rounded-lg text-sm font-bold flex items-center justify-center transition-all
+                      ${isCurrent 
+                        ? 'gradient-accent text-white shadow-md' 
+                        : a 
+                          ? 'bg-[#F2F8F5] border border-[#A8CBAE] text-[#3F6347] hover:bg-[#A8CBAE] hover:text-white' 
+                          : 'bg-white border border-[#E8E6DF] text-[#A8A4A0] hover:bg-[#FAF9F6] hover:text-[#787470]'
+                      }`}
+                  >
+                    {i + 1}
+                  </motion.button>
+                )
+              })}
+            </div>
+          </div>
+        </aside>
+      </div>
 
       {/* Navigation Footer */}
       <div className="mt-8 flex flex-col sm:flex-row items-center justify-between gap-6">
@@ -311,28 +347,8 @@ export default function Run() {
           Previous
         </motion.button>
 
-        <div className="flex flex-wrap justify-center gap-2 px-3 max-h-32 overflow-y-auto custom-scrollbar">
-          {questions.map((qq, i) => {
-            const a = answers[qq.questionId]
-            const isCurrent = i === idx
-            return (
-              <motion.button
-                key={qq.questionId}
-                whileHover={!isCurrent ? { y: -2 } : {}}
-                whileTap={{ y: 0 }}
-                onClick={() => { setDirection(i > idx ? 1 : -1); setIdx(i); }}
-                className={`min-w-10 h-10 px-2 rounded-lg text-sm font-bold flex items-center justify-center transition-all
-                  ${isCurrent 
-                    ? 'gradient-accent text-white shadow-md' 
-                    : a 
-                      ? 'bg-[#F2F8F5] border border-[#A8CBAE] text-[#3F6347] hover:bg-[#A8CBAE] hover:text-white' 
-                      : 'bg-white border border-[#E8E6DF] text-[#A8A4A0] hover:bg-[#FAF9F6] hover:text-[#787470]'
-                  }`}
-              >
-                {i + 1}
-              </motion.button>
-            )
-          })}
+        <div className="text-center text-sm text-[#787470]">
+          <span className="font-semibold text-[#2C2A29]">{idx + 1}</span> of {questions.length}
         </div>
 
         <motion.button 
