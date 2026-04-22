@@ -36,24 +36,113 @@ function normalizeChoiceText(s) {
   return stripMd(s)
 }
 
+function titleCase(s) {
+  return s.replace(/\b\w+/g, (part) => part[0].toUpperCase() + part.slice(1).toLowerCase())
+}
+
+function compactText(s) {
+  return s.replace(/\s+/g, ' ').trim()
+}
+
+function normalizeLettersAndDigits(s) {
+  return s.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()
+}
+
+function getKeyWords(s, limit = 3) {
+  const stopWords = new Set([
+    'a', 'an', 'and', 'are', 'as', 'at', 'be', 'by', 'do', 'for', 'from', 'has', 'have', 'in', 'into', 'is',
+    'it', 'its', 'of', 'on', 'or', 'that', 'the', 'their', 'there', 'these', 'this', 'those', 'to', 'under',
+    'which', 'with', 'who', 'will', 'would', 'all', 'not', 'one', 'than', 'then', 'any', 'before', 'after',
+  ])
+
+  return compactText(s)
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, ' ')
+    .split(/\s+/)
+    .filter((word) => word.length > 2 && !stopWords.has(word))
+    .slice(0, limit)
+}
+
+function makeInitialism(words) {
+  return words.map((word) => word[0]?.toUpperCase()).filter(Boolean).join('')
+}
+
 function buildTricks(question) {
   const correct = question.choices.find((choice) => choice.key === question.answerKey)
-  const correctText = (correct?.text || '').replace(/\s+/g, ' ').trim()
+  const correctText = compactText(correct?.text || '')
+  const normalizedAnswer = normalizeLettersAndDigits(correctText)
   const cue = correctText
-    .split(/[.,;()]/)
+    .split(/[.,;():-]/)
     .map((part) => part.trim())
     .filter(Boolean)
     .sort((a, b) => b.length - a.length)[0]
+  const lowered = correctText.toLowerCase()
+  const answerWords = getKeyWords(correctText, 4)
+  const promptWords = getKeyWords(question.prompt, 4)
+  const initials = makeInitialism(answerWords)
+  const acronym = (correctText.match(/[A-Z0-9]+/g) || []).join('')
+  const numericToken = (correctText.match(/\$?\d+(?:\.\d+)?/) || [null])[0]
+
+  if (/^all (?:of )?the given$/.test(normalizedAnswer)) {
+    return 'Mnemonic: if A, B, and C all look reasonable, take the umbrella choice: all of the given.'
+  }
+
+  if (/^none of the given$/.test(normalizedAnswer)) {
+    return 'Mnemonic: when every listed choice feels off, remember NONE survives the check.'
+  }
+
+  if (/^both a and b$/.test(normalizedAnswer)) {
+    return 'Mnemonic: when two statements team up as correct, remember the pair answer: both A and B.'
+  }
+
+  if (lowered === 'true') {
+    return 'Mnemonic: mark True only when the statement sounds like a direct textbook fact with no obvious exaggeration.'
+  }
+
+  if (lowered === 'false') {
+    return 'Mnemonic: rigid or absolute statements are often traps, so False is the usual red-flag answer.'
+  }
+
+  if (/^\d+$/.test(correctText) && /\bsdq?g\b/i.test(question.prompt)) {
+    return `Mnemonic: pin this topic to SDG ${correctText}; remember the number first, then recall the goal.`
+  }
+
+  if (numericToken && correctText.replace(numericToken, '').trim() === '') {
+    return `Mnemonic: treat ${numericToken} as the exam number hook for this fact and recall the figure before the options.`
+  }
+
+  if (/^(?:\d{1,4}\s+){1,3}\d{1,4}$/.test(normalizedAnswer)) {
+    return `Mnemonic: remember the number chain ${normalizedAnswer.replace(/\s+/g, ' -> ')} in order and then map it back to the option.`
+  }
+
+  if (acronym.length >= 2 && /[A-Z]/.test(correctText) && correctText.replace(/[A-Z0-9*.-]/g, '').trim() === '') {
+    return `Mnemonic: ${acronym} is the letter-hook here, so recall the initials first and the full term will follow.`
+  }
+
+  if (answerWords.length >= 2 && initials.length >= 2) {
+    return `Mnemonic: ${initials} = ${titleCase(answerWords.join(' '))}; use the initials as a shortcut to recall the full answer.`
+  }
+
+  if (answerWords.length === 1) {
+    const word = answerWords[0]
+    const promptCue = promptWords.find((promptWord) => promptWord[0] === word[0])
+    if (promptCue) {
+      return `Mnemonic: ${word[0].toUpperCase()} links ${titleCase(word)} with ${titleCase(promptCue)}; hold that letter-pair in memory.`
+    }
+    return `Mnemonic: ${word[0].toUpperCase()} for ${titleCase(word)}; lock the first letter and recall the concept from it.`
+  }
 
   return cue
-    ? `Remember ${question.answerKey}: think of ${cue} as the key clue.`
-    : `Remember ${question.answerKey}: match the option that best fits the core concept in the question.`
+    ? `Mnemonic: remember the clue phrase "${cue}" and use it to pull back the right option.`
+    : 'Mnemonic: focus on the central concept in the question and match the option that names it most directly.'
 }
 
 function isGenericTrick(tricks) {
   return (
     /^Remember: The correct answer is [A-D]\. Think about the key concept in this question\.$/.test(tricks) ||
-    /^Anchor: Lock on option [A-D]/.test(tricks)
+    /^Anchor: Lock on option [A-D]/.test(tricks) ||
+    /^Remember [A-D]: /.test(tricks) ||
+    /^Mnemonic: /.test(tricks)
   )
 }
 
