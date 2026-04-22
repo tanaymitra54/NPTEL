@@ -36,6 +36,48 @@ function normalizeChoiceText(s) {
   return stripMd(s)
 }
 
+function buildTricks(question) {
+  const correct = question.choices.find((choice) => choice.key === question.answerKey)
+  const correctText = (correct?.text || '').replace(/\s+/g, ' ').trim()
+  const cue = correctText
+    .split(/[.,;()]/)
+    .map((part) => part.trim())
+    .filter(Boolean)
+    .sort((a, b) => b.length - a.length)[0]
+
+  return [
+    `Anchor: Lock on option ${question.answerKey}${cue ? ` by remembering: ${cue}.` : '.'}`,
+    'Eliminate: Reject options that do not match the core concept in the question.',
+    'Recall Check: Say the answer key once and explain why it fits in one line.',
+  ].join('\n')
+}
+
+function isGenericTrick(tricks) {
+  return /^Remember: The correct answer is [A-D]\. Think about the key concept in this question\.$/.test(tricks)
+}
+
+function readExistingTricks() {
+  if (!fs.existsSync(outputPath)) return new Map()
+
+  try {
+    const raw = JSON.parse(fs.readFileSync(outputPath, 'utf8'))
+    const entries = Array.isArray(raw?.questions) ? raw.questions : []
+    return new Map(
+      entries
+        .filter(
+          (question) =>
+            question?.questionId &&
+            typeof question?.tricks === 'string' &&
+            question.tricks.trim() &&
+            !isGenericTrick(question.tricks.trim()),
+        )
+        .map((question) => [question.questionId, question.tricks.trim()]),
+    )
+  } catch {
+    return new Map()
+  }
+}
+
 function parseMarkdown(md) {
   const lines = md.split(/\r?\n/)
 
@@ -153,7 +195,11 @@ function main() {
     process.exit(1)
   }
   const md = fs.readFileSync(inputPath, 'utf8')
-  const questions = parseMarkdown(md)
+  const existingTricks = readExistingTricks()
+  const questions = parseMarkdown(md).map((question) => ({
+    ...question,
+    tricks: existingTricks.get(question.questionId) || buildTricks(question),
+  }))
 
   fs.mkdirSync(outputDir, { recursive: true })
   fs.writeFileSync(
