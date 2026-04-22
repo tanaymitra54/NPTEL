@@ -45,15 +45,16 @@ function buildTricks(question) {
     .filter(Boolean)
     .sort((a, b) => b.length - a.length)[0]
 
-  return [
-    `Anchor: Lock on option ${question.answerKey}${cue ? ` by remembering: ${cue}.` : '.'}`,
-    'Eliminate: Reject options that do not match the core concept in the question.',
-    'Recall Check: Say the answer key once and explain why it fits in one line.',
-  ].join('\n')
+  return cue
+    ? `Remember ${question.answerKey}: think of ${cue} as the key clue.`
+    : `Remember ${question.answerKey}: match the option that best fits the core concept in the question.`
 }
 
 function isGenericTrick(tricks) {
-  return /^Remember: The correct answer is [A-D]\. Think about the key concept in this question\.$/.test(tricks)
+  return (
+    /^Remember: The correct answer is [A-D]\. Think about the key concept in this question\.$/.test(tricks) ||
+    /^Anchor: Lock on option [A-D]/.test(tricks)
+  )
 }
 
 function readExistingTricks() {
