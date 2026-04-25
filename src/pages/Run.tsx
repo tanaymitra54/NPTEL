@@ -230,7 +230,7 @@ export default function Run() {
             </div>
 
             {/* Question Prompt */}
-            <h2 className="text-lg sm:text-xl font-bold text-slate-50 leading-snug mb-10">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-50 leading-snug mb-10">
               {q.prompt}
             </h2>
 

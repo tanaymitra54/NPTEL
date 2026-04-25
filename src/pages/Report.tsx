@@ -166,7 +166,7 @@ export default function Report() {
                   </div>
                 </div>
 
-                <div className="text-lg sm:text-xl font-bold text-slate-50 mb-6 leading-relaxed">
+                <div className="text-base font-semibold text-slate-50 mb-6 leading-relaxed">
                   {q.prompt}
                 </div>
 
