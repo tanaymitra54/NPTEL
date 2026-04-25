@@ -1,0 +1,5498 @@
+{
+  "source": "Spanish_MCQ_Study_Guide.pdf",
+  "generatedAt": "2026-04-25T19:13:16Z",
+  "count": 183,
+  "questions": [
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q1-choose-the-correct-indefinite-article-quiero-comprar-coche",
+      "sourceQuestionNumber": 1,
+      "prompt": "Choose the correct indefinite article: Quiero comprar ___ coche.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "El"
+        },
+        {
+          "key": "B",
+          "text": "La"
+        },
+        {
+          "key": "C",
+          "text": "Un"
+        },
+        {
+          "key": "D",
+          "text": "Los"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "Un",
+      "tricks": "Coche is masculine singular → indefinite article is 'un'."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q2-choose-the-correct-indefinite-article-for-the-noun-libro-book",
+      "sourceQuestionNumber": 2,
+      "prompt": "Choose the correct indefinite article for the noun 'libro' (book).",
+      "choices": [
+        {
+          "key": "A",
+          "text": "una"
+        },
+        {
+          "key": "B",
+          "text": "un"
+        },
+        {
+          "key": "C",
+          "text": "unos"
+        },
+        {
+          "key": "D",
+          "text": "unas"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "un",
+      "tricks": "Libro is masculine singular → 'un libro'."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q3-choose-the-correct-option-agua-fr-a-es-buena-para-la-salud",
+      "sourceQuestionNumber": 3,
+      "prompt": "Choose the correct option: ___ agua fría es buena para la salud.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "la"
+        },
+        {
+          "key": "B",
+          "text": "el"
+        },
+        {
+          "key": "C",
+          "text": "una"
+        },
+        {
+          "key": "D",
+          "text": "unas"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "el",
+      "tricks": "Agua is feminine but starts with stressed 'a', so it takes masculine article 'el' in singular. This is a special rule!"
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q4-manzanas-est-n-muy-rojas-hoy",
+      "sourceQuestionNumber": 4,
+      "prompt": "___ manzanas están muy rojas hoy.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "El"
+        },
+        {
+          "key": "B",
+          "text": "Las"
+        },
+        {
+          "key": "C",
+          "text": "Los"
+        },
+        {
+          "key": "D",
+          "text": "Una"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Las",
+      "tricks": "Manzanas is feminine plural → 'Las'."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q5-fill-in-the-blank-sol-brilla-en-cielo",
+      "sourceQuestionNumber": 5,
+      "prompt": "Fill in the blank: ___ sol brilla en ___ cielo.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "El / el"
+        },
+        {
+          "key": "B",
+          "text": "La / la"
+        },
+        {
+          "key": "C",
+          "text": "Un / una"
+        },
+        {
+          "key": "D",
+          "text": "El / la"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "El / el",
+      "tricks": "Both 'sol' and 'cielo' are masculine → 'El sol brilla en el cielo'."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q6-estudiantes-est-n-en-clase",
+      "sourceQuestionNumber": 6,
+      "prompt": "___ estudiantes están en clase.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "el"
+        },
+        {
+          "key": "B",
+          "text": "la"
+        },
+        {
+          "key": "C",
+          "text": "los"
+        },
+        {
+          "key": "D",
+          "text": "una"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "los",
+      "tricks": "Estudiantes is masculine plural → 'los'."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q7-choose-the-correct-article-guila-vuela-alto",
+      "sourceQuestionNumber": 7,
+      "prompt": "Choose the correct article: ___ águila vuela alto.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "la"
+        },
+        {
+          "key": "B",
+          "text": "el"
+        },
+        {
+          "key": "C",
+          "text": "una"
+        },
+        {
+          "key": "D",
+          "text": "unas"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "el",
+      "tricks": "Águila is feminine but begins with stressed 'a', so it takes 'el' in singular. Same rule as agua!"
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q8-mesa-tiene-caramelos",
+      "sourceQuestionNumber": 8,
+      "prompt": "___ mesa tiene ___ caramelos.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "El / los"
+        },
+        {
+          "key": "B",
+          "text": "La / los"
+        },
+        {
+          "key": "C",
+          "text": "La / las"
+        },
+        {
+          "key": "D",
+          "text": "El / las"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "La / los",
+      "tricks": "Mesa is feminine → 'La'; caramelos is masculine plural → 'los'."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q9-coche-es-muy-r-pido",
+      "sourceQuestionNumber": 9,
+      "prompt": "___ coche es muy rápido.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "La"
+        },
+        {
+          "key": "B",
+          "text": "El"
+        },
+        {
+          "key": "C",
+          "text": "Una"
+        },
+        {
+          "key": "D",
+          "text": "Los"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "El",
+      "tricks": "Coche is masculine singular → 'El'."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q10-mam-y-pap-est-n-en-piso",
+      "sourceQuestionNumber": 10,
+      "prompt": "___ mamá y ___ papá están en ___ piso.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "La / el / el"
+        },
+        {
+          "key": "B",
+          "text": "El / la / la"
+        },
+        {
+          "key": "C",
+          "text": "La / la / el"
+        },
+        {
+          "key": "D",
+          "text": "El / el / la"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "La / el / el",
+      "tricks": "Mamá is feminine → 'la'; papá is masculine → 'el'; piso is masculine → 'el'."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q11-choose-the-correct-article-libro",
+      "sourceQuestionNumber": 11,
+      "prompt": "Choose the correct article: ___ libro",
+      "choices": [
+        {
+          "key": "A",
+          "text": "un"
+        },
+        {
+          "key": "B",
+          "text": "una"
+        },
+        {
+          "key": "C",
+          "text": "unos"
+        },
+        {
+          "key": "D",
+          "text": "unas"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "un",
+      "tricks": "Libro is masculine singular → indefinite article 'un'."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q12-las-casas-en-esta-calle-son-muy",
+      "sourceQuestionNumber": 12,
+      "prompt": "'Las casas en esta calle son muy ____.'",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Blanco"
+        },
+        {
+          "key": "B",
+          "text": "Blanca"
+        },
+        {
+          "key": "C",
+          "text": "Blancos"
+        },
+        {
+          "key": "D",
+          "text": "Blancas"
+        }
+      ],
+      "answerKey": "D",
+      "answerText": "Blancas",
+      "tricks": "Adjectives must agree with the noun. 'Casas' is feminine plural → 'blancas'."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q99-choose-the-correct-definite-article-for-ni-a",
+      "sourceQuestionNumber": 99,
+      "prompt": "Choose the correct definite article for 'niña'.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "el"
+        },
+        {
+          "key": "B",
+          "text": "la"
+        },
+        {
+          "key": "C",
+          "text": "los"
+        },
+        {
+          "key": "D",
+          "text": "las"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "la",
+      "tricks": "Niña is feminine singular → 'la'."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q100-choose-the-correct-indefinite-article-for-casas",
+      "sourceQuestionNumber": 100,
+      "prompt": "Choose the correct indefinite article for 'casas'.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "una"
+        },
+        {
+          "key": "B",
+          "text": "un"
+        },
+        {
+          "key": "C",
+          "text": "unas"
+        },
+        {
+          "key": "D",
+          "text": "unos"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "unas",
+      "tricks": "Casas is feminine plural → 'unas'."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q101-perros-son-muy-juguetones",
+      "sourceQuestionNumber": 101,
+      "prompt": "___ perros son muy juguetones.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "El"
+        },
+        {
+          "key": "B",
+          "text": "La"
+        },
+        {
+          "key": "C",
+          "text": "Los"
+        },
+        {
+          "key": "D",
+          "text": "Una"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "Los",
+      "tricks": "Perros is masculine plural → 'Los'."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q102-necesito-bol-grafo-para-escribir",
+      "sourceQuestionNumber": 102,
+      "prompt": "Necesito ___ bolígrafo para escribir.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "una"
+        },
+        {
+          "key": "B",
+          "text": "unos"
+        },
+        {
+          "key": "C",
+          "text": "un"
+        },
+        {
+          "key": "D",
+          "text": "el"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "un",
+      "tricks": "Bolígrafo is masculine singular → indefinite 'un'."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q103-d-nde-est-ba-o",
+      "sourceQuestionNumber": 103,
+      "prompt": "¿Dónde está ___ baño?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "el"
+        },
+        {
+          "key": "B",
+          "text": "la"
+        },
+        {
+          "key": "C",
+          "text": "un"
+        },
+        {
+          "key": "D",
+          "text": "una"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "el",
+      "tricks": "Baño is masculine → definite article 'el'."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q104-leche-est-fr-a",
+      "sourceQuestionNumber": 104,
+      "prompt": "___ leche está fría.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "El"
+        },
+        {
+          "key": "B",
+          "text": "La"
+        },
+        {
+          "key": "C",
+          "text": "Los"
+        },
+        {
+          "key": "D",
+          "text": "Las"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "La",
+      "tricks": "Leche is feminine → 'La'."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q105-compr-zapatos-nuevos",
+      "sourceQuestionNumber": 105,
+      "prompt": "Compré ___ zapatos nuevos.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "un"
+        },
+        {
+          "key": "B",
+          "text": "una"
+        },
+        {
+          "key": "C",
+          "text": "unos"
+        },
+        {
+          "key": "D",
+          "text": "unas"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "unos",
+      "tricks": "Zapatos is masculine plural → 'unos'."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q106-choose-the-correct-article-rbol-es-muy-grande",
+      "sourceQuestionNumber": 106,
+      "prompt": "Choose the correct article: ___ árbol es muy grande.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "La"
+        },
+        {
+          "key": "B",
+          "text": "El"
+        },
+        {
+          "key": "C",
+          "text": "Una"
+        },
+        {
+          "key": "D",
+          "text": "Los"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "El",
+      "tricks": "Árbol is masculine singular → 'El'."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q107-idiomas-son-dif-ciles-de-aprender",
+      "sourceQuestionNumber": 107,
+      "prompt": "___ idiomas son difíciles de aprender.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "El"
+        },
+        {
+          "key": "B",
+          "text": "La"
+        },
+        {
+          "key": "C",
+          "text": "Los"
+        },
+        {
+          "key": "D",
+          "text": "Las"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "Los",
+      "tricks": "Idiomas is masculine plural → 'Los'."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q108-cu-nto-cuesta-manzana",
+      "sourceQuestionNumber": 108,
+      "prompt": "¿Cuánto cuesta ___ manzana?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "el"
+        },
+        {
+          "key": "B",
+          "text": "la"
+        },
+        {
+          "key": "C",
+          "text": "un"
+        },
+        {
+          "key": "D",
+          "text": "una"
+        }
+      ],
+      "answerKey": "D",
+      "answerText": "una",
+      "tricks": "Manzana is feminine singular → indefinite 'una'."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q109-tengo-hambre-terrible",
+      "sourceQuestionNumber": 109,
+      "prompt": "Tengo ___ hambre terrible.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "un"
+        },
+        {
+          "key": "B",
+          "text": "una"
+        },
+        {
+          "key": "C",
+          "text": "el"
+        },
+        {
+          "key": "D",
+          "text": "la"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "un",
+      "tricks": "Hambre is feminine but starts with stressed 'a' → takes 'un' in singular. Special rule!"
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q110-agua-del-r-o-es-muy-clara",
+      "sourceQuestionNumber": 110,
+      "prompt": "___ agua del río es muy clara.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "El"
+        },
+        {
+          "key": "B",
+          "text": "La"
+        },
+        {
+          "key": "C",
+          "text": "Un"
+        },
+        {
+          "key": "D",
+          "text": "Una"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "El",
+      "tricks": "Agua takes 'El' in singular due to stressed 'a' at the start, even though it is feminine."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q111-ella-es-m-dica-muy-buena",
+      "sourceQuestionNumber": 111,
+      "prompt": "Ella es ___ médica muy buena.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "un"
+        },
+        {
+          "key": "B",
+          "text": "una"
+        },
+        {
+          "key": "C",
+          "text": "el"
+        },
+        {
+          "key": "D",
+          "text": "la"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "una",
+      "tricks": "Indefinite article with profession + adjective: 'una médica'."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q112-lunes-tengo-clase-de-espa-ol",
+      "sourceQuestionNumber": 112,
+      "prompt": "___ lunes tengo clase de español.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "El"
+        },
+        {
+          "key": "B",
+          "text": "La"
+        },
+        {
+          "key": "C",
+          "text": "Los"
+        },
+        {
+          "key": "D",
+          "text": "Las"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "Los",
+      "tricks": "Days of the week used habitually take 'los': 'Los lunes'."
+    },
+    {
+      "assignmentId": 1,
+      "assignmentLabel": "Articles",
+      "sectionLabel": "Section 1: Articles (Artículos)",
+      "topic": "Articles",
+      "questionId": "s1-q113-vi-pel-cula-muy-interesante-ayer",
+      "sourceQuestionNumber": 113,
+      "prompt": "Vi ___ película muy interesante ayer.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "un"
+        },
+        {
+          "key": "B",
+          "text": "una"
+        },
+        {
+          "key": "C",
+          "text": "el"
+        },
+        {
+          "key": "D",
+          "text": "la"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "una",
+      "tricks": "Película is feminine → indefinite 'una'."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Pronouns",
+      "sectionLabel": "Section 2: Pronouns (Pronombres)",
+      "topic": "Pronouns",
+      "questionId": "s2-q13-what-is-the-spanish-subject-pronoun-for-they-mixed-or-masculine-group",
+      "sourceQuestionNumber": 13,
+      "prompt": "What is the Spanish subject pronoun for 'they' (mixed or masculine group)?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Ellas"
+        },
+        {
+          "key": "B",
+          "text": "Ustedes"
+        },
+        {
+          "key": "C",
+          "text": "Ellos"
+        },
+        {
+          "key": "D",
+          "text": "Nosotros"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "Ellos",
+      "tricks": "Ellos is used for masculine or mixed-gender groups; Ellas is only for all-female groups."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Pronouns",
+      "sectionLabel": "Section 2: Pronouns (Pronombres)",
+      "topic": "Pronouns",
+      "questionId": "s2-q14-in-spain-which-pronoun-is-used-as-the-informal-plural-you-for-a-group-of-females",
+      "sourceQuestionNumber": 14,
+      "prompt": "In Spain, which pronoun is used as the informal plural 'you' for a group of females?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Ustedes"
+        },
+        {
+          "key": "B",
+          "text": "Ellas"
+        },
+        {
+          "key": "C",
+          "text": "Vosotras"
+        },
+        {
+          "key": "D",
+          "text": "Nosotras"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "Vosotras",
+      "tricks": "Vosotras is the feminine form of vosotros, used in Spain for an all-female group."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Pronouns",
+      "sectionLabel": "Section 2: Pronouns (Pronombres)",
+      "topic": "Pronouns",
+      "questionId": "s2-q15-which-sentence-uses-the-correct-indirect-object-pronoun-i-give-the-book-to-her",
+      "sourceQuestionNumber": 15,
+      "prompt": "Which sentence uses the correct indirect object pronoun? 'I give the book to her.'",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Yo le doy el libro."
+        },
+        {
+          "key": "B",
+          "text": "Yo la doy el libro."
+        },
+        {
+          "key": "C",
+          "text": "Yo lo doy el libro."
+        },
+        {
+          "key": "D",
+          "text": "Yo se doy el libro."
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "Yo le doy el libro.",
+      "tricks": "The indirect object pronoun for 'her' is 'le'. 'La' is a direct object pronoun."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Pronouns",
+      "sectionLabel": "Section 2: Pronouns (Pronombres)",
+      "topic": "Pronouns",
+      "questionId": "s2-q16-which-sentence-correctly-uses-the-indirect-object-pronoun-we-tell-him-the-truth",
+      "sourceQuestionNumber": 16,
+      "prompt": "Which sentence correctly uses the indirect object pronoun? 'We tell him the truth.'",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Nosotros le decimos la verdad."
+        },
+        {
+          "key": "B",
+          "text": "Nosotros lo decimos la verdad."
+        },
+        {
+          "key": "C",
+          "text": "Nosotros la decimos la verdad."
+        },
+        {
+          "key": "D",
+          "text": "Nosotros se decimos la verdad."
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "Nosotros le decimos la verdad.",
+      "tricks": "Indirect object pronoun for 'him' is 'le'."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Pronouns",
+      "sectionLabel": "Section 2: Pronouns (Pronombres)",
+      "topic": "Pronouns",
+      "questionId": "s2-q17-which-sentence-correctly-describes-what-you-t-think",
+      "sourceQuestionNumber": 17,
+      "prompt": "Which sentence correctly describes what 'you' (tú) think?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Tú pensas que el libro es bueno."
+        },
+        {
+          "key": "B",
+          "text": "Tú piensas que el libro es bueno."
+        },
+        {
+          "key": "C",
+          "text": "Tú pienso que el libro es bueno."
+        },
+        {
+          "key": "D",
+          "text": "Tú pensen que el libro es bueno."
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Tú piensas que el libro es bueno.",
+      "tricks": "The correct stem-changing conjugation of 'pensar' for tú is 'piensas' (e→ie change)."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Pronouns",
+      "sectionLabel": "Section 2: Pronouns (Pronombres)",
+      "topic": "Pronouns",
+      "questionId": "s2-q18-yo-dora",
+      "sourceQuestionNumber": 18,
+      "prompt": "Yo ___ Dora.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "soy"
+        },
+        {
+          "key": "B",
+          "text": "tu"
+        },
+        {
+          "key": "C",
+          "text": "ella"
+        },
+        {
+          "key": "D",
+          "text": "ellas"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "soy",
+      "tricks": "First person singular of 'ser' is 'soy'."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Pronouns",
+      "sectionLabel": "Section 2: Pronouns (Pronombres)",
+      "topic": "Pronouns",
+      "questionId": "s2-q19-mis-amigos-muy-simp-ticos",
+      "sourceQuestionNumber": 19,
+      "prompt": "Mis amigos ___ muy simpáticos.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Es"
+        },
+        {
+          "key": "B",
+          "text": "Está"
+        },
+        {
+          "key": "C",
+          "text": "Hay"
+        },
+        {
+          "key": "D",
+          "text": "Son"
+        }
+      ],
+      "answerKey": "D",
+      "answerText": "Son",
+      "tricks": "Amigos is third person plural → 'son' (from ser)."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Pronouns",
+      "sectionLabel": "Section 2: Pronouns (Pronombres)",
+      "topic": "Pronouns",
+      "questionId": "s2-q20-ella-cansada",
+      "sourceQuestionNumber": 20,
+      "prompt": "Ella ___ cansada.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "soy"
+        },
+        {
+          "key": "B",
+          "text": "estás"
+        },
+        {
+          "key": "C",
+          "text": "está"
+        },
+        {
+          "key": "D",
+          "text": "estamos"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "está",
+      "tricks": "Third person singular of 'estar' is 'está'. Tiredness is a temporary state → use estar."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Pronouns",
+      "sectionLabel": "Section 2: Pronouns (Pronombres)",
+      "topic": "Pronouns",
+      "questionId": "s2-q114-what-is-the-subject-pronoun-for-i-in-spanish",
+      "sourceQuestionNumber": 114,
+      "prompt": "What is the subject pronoun for 'I' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Yo"
+        },
+        {
+          "key": "B",
+          "text": "Tú"
+        },
+        {
+          "key": "C",
+          "text": "Él"
+        },
+        {
+          "key": "D",
+          "text": "Me"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "Yo",
+      "tricks": "Yo = I (first person singular)."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Pronouns",
+      "sectionLabel": "Section 2: Pronouns (Pronombres)",
+      "topic": "Pronouns",
+      "questionId": "s2-q115-what-is-the-subject-pronoun-for-you-informal-in-spanish",
+      "sourceQuestionNumber": 115,
+      "prompt": "What is the subject pronoun for 'you' (informal) in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Usted"
+        },
+        {
+          "key": "B",
+          "text": "Vos"
+        },
+        {
+          "key": "C",
+          "text": "Tú"
+        },
+        {
+          "key": "D",
+          "text": "Te"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "Tú",
+      "tricks": "Tú is the informal second person singular subject pronoun."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Pronouns",
+      "sectionLabel": "Section 2: Pronouns (Pronombres)",
+      "topic": "Pronouns",
+      "questionId": "s2-q116-which-is-the-correct-direct-object-pronoun-for-him",
+      "sourceQuestionNumber": 116,
+      "prompt": "Which is the correct direct object pronoun for 'him'?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "le"
+        },
+        {
+          "key": "B",
+          "text": "lo"
+        },
+        {
+          "key": "C",
+          "text": "la"
+        },
+        {
+          "key": "D",
+          "text": "les"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "lo",
+      "tricks": "Lo is the masculine direct object pronoun for 'him/it'."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Pronouns",
+      "sectionLabel": "Section 2: Pronouns (Pronombres)",
+      "topic": "Pronouns",
+      "questionId": "s2-q117-which-pronoun-replaces-a-mar-a-in-the-sentence-llamo-a-mar-a",
+      "sourceQuestionNumber": 117,
+      "prompt": "Which pronoun replaces 'a María' in the sentence 'Llamo a María'?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "lo"
+        },
+        {
+          "key": "B",
+          "text": "la"
+        },
+        {
+          "key": "C",
+          "text": "le"
+        },
+        {
+          "key": "D",
+          "text": "se"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "la",
+      "tricks": "María is a direct object and feminine → 'la'. 'Llamo a María' → 'La llamo'."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Pronouns",
+      "sectionLabel": "Section 2: Pronouns (Pronombres)",
+      "topic": "Pronouns",
+      "questionId": "s2-q118-complete-gusta-el-caf-he-likes-coffee",
+      "sourceQuestionNumber": 118,
+      "prompt": "Complete: '___ gusta el café.' (He likes coffee.)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Lo"
+        },
+        {
+          "key": "B",
+          "text": "Le"
+        },
+        {
+          "key": "C",
+          "text": "La"
+        },
+        {
+          "key": "D",
+          "text": "Se"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Le",
+      "tricks": "Gustar uses indirect object pronouns. Third person singular → 'Le gusta'."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Pronouns",
+      "sectionLabel": "Section 2: Pronouns (Pronombres)",
+      "topic": "Pronouns",
+      "questionId": "s2-q119-which-is-the-reflexive-pronoun-for-nosotros",
+      "sourceQuestionNumber": 119,
+      "prompt": "Which is the reflexive pronoun for 'nosotros'?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "se"
+        },
+        {
+          "key": "B",
+          "text": "me"
+        },
+        {
+          "key": "C",
+          "text": "nos"
+        },
+        {
+          "key": "D",
+          "text": "os"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "nos",
+      "tricks": "The reflexive pronoun for 'nosotros' is 'nos'."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Pronouns",
+      "sectionLabel": "Section 2: Pronouns (Pronombres)",
+      "topic": "Pronouns",
+      "questionId": "s2-q120-choose-the-correct-pronoun-l-habl-ayer-he-spoke-to-me-yesterday",
+      "sourceQuestionNumber": 120,
+      "prompt": "Choose the correct pronoun: 'Él ___ habló ayer.' (He spoke to me yesterday.)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "me"
+        },
+        {
+          "key": "B",
+          "text": "te"
+        },
+        {
+          "key": "C",
+          "text": "le"
+        },
+        {
+          "key": "D",
+          "text": "lo"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "me",
+      "tricks": "Indirect object 'to me' = 'me'."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Pronouns",
+      "sectionLabel": "Section 2: Pronouns (Pronombres)",
+      "topic": "Pronouns",
+      "questionId": "s2-q121-which-sentence-is-correct-i-wash-myself",
+      "sourceQuestionNumber": 121,
+      "prompt": "Which sentence is correct? (I wash myself.)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Yo me lavo."
+        },
+        {
+          "key": "B",
+          "text": "Yo me lava."
+        },
+        {
+          "key": "C",
+          "text": "Yo se lavo."
+        },
+        {
+          "key": "D",
+          "text": "Yo te lavo."
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "Yo me lavo.",
+      "tricks": "Reflexive: 'me' for first person. 'Yo me lavo'."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Pronouns",
+      "sectionLabel": "Section 2: Pronouns (Pronombres)",
+      "topic": "Pronouns",
+      "questionId": "s2-q122-what-does-os-refer-to-in-spanish",
+      "sourceQuestionNumber": 122,
+      "prompt": "What does 'os' refer to in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Them"
+        },
+        {
+          "key": "B",
+          "text": "Us"
+        },
+        {
+          "key": "C",
+          "text": "You all (Spain, informal)"
+        },
+        {
+          "key": "D",
+          "text": "Yourselves"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "You all (Spain, informal)",
+      "tricks": "Os is the second person plural informal pronoun used in Spain (vosotros form)."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Pronouns",
+      "sectionLabel": "Section 2: Pronouns (Pronombres)",
+      "topic": "Pronouns",
+      "questionId": "s2-q123-choose-the-correct-form-she-sees-every-day-them-masculine",
+      "sourceQuestionNumber": 123,
+      "prompt": "Choose the correct form: 'She sees ___ every day.' (them, masculine)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "la"
+        },
+        {
+          "key": "B",
+          "text": "le"
+        },
+        {
+          "key": "C",
+          "text": "los"
+        },
+        {
+          "key": "D",
+          "text": "les"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "los",
+      "tricks": "Direct object pronoun for masculine plural = 'los'."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Pronouns",
+      "sectionLabel": "Section 2: Pronouns (Pronombres)",
+      "topic": "Pronouns",
+      "questionId": "s2-q124-complete-a-nosotros-encanta-bailar",
+      "sourceQuestionNumber": 124,
+      "prompt": "Complete: 'A nosotros ___ encanta bailar.'",
+      "choices": [
+        {
+          "key": "A",
+          "text": "me"
+        },
+        {
+          "key": "B",
+          "text": "te"
+        },
+        {
+          "key": "C",
+          "text": "nos"
+        },
+        {
+          "key": "D",
+          "text": "les"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "nos",
+      "tricks": "Indirect object for 'nosotros' = 'nos'."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Pronouns",
+      "sectionLabel": "Section 2: Pronouns (Pronombres)",
+      "topic": "Pronouns",
+      "questionId": "s2-q125-what-does-se-indicate-in-a-reflexive-sentence",
+      "sourceQuestionNumber": 125,
+      "prompt": "What does 'se' indicate in a reflexive sentence?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Direct object"
+        },
+        {
+          "key": "B",
+          "text": "Third person reflexive pronoun"
+        },
+        {
+          "key": "C",
+          "text": "Subject pronoun"
+        },
+        {
+          "key": "D",
+          "text": "Plural marker"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Third person reflexive pronoun",
+      "tricks": "Se is the reflexive pronoun for él/ella/usted/ellos/ellas/ustedes."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Pronouns",
+      "sectionLabel": "Section 2: Pronouns (Pronombres)",
+      "topic": "Pronouns",
+      "questionId": "s2-q126-choose-the-correct-sentence-i-give-it-the-book-masculine-to-you",
+      "sourceQuestionNumber": 126,
+      "prompt": "Choose the correct sentence: 'I give it (the book, masculine) to you.'",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Te lo doy."
+        },
+        {
+          "key": "B",
+          "text": "Te la doy."
+        },
+        {
+          "key": "C",
+          "text": "Le lo doy."
+        },
+        {
+          "key": "D",
+          "text": "Lo te doy."
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "Te lo doy.",
+      "tricks": "Double object pronouns: indirect (te) before direct (lo). 'Te lo doy'."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Pronouns",
+      "sectionLabel": "Section 2: Pronouns (Pronombres)",
+      "topic": "Pronouns",
+      "questionId": "s2-q127-which-pronoun-is-used-for-you-formal-singular-in-most-spanish-speaking-countries",
+      "sourceQuestionNumber": 127,
+      "prompt": "Which pronoun is used for 'you' (formal, singular) in most Spanish-speaking countries?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Tú"
+        },
+        {
+          "key": "B",
+          "text": "Vos"
+        },
+        {
+          "key": "C",
+          "text": "Usted"
+        },
+        {
+          "key": "D",
+          "text": "Vosotros"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "Usted",
+      "tricks": "Usted is the formal second person singular, using third-person verb conjugation."
+    },
+    {
+      "assignmentId": 2,
+      "assignmentLabel": "Pronouns",
+      "sectionLabel": "Section 2: Pronouns (Pronombres)",
+      "topic": "Pronouns",
+      "questionId": "s2-q128-complete-ellos-escribieron-una-carta-they-wrote-her-a-letter",
+      "sourceQuestionNumber": 128,
+      "prompt": "Complete: 'Ellos ___ escribieron una carta.' (They wrote her a letter.)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "lo"
+        },
+        {
+          "key": "B",
+          "text": "la"
+        },
+        {
+          "key": "C",
+          "text": "le"
+        },
+        {
+          "key": "D",
+          "text": "se"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "le",
+      "tricks": "Indirect object for 'her' = 'le'. 'Le escribieron una carta'."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Prepositions",
+      "sectionLabel": "Section 3: Prepositions (Preposiciones)",
+      "topic": "Prepositions",
+      "questionId": "s3-q21-voy-mercado-esta-tarde",
+      "sourceQuestionNumber": 21,
+      "prompt": "Voy ___ mercado esta tarde.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "a el"
+        },
+        {
+          "key": "B",
+          "text": "al"
+        },
+        {
+          "key": "C",
+          "text": "del"
+        },
+        {
+          "key": "D",
+          "text": "el"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "al",
+      "tricks": "'A + el' contracts to 'al' in Spanish. 'Voy al mercado'."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Prepositions",
+      "sectionLabel": "Section 3: Prepositions (Preposiciones)",
+      "topic": "Prepositions",
+      "questionId": "s3-q22-el-libro-est-la-mesa",
+      "sourceQuestionNumber": 22,
+      "prompt": "El libro está ___ la mesa.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "en"
+        },
+        {
+          "key": "B",
+          "text": "de"
+        },
+        {
+          "key": "C",
+          "text": "por"
+        },
+        {
+          "key": "D",
+          "text": "para"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "en",
+      "tricks": "'En' is used to indicate location: 'The book is on the table'."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Prepositions",
+      "sectionLabel": "Section 3: Prepositions (Preposiciones)",
+      "topic": "Prepositions",
+      "questionId": "s3-q23-vengo-espa-a",
+      "sourceQuestionNumber": 23,
+      "prompt": "Vengo ___ España.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "a"
+        },
+        {
+          "key": "B",
+          "text": "en"
+        },
+        {
+          "key": "C",
+          "text": "de"
+        },
+        {
+          "key": "D",
+          "text": "por"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "de",
+      "tricks": "'De' indicates origin: 'I come from Spain'."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Prepositions",
+      "sectionLabel": "Section 3: Prepositions (Preposiciones)",
+      "topic": "Prepositions",
+      "questionId": "s3-q24-voy-la-tienda-comprar-leche",
+      "sourceQuestionNumber": 24,
+      "prompt": "Voy ___ la tienda ___ comprar leche.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "a / por"
+        },
+        {
+          "key": "B",
+          "text": "en / para"
+        },
+        {
+          "key": "C",
+          "text": "a / para"
+        },
+        {
+          "key": "D",
+          "text": "de / a"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "a / para",
+      "tricks": "'A' indicates direction; 'para' indicates purpose: 'I go to the store to buy milk'."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Prepositions",
+      "sectionLabel": "Section 3: Prepositions (Preposiciones)",
+      "topic": "Prepositions",
+      "questionId": "s3-q25-estudio-la-ma-ana",
+      "sourceQuestionNumber": 25,
+      "prompt": "Estudio ___ la mañana.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "por"
+        },
+        {
+          "key": "B",
+          "text": "para"
+        },
+        {
+          "key": "C",
+          "text": "de"
+        },
+        {
+          "key": "D",
+          "text": "en"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "por",
+      "tricks": "'Por' is used with parts of the day: 'por la mañana' (in the morning)."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Prepositions",
+      "sectionLabel": "Section 3: Prepositions (Preposiciones)",
+      "topic": "Prepositions",
+      "questionId": "s3-q26-cu-nto-pagaste-ese-libro",
+      "sourceQuestionNumber": 26,
+      "prompt": "¿Cuánto pagaste ___ ese libro?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "para"
+        },
+        {
+          "key": "B",
+          "text": "por"
+        },
+        {
+          "key": "C",
+          "text": "de"
+        },
+        {
+          "key": "D",
+          "text": "en"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "por",
+      "tricks": "'Por' expresses exchange: 'How much did you pay for that book?'"
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Prepositions",
+      "sectionLabel": "Section 3: Prepositions (Preposiciones)",
+      "topic": "Prepositions",
+      "questionId": "s3-q27-este-regalo-es-ti",
+      "sourceQuestionNumber": 27,
+      "prompt": "Este regalo es ___ ti.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "por"
+        },
+        {
+          "key": "B",
+          "text": "para"
+        },
+        {
+          "key": "C",
+          "text": "de"
+        },
+        {
+          "key": "D",
+          "text": "en"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "para",
+      "tricks": "'Para' is used to express recipient: 'This gift is for you'."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Prepositions",
+      "sectionLabel": "Section 3: Prepositions (Preposiciones)",
+      "topic": "Prepositions",
+      "questionId": "s3-q28-la-farmacia-est-el-banco",
+      "sourceQuestionNumber": 28,
+      "prompt": "La farmacia está ___ el banco.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "entre"
+        },
+        {
+          "key": "B",
+          "text": "detrás"
+        },
+        {
+          "key": "C",
+          "text": "cerca de"
+        },
+        {
+          "key": "D",
+          "text": "al lado de"
+        }
+      ],
+      "answerKey": "D",
+      "answerText": "al lado de",
+      "tricks": "'Al lado de' means 'next to'. The pharmacy is next to the bank."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Prepositions",
+      "sectionLabel": "Section 3: Prepositions (Preposiciones)",
+      "topic": "Prepositions",
+      "questionId": "s3-q29-hablan-el-tel-fono",
+      "sourceQuestionNumber": 29,
+      "prompt": "Hablan ___ el teléfono.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "en"
+        },
+        {
+          "key": "B",
+          "text": "por"
+        },
+        {
+          "key": "C",
+          "text": "de"
+        },
+        {
+          "key": "D",
+          "text": "a"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "por",
+      "tricks": "'Por' is used for means of communication: 'They speak by phone'."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Prepositions",
+      "sectionLabel": "Section 3: Prepositions (Preposiciones)",
+      "topic": "Prepositions",
+      "questionId": "s3-q30-camin-el-parque",
+      "sourceQuestionNumber": 30,
+      "prompt": "Caminé ___ el parque.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "por"
+        },
+        {
+          "key": "B",
+          "text": "para"
+        },
+        {
+          "key": "C",
+          "text": "de"
+        },
+        {
+          "key": "D",
+          "text": "en"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "por",
+      "tricks": "'Por' expresses movement through a place: 'I walked through the park'."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Prepositions",
+      "sectionLabel": "Section 3: Prepositions (Preposiciones)",
+      "topic": "Prepositions",
+      "questionId": "s3-q129-el-gato-est-la-caja-inside",
+      "sourceQuestionNumber": 129,
+      "prompt": "El gato está ___ la caja. (inside)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "sobre"
+        },
+        {
+          "key": "B",
+          "text": "bajo"
+        },
+        {
+          "key": "C",
+          "text": "dentro de"
+        },
+        {
+          "key": "D",
+          "text": "fuera de"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "dentro de",
+      "tricks": "'Dentro de' = inside. 'El gato está dentro de la caja'."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Prepositions",
+      "sectionLabel": "Section 3: Prepositions (Preposiciones)",
+      "topic": "Prepositions",
+      "questionId": "s3-q130-la-l-mpara-est-la-mesa-above",
+      "sourceQuestionNumber": 130,
+      "prompt": "La lámpara está ___ la mesa. (above)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "debajo de"
+        },
+        {
+          "key": "B",
+          "text": "delante de"
+        },
+        {
+          "key": "C",
+          "text": "encima de"
+        },
+        {
+          "key": "D",
+          "text": "detrás de"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "encima de",
+      "tricks": "'Encima de' = on top of / above."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Prepositions",
+      "sectionLabel": "Section 3: Prepositions (Preposiciones)",
+      "topic": "Prepositions",
+      "questionId": "s3-q131-vivo-madrid",
+      "sourceQuestionNumber": 131,
+      "prompt": "Vivo ___ Madrid.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "a"
+        },
+        {
+          "key": "B",
+          "text": "en"
+        },
+        {
+          "key": "C",
+          "text": "de"
+        },
+        {
+          "key": "D",
+          "text": "por"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "en",
+      "tricks": "'En' is used for location of residence: 'I live in Madrid'."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Prepositions",
+      "sectionLabel": "Section 3: Prepositions (Preposiciones)",
+      "topic": "Prepositions",
+      "questionId": "s3-q132-salgo-casa-a-las-ocho",
+      "sourceQuestionNumber": 132,
+      "prompt": "Salgo ___ casa a las ocho.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "de"
+        },
+        {
+          "key": "B",
+          "text": "a"
+        },
+        {
+          "key": "C",
+          "text": "en"
+        },
+        {
+          "key": "D",
+          "text": "para"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "de",
+      "tricks": "'De' indicates departure from a place: 'I leave from home'."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Prepositions",
+      "sectionLabel": "Section 3: Prepositions (Preposiciones)",
+      "topic": "Prepositions",
+      "questionId": "s3-q133-el-perro-est-el-sof-under",
+      "sourceQuestionNumber": 133,
+      "prompt": "El perro está ___ el sofá. (under)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "sobre"
+        },
+        {
+          "key": "B",
+          "text": "encima de"
+        },
+        {
+          "key": "C",
+          "text": "debajo de"
+        },
+        {
+          "key": "D",
+          "text": "entre"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "debajo de",
+      "tricks": "'Debajo de' = under/beneath."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Prepositions",
+      "sectionLabel": "Section 3: Prepositions (Preposiciones)",
+      "topic": "Prepositions",
+      "questionId": "s3-q134-la-tienda-est-el-hospital-y-el-banco",
+      "sourceQuestionNumber": 134,
+      "prompt": "La tienda está ___ el hospital y el banco.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "al lado de"
+        },
+        {
+          "key": "B",
+          "text": "detrás de"
+        },
+        {
+          "key": "C",
+          "text": "entre"
+        },
+        {
+          "key": "D",
+          "text": "encima de"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "entre",
+      "tricks": "'Entre' = between. 'La tienda está entre el hospital y el banco'."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Prepositions",
+      "sectionLabel": "Section 3: Prepositions (Preposiciones)",
+      "topic": "Prepositions",
+      "questionId": "s3-q135-estoy-aqu-ayudarte",
+      "sourceQuestionNumber": 135,
+      "prompt": "Estoy aquí ___ ayudarte.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "por"
+        },
+        {
+          "key": "B",
+          "text": "para"
+        },
+        {
+          "key": "C",
+          "text": "de"
+        },
+        {
+          "key": "D",
+          "text": "en"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "para",
+      "tricks": "'Para' expresses purpose: 'I am here to help you'."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Prepositions",
+      "sectionLabel": "Section 3: Prepositions (Preposiciones)",
+      "topic": "Prepositions",
+      "questionId": "s3-q136-viaj-tren",
+      "sourceQuestionNumber": 136,
+      "prompt": "Viajé ___ tren.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "en"
+        },
+        {
+          "key": "B",
+          "text": "por"
+        },
+        {
+          "key": "C",
+          "text": "de"
+        },
+        {
+          "key": "D",
+          "text": "a"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "en",
+      "tricks": "'En' is used with modes of transport: 'Viajé en tren'."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Prepositions",
+      "sectionLabel": "Section 3: Prepositions (Preposiciones)",
+      "topic": "Prepositions",
+      "questionId": "s3-q137-gracias-tu-ayuda",
+      "sourceQuestionNumber": 137,
+      "prompt": "Gracias ___ tu ayuda.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "por"
+        },
+        {
+          "key": "B",
+          "text": "para"
+        },
+        {
+          "key": "C",
+          "text": "de"
+        },
+        {
+          "key": "D",
+          "text": "a"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "por",
+      "tricks": "'Por' expresses cause/reason: 'Thank you for your help'."
+    },
+    {
+      "assignmentId": 3,
+      "assignmentLabel": "Prepositions",
+      "sectionLabel": "Section 3: Prepositions (Preposiciones)",
+      "topic": "Prepositions",
+      "questionId": "s3-q138-el-cuadro-est-la-pared-on",
+      "sourceQuestionNumber": 138,
+      "prompt": "El cuadro está ___ la pared. (on)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "en"
+        },
+        {
+          "key": "B",
+          "text": "sobre"
+        },
+        {
+          "key": "C",
+          "text": "de"
+        },
+        {
+          "key": "D",
+          "text": "entre"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "sobre",
+      "tricks": "'Sobre' = on/upon (for vertical surfaces). 'El cuadro está sobre la pared'."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q31-yo-en-casa-estar",
+      "sourceQuestionNumber": 31,
+      "prompt": "Yo ___ en casa. (estar)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "está"
+        },
+        {
+          "key": "B",
+          "text": "estoy"
+        },
+        {
+          "key": "C",
+          "text": "estás"
+        },
+        {
+          "key": "D",
+          "text": "están"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "estoy",
+      "tricks": "First person singular of 'estar' is 'estoy'. Irregular yo form!"
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q32-t-un-pastel-delicioso-hacer",
+      "sourceQuestionNumber": 32,
+      "prompt": "Tú ___ un pastel delicioso. (hacer)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "hago"
+        },
+        {
+          "key": "B",
+          "text": "haces"
+        },
+        {
+          "key": "C",
+          "text": "hace"
+        },
+        {
+          "key": "D",
+          "text": "hacemos"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "haces",
+      "tricks": "Second person singular of 'hacer' is 'haces'."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q33-nosotros-la-tarea-juntos-hacer",
+      "sourceQuestionNumber": 33,
+      "prompt": "Nosotros ___ la tarea juntos. (hacer)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "hago"
+        },
+        {
+          "key": "B",
+          "text": "hacen"
+        },
+        {
+          "key": "C",
+          "text": "hacemos"
+        },
+        {
+          "key": "D",
+          "text": "haces"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "hacemos",
+      "tricks": "First person plural of 'hacer' is 'hacemos'."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q34-yo-la-tarea-en-la-biblioteca-hacer",
+      "sourceQuestionNumber": 34,
+      "prompt": "'Yo ___ la tarea en la biblioteca.' (hacer)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Hace"
+        },
+        {
+          "key": "B",
+          "text": "Hago"
+        },
+        {
+          "key": "C",
+          "text": "Haces"
+        },
+        {
+          "key": "D",
+          "text": "Hacemos"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Hago",
+      "tricks": "First person singular of 'hacer' is 'hago'. Irregular yo form!"
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q35-nosotros-ejercicio-por-la-ma-ana-hacer",
+      "sourceQuestionNumber": 35,
+      "prompt": "Nosotros ___ ejercicio por la mañana. (hacer)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "hacen"
+        },
+        {
+          "key": "B",
+          "text": "hacemos"
+        },
+        {
+          "key": "C",
+          "text": "hago"
+        },
+        {
+          "key": "D",
+          "text": "hace"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "hacemos",
+      "tricks": "'Hacemos' is the nosotros form of 'hacer'."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q36-normalmente-yo-la-tarea-por-la-noche",
+      "sourceQuestionNumber": 36,
+      "prompt": "'Normalmente, yo ___ la tarea por la noche.'",
+      "choices": [
+        {
+          "key": "A",
+          "text": "hice"
+        },
+        {
+          "key": "B",
+          "text": "haré"
+        },
+        {
+          "key": "C",
+          "text": "hago"
+        },
+        {
+          "key": "D",
+          "text": "haría"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "hago",
+      "tricks": "Habitual present action → present tense: 'hago'."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q37-nosotros-terminado-el-proyecto-haber",
+      "sourceQuestionNumber": 37,
+      "prompt": "Nosotros ___ terminado el proyecto. (haber)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "ha"
+        },
+        {
+          "key": "B",
+          "text": "han"
+        },
+        {
+          "key": "C",
+          "text": "hemos"
+        },
+        {
+          "key": "D",
+          "text": "he"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "hemos",
+      "tricks": "'Hemos' is the present perfect auxiliary for 'nosotros'."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q38-what-is-the-correct-way-to-say-there-is-or-there-are-in-the-present-tense",
+      "sourceQuestionNumber": 38,
+      "prompt": "What is the correct way to say 'there is' or 'there are' in the present tense?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Había"
+        },
+        {
+          "key": "B",
+          "text": "Hay"
+        },
+        {
+          "key": "C",
+          "text": "Habrá"
+        },
+        {
+          "key": "D",
+          "text": "Han"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Hay",
+      "tricks": "'Hay' is the impersonal form of 'haber' for present: 'there is/are'. It never changes form!"
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q39-en-la-fiesta-mucha-gente",
+      "sourceQuestionNumber": 39,
+      "prompt": "En la fiesta ___ mucha gente.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "habían"
+        },
+        {
+          "key": "B",
+          "text": "había"
+        },
+        {
+          "key": "C",
+          "text": "hay"
+        },
+        {
+          "key": "D",
+          "text": "han"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "había",
+      "tricks": "Imperfect of 'haber' for past 'there was' is 'había' (always singular)."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q40-si-tuviera-dinero-un-coche-nuevo-comprar",
+      "sourceQuestionNumber": 40,
+      "prompt": "Si tuviera dinero, ___ un coche nuevo. (comprar)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "compro"
+        },
+        {
+          "key": "B",
+          "text": "compraré"
+        },
+        {
+          "key": "C",
+          "text": "compraría"
+        },
+        {
+          "key": "D",
+          "text": "compre"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "compraría",
+      "tricks": "Conditional sentences with 'si + imperfect subjunctive' use the conditional tense: 'compraría'."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q41-la-reuni-n-en-la-sala-principal-ser",
+      "sourceQuestionNumber": 41,
+      "prompt": "La reunión ___ en la sala principal. (ser)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "está"
+        },
+        {
+          "key": "B",
+          "text": "es"
+        },
+        {
+          "key": "C",
+          "text": "hay"
+        },
+        {
+          "key": "D",
+          "text": "fue"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "es",
+      "tricks": "'Ser' is used for scheduled events and their location in formal contexts: 'La reunión es en la sala'."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q42-nosotros-felices-ser",
+      "sourceQuestionNumber": 42,
+      "prompt": "Nosotros ___ felices. (ser)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "somos"
+        },
+        {
+          "key": "B",
+          "text": "es"
+        },
+        {
+          "key": "C",
+          "text": "soy"
+        },
+        {
+          "key": "D",
+          "text": "son"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "somos",
+      "tricks": "First person plural of 'ser' is 'somos'."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q43-mi-profesor-muy-amable-ser",
+      "sourceQuestionNumber": 43,
+      "prompt": "Mi profesor ___ muy amable. (ser)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "es"
+        },
+        {
+          "key": "B",
+          "text": "está"
+        },
+        {
+          "key": "C",
+          "text": "hace"
+        },
+        {
+          "key": "D",
+          "text": "son"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "es",
+      "tricks": "Permanent traits use 'ser'. Third person singular is 'es'."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q44-ella-muy-inteligente-ser",
+      "sourceQuestionNumber": 44,
+      "prompt": "Ella ___ muy inteligente. (ser)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "está"
+        },
+        {
+          "key": "B",
+          "text": "es"
+        },
+        {
+          "key": "C",
+          "text": "soy"
+        },
+        {
+          "key": "D",
+          "text": "estamos"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "es",
+      "tricks": "Permanent characteristic → 'ser'. Third person singular is 'es'."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q45-nosotros-listos-para-el-examen-estar",
+      "sourceQuestionNumber": 45,
+      "prompt": "Nosotros ___ listos para el examen. (estar)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "están"
+        },
+        {
+          "key": "B",
+          "text": "estamos"
+        },
+        {
+          "key": "C",
+          "text": "está"
+        },
+        {
+          "key": "D",
+          "text": "eres"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "estamos",
+      "tricks": "Temporary state → 'estar'. First person plural is 'estamos'."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q46-esta-ma-ana-antes-de-salir-de-casa-yo-ya-desayunado-haber",
+      "sourceQuestionNumber": 46,
+      "prompt": "Esta mañana, antes de salir de casa, yo ya ___ desayunado. (haber)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "he"
+        },
+        {
+          "key": "B",
+          "text": "había"
+        },
+        {
+          "key": "C",
+          "text": "habré"
+        },
+        {
+          "key": "D",
+          "text": "haya"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "había",
+      "tricks": "Past action completed before another past action uses past perfect (pluperfect): 'había'."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q47-which-is-the-correct-conjugation-of-poder-for-nosotros",
+      "sourceQuestionNumber": 47,
+      "prompt": "Which is the correct conjugation of 'poder' for 'nosotros'?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Pueden"
+        },
+        {
+          "key": "B",
+          "text": "Podemos"
+        },
+        {
+          "key": "C",
+          "text": "Podeis"
+        },
+        {
+          "key": "D",
+          "text": "Puedes"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Podemos",
+      "tricks": "'Podemos' — the nosotros form of 'poder'. The o→ue stem change does NOT apply to nosotros/vosotros!"
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q48-complete-the-sentence-t-venir-ma-ana-poder",
+      "sourceQuestionNumber": 48,
+      "prompt": "Complete the sentence: '¿___ tú venir mañana?' (poder)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Puedes"
+        },
+        {
+          "key": "B",
+          "text": "Puede"
+        },
+        {
+          "key": "C",
+          "text": "Podéis"
+        },
+        {
+          "key": "D",
+          "text": "Puedo"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "Puedes",
+      "tricks": "Second person singular of 'poder' is 'puedes' (o→ue stem change)."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q49-choose-the-correct-spanish-sentence-for-they-study-a-lot",
+      "sourceQuestionNumber": 49,
+      "prompt": "Choose the correct Spanish sentence for: 'They study a lot.'",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Ellos estudios mucho"
+        },
+        {
+          "key": "B",
+          "text": "Ellos estudian mucho"
+        },
+        {
+          "key": "C",
+          "text": "Ellos estudios muy"
+        },
+        {
+          "key": "D",
+          "text": "Ellos estudia muy"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Ellos estudian mucho",
+      "tricks": "Third person plural of 'estudiar' is 'estudian'."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q50-choose-the-correct-spanish-sentence-for-she-is-very-intelligent",
+      "sourceQuestionNumber": 50,
+      "prompt": "Choose the correct Spanish sentence for: 'She is very intelligent.'",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Ella es muy inteligente"
+        },
+        {
+          "key": "B",
+          "text": "Ella está muy inteligente"
+        },
+        {
+          "key": "C",
+          "text": "Ella tiene muy inteligente"
+        },
+        {
+          "key": "D",
+          "text": "Ella muy es inteligente"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "Ella es muy inteligente",
+      "tricks": "Permanent trait → 'ser'. Correct word order: subject + verb + adverb + adjective."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q139-conjugate-hablar-for-t-in-the-present-tense",
+      "sourceQuestionNumber": 139,
+      "prompt": "Conjugate 'hablar' for 'tú' in the present tense.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "hablo"
+        },
+        {
+          "key": "B",
+          "text": "hablas"
+        },
+        {
+          "key": "C",
+          "text": "habla"
+        },
+        {
+          "key": "D",
+          "text": "habláis"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "hablas",
+      "tricks": "'Tú hablas' — standard -ar conjugation for second person singular."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q140-conjugate-comer-for-ellos-in-the-present-tense",
+      "sourceQuestionNumber": 140,
+      "prompt": "Conjugate 'comer' for 'ellos' in the present tense.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "come"
+        },
+        {
+          "key": "B",
+          "text": "comes"
+        },
+        {
+          "key": "C",
+          "text": "comen"
+        },
+        {
+          "key": "D",
+          "text": "coméis"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "comen",
+      "tricks": "'Ellos comen' — third person plural of -er verb 'comer'."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q141-conjugate-vivir-for-yo-in-the-present-tense",
+      "sourceQuestionNumber": 141,
+      "prompt": "Conjugate 'vivir' for 'yo' in the present tense.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "vives"
+        },
+        {
+          "key": "B",
+          "text": "vive"
+        },
+        {
+          "key": "C",
+          "text": "vivís"
+        },
+        {
+          "key": "D",
+          "text": "vivo"
+        }
+      ],
+      "answerKey": "D",
+      "answerText": "vivo",
+      "tricks": "'Yo vivo' — first person singular of -ir verb 'vivir'."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q142-what-is-the-usted-form-of-tener-in-the-present-tense",
+      "sourceQuestionNumber": 142,
+      "prompt": "What is the 'usted' form of 'tener' in the present tense?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "tengo"
+        },
+        {
+          "key": "B",
+          "text": "tienes"
+        },
+        {
+          "key": "C",
+          "text": "tiene"
+        },
+        {
+          "key": "D",
+          "text": "tenemos"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "tiene",
+      "tricks": "'Usted tiene' — 'tener' is irregular: yo tengo, tú tienes, él/usted tiene."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q143-conjugate-ir-for-nosotros-in-the-present-tense",
+      "sourceQuestionNumber": 143,
+      "prompt": "Conjugate 'ir' for 'nosotros' in the present tense.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "van"
+        },
+        {
+          "key": "B",
+          "text": "vais"
+        },
+        {
+          "key": "C",
+          "text": "vamos"
+        },
+        {
+          "key": "D",
+          "text": "va"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "vamos",
+      "tricks": "'Nosotros vamos' — 'ir' is highly irregular in the present tense."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q144-what-is-the-yo-form-of-ser-in-the-present-tense",
+      "sourceQuestionNumber": 144,
+      "prompt": "What is the 'yo' form of 'ser' in the present tense?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "es"
+        },
+        {
+          "key": "B",
+          "text": "eres"
+        },
+        {
+          "key": "C",
+          "text": "somos"
+        },
+        {
+          "key": "D",
+          "text": "soy"
+        }
+      ],
+      "answerKey": "D",
+      "answerText": "soy",
+      "tricks": "'Yo soy' — 'ser' is irregular: soy, eres, es, somos, sois, son."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q145-conjugate-querer-for-ella-in-the-present-tense",
+      "sourceQuestionNumber": 145,
+      "prompt": "Conjugate 'querer' for 'ella' in the present tense.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "quiero"
+        },
+        {
+          "key": "B",
+          "text": "quieres"
+        },
+        {
+          "key": "C",
+          "text": "quiere"
+        },
+        {
+          "key": "D",
+          "text": "queremos"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "quiere",
+      "tricks": "'Ella quiere' — stem-changing verb (e→ie): quiero, quieres, quiere, queremos, queréis, quieren."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q146-what-is-the-preterite-past-tense-of-hablar-for-yo",
+      "sourceQuestionNumber": 146,
+      "prompt": "What is the preterite (past) tense of 'hablar' for 'yo'?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "hablé"
+        },
+        {
+          "key": "B",
+          "text": "hablaste"
+        },
+        {
+          "key": "C",
+          "text": "habló"
+        },
+        {
+          "key": "D",
+          "text": "hablamos"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "hablé",
+      "tricks": "First person singular preterite of -ar verbs: 'hablé' (note the accent!)."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q147-what-is-the-preterite-of-ir-for-ellos",
+      "sourceQuestionNumber": 147,
+      "prompt": "What is the preterite of 'ir' for 'ellos'?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "fueron"
+        },
+        {
+          "key": "B",
+          "text": "fuiste"
+        },
+        {
+          "key": "C",
+          "text": "fui"
+        },
+        {
+          "key": "D",
+          "text": "fuimos"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "fueron",
+      "tricks": "'Ir' and 'ser' share preterite forms. 'Ellos fueron'."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q148-conjugate-dormir-for-t-in-the-present-tense",
+      "sourceQuestionNumber": 148,
+      "prompt": "Conjugate 'dormir' for 'tú' in the present tense.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "durmo"
+        },
+        {
+          "key": "B",
+          "text": "duermes"
+        },
+        {
+          "key": "C",
+          "text": "duerme"
+        },
+        {
+          "key": "D",
+          "text": "dormís"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "duermes",
+      "tricks": "'Dormir' is a stem-changing verb (o→ue): yo duermo, tú duermes."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q149-what-is-the-vosotros-form-of-hablar-in-the-present-tense",
+      "sourceQuestionNumber": 149,
+      "prompt": "What is the 'vosotros' form of 'hablar' in the present tense?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "hablan"
+        },
+        {
+          "key": "B",
+          "text": "habláis"
+        },
+        {
+          "key": "C",
+          "text": "hablas"
+        },
+        {
+          "key": "D",
+          "text": "hablamos"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "habláis",
+      "tricks": "'Vosotros habláis' — vosotros form adds '-áis' for -ar verbs."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q150-conjugate-tener-for-yo-in-the-present-tense",
+      "sourceQuestionNumber": 150,
+      "prompt": "Conjugate 'tener' for 'yo' in the present tense.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "tiene"
+        },
+        {
+          "key": "B",
+          "text": "tienes"
+        },
+        {
+          "key": "C",
+          "text": "tengo"
+        },
+        {
+          "key": "D",
+          "text": "tenemos"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "tengo",
+      "tricks": "'Yo tengo' — 'tener' has an irregular 'yo' form."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q151-what-is-the-future-tense-of-hablar-for-yo",
+      "sourceQuestionNumber": 151,
+      "prompt": "What is the future tense of 'hablar' for 'yo'?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "hablaré"
+        },
+        {
+          "key": "B",
+          "text": "hablarás"
+        },
+        {
+          "key": "C",
+          "text": "hablará"
+        },
+        {
+          "key": "D",
+          "text": "hablaremos"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "hablaré",
+      "tricks": "Future tense: infinitive + ending. 'Yo hablaré'."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q152-choose-the-correct-form-ayer-nosotros-al-cine-ir",
+      "sourceQuestionNumber": 152,
+      "prompt": "Choose the correct form: 'Ayer nosotros ___ al cine.' (ir)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "vamos"
+        },
+        {
+          "key": "B",
+          "text": "vimos"
+        },
+        {
+          "key": "C",
+          "text": "fuimos"
+        },
+        {
+          "key": "D",
+          "text": "íbamos"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "fuimos",
+      "tricks": "Preterite of 'ir' for nosotros = 'fuimos'."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q153-what-is-the-imperative-command-for-t-with-hablar",
+      "sourceQuestionNumber": 153,
+      "prompt": "What is the imperative (command) for 'tú' with 'hablar'?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "hablas"
+        },
+        {
+          "key": "B",
+          "text": "habla"
+        },
+        {
+          "key": "C",
+          "text": "hable"
+        },
+        {
+          "key": "D",
+          "text": "habléis"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "habla",
+      "tricks": "Affirmative tú command for -ar verbs = third person singular present: 'habla'."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q154-conjugate-poder-for-ellos-in-the-present-tense",
+      "sourceQuestionNumber": 154,
+      "prompt": "Conjugate 'poder' for 'ellos' in the present tense.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "podemos"
+        },
+        {
+          "key": "B",
+          "text": "podéis"
+        },
+        {
+          "key": "C",
+          "text": "puedo"
+        },
+        {
+          "key": "D",
+          "text": "pueden"
+        }
+      ],
+      "answerKey": "D",
+      "answerText": "pueden",
+      "tricks": "'Ellos pueden' — stem-changing (o→ue) but nosotros/vosotros keep 'o'."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q155-what-is-the-yo-form-of-saber-in-the-present-tense",
+      "sourceQuestionNumber": 155,
+      "prompt": "What is the 'yo' form of 'saber' in the present tense?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "sabes"
+        },
+        {
+          "key": "B",
+          "text": "sabe"
+        },
+        {
+          "key": "C",
+          "text": "sé"
+        },
+        {
+          "key": "D",
+          "text": "sabemos"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "sé",
+      "tricks": "'Saber' has an irregular 'yo' form: 'yo sé'."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q156-complete-ella-m-sica-cl-sica-escuchar-present",
+      "sourceQuestionNumber": 156,
+      "prompt": "Complete: 'Ella ___ música clásica.' (escuchar, present)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "escucho"
+        },
+        {
+          "key": "B",
+          "text": "escuchas"
+        },
+        {
+          "key": "C",
+          "text": "escucha"
+        },
+        {
+          "key": "D",
+          "text": "escuchamos"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "escucha",
+      "tricks": "'Ella escucha' — third person singular of -ar verb."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q157-what-is-the-conditional-tense-of-comer-for-nosotros",
+      "sourceQuestionNumber": 157,
+      "prompt": "What is the conditional tense of 'comer' for 'nosotros'?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "comeríamos"
+        },
+        {
+          "key": "B",
+          "text": "comemos"
+        },
+        {
+          "key": "C",
+          "text": "comeríais"
+        },
+        {
+          "key": "D",
+          "text": "comeremos"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "comeríamos",
+      "tricks": "Conditional: infinitive + conditional ending. 'Nosotros comeríamos'."
+    },
+    {
+      "assignmentId": 4,
+      "assignmentLabel": "Verb Conjugation",
+      "sectionLabel": "Section 4: Verb Conjugation (Conjugación de Verbos)",
+      "topic": "Verb Conjugation",
+      "questionId": "s4-q158-which-sentence-uses-the-subjunctive-correctly",
+      "sourceQuestionNumber": 158,
+      "prompt": "Which sentence uses the subjunctive correctly?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Espero que ella viene."
+        },
+        {
+          "key": "B",
+          "text": "Espero que ella venga."
+        },
+        {
+          "key": "C",
+          "text": "Espero que ella vendrá."
+        },
+        {
+          "key": "D",
+          "text": "Espero que ella vino."
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Espero que ella venga.",
+      "tricks": "'Esperar que' triggers the subjunctive mood: 'Espero que ella venga'."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Numbers",
+      "sectionLabel": "Section 5: Numbers (Números)",
+      "topic": "Numbers",
+      "questionId": "s5-q51-what-is-the-spanish-word-for-500",
+      "sourceQuestionNumber": 51,
+      "prompt": "What is the Spanish word for 500?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Quinientos"
+        },
+        {
+          "key": "B",
+          "text": "Cuatrocientos"
+        },
+        {
+          "key": "C",
+          "text": "Seiscientos"
+        },
+        {
+          "key": "D",
+          "text": "Trescientos"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "Quinientos",
+      "tricks": "Quinientos = 500. Each hundred has a specific form in Spanish."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Numbers",
+      "sectionLabel": "Section 5: Numbers (Números)",
+      "topic": "Numbers",
+      "questionId": "s5-q52-how-do-you-say-1-000-in-spanish",
+      "sourceQuestionNumber": 52,
+      "prompt": "How do you say 1,000 in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Cien"
+        },
+        {
+          "key": "B",
+          "text": "Ciento"
+        },
+        {
+          "key": "C",
+          "text": "Mil"
+        },
+        {
+          "key": "D",
+          "text": "Millón"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "Mil",
+      "tricks": "'Mil' = 1,000. 'Cien' = 100; 'ciento' is used for 101–199."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Numbers",
+      "sectionLabel": "Section 5: Numbers (Números)",
+      "topic": "Numbers",
+      "questionId": "s5-q53-how-do-you-write-352-in-spanish",
+      "sourceQuestionNumber": 53,
+      "prompt": "How do you write 352 in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Trescientos cincuenta y dos"
+        },
+        {
+          "key": "B",
+          "text": "Tres cientos cincuenta dos"
+        },
+        {
+          "key": "C",
+          "text": "Trescientos y cincuenta dos"
+        },
+        {
+          "key": "D",
+          "text": "Trescientas cincuenta y dos"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "Trescientos cincuenta y dos",
+      "tricks": "Hundreds are written as one word (trescientos), no 'y' between hundreds and tens."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Numbers",
+      "sectionLabel": "Section 5: Numbers (Números)",
+      "topic": "Numbers",
+      "questionId": "s5-q54-how-do-you-correctly-say-99-000-in-spanish",
+      "sourceQuestionNumber": 54,
+      "prompt": "How do you correctly say 99,000 in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Noventa y nueve miles"
+        },
+        {
+          "key": "B",
+          "text": "Noventa y nueve mil"
+        },
+        {
+          "key": "C",
+          "text": "Novecientos noventa mil"
+        },
+        {
+          "key": "D",
+          "text": "Noventa nueve mil"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Noventa y nueve mil",
+      "tricks": "Thousands in Spanish never pluralize: 'noventa y nueve mil', not 'miles'."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Numbers",
+      "sectionLabel": "Section 5: Numbers (Números)",
+      "topic": "Numbers",
+      "questionId": "s5-q55-a-store-bill-reads-doscientos-cuarenta-y-siete-euros-what-is-the-amount",
+      "sourceQuestionNumber": 55,
+      "prompt": "A store bill reads 'doscientos cuarenta y siete euros.' What is the amount?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "€274"
+        },
+        {
+          "key": "B",
+          "text": "€247"
+        },
+        {
+          "key": "C",
+          "text": "€724"
+        },
+        {
+          "key": "D",
+          "text": "€472"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "€247",
+      "tricks": "Doscientos = 200, cuarenta = 40, siete = 7 → 247."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Numbers",
+      "sectionLabel": "Section 5: Numbers (Números)",
+      "topic": "Numbers",
+      "questionId": "s5-q56-what-is-cuatro-mil-setecientos-treinta-y-ocho-in-digits",
+      "sourceQuestionNumber": 56,
+      "prompt": "What is 'cuatro mil setecientos treinta y ocho' in digits?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "4,738"
+        },
+        {
+          "key": "B",
+          "text": "4,783"
+        },
+        {
+          "key": "C",
+          "text": "4,378"
+        },
+        {
+          "key": "D",
+          "text": "4,873"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "4,738",
+      "tricks": "Cuatro mil = 4,000; setecientos = 700; treinta y ocho = 38 → 4,738."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Numbers",
+      "sectionLabel": "Section 5: Numbers (Números)",
+      "topic": "Numbers",
+      "questionId": "s5-q57-what-is-cinco-mil-doscientos-cuarenta-y-uno-in-digits",
+      "sourceQuestionNumber": 57,
+      "prompt": "What is 'cinco mil doscientos cuarenta y uno' in digits?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "5,421"
+        },
+        {
+          "key": "B",
+          "text": "5,241"
+        },
+        {
+          "key": "C",
+          "text": "5,142"
+        },
+        {
+          "key": "D",
+          "text": "5,412"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "5,241",
+      "tricks": "Cinco mil = 5,000; doscientos = 200; cuarenta y uno = 41 → 5,241."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Numbers",
+      "sectionLabel": "Section 5: Numbers (Números)",
+      "topic": "Numbers",
+      "questionId": "s5-q58-what-is-the-spanish-word-for-700",
+      "sourceQuestionNumber": 58,
+      "prompt": "What is the Spanish word for 700?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Setecientos"
+        },
+        {
+          "key": "B",
+          "text": "Ochocientos"
+        },
+        {
+          "key": "C",
+          "text": "Novecientos"
+        },
+        {
+          "key": "D",
+          "text": "Seiscientos"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "Setecientos",
+      "tricks": "Setecientos = 700."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Numbers",
+      "sectionLabel": "Section 5: Numbers (Números)",
+      "topic": "Numbers",
+      "questionId": "s5-q59-how-do-you-write-1-245-in-spanish",
+      "sourceQuestionNumber": 59,
+      "prompt": "How do you write 1,245 in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Mil doscientos cuarenta y cinco"
+        },
+        {
+          "key": "B",
+          "text": "Mil doscientos cuarenta cinco"
+        },
+        {
+          "key": "C",
+          "text": "Mil doscientos y cuarenta cinco"
+        },
+        {
+          "key": "D",
+          "text": "Milésimo doscientos cuarenta y cinco"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "Mil doscientos cuarenta y cinco",
+      "tricks": "Mil + doscientos + cuarenta y cinco. No 'y' after 'mil' or hundreds."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Numbers",
+      "sectionLabel": "Section 5: Numbers (Números)",
+      "topic": "Numbers",
+      "questionId": "s5-q60-a-receipt-reads-cuatrocientos-ochenta-y-seis-euros-what-is-the-amount",
+      "sourceQuestionNumber": 60,
+      "prompt": "A receipt reads 'cuatrocientos ochenta y seis euros.' What is the amount?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "€468"
+        },
+        {
+          "key": "B",
+          "text": "€486"
+        },
+        {
+          "key": "C",
+          "text": "€846"
+        },
+        {
+          "key": "D",
+          "text": "€684"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "€486",
+      "tricks": "Cuatrocientos = 400, ochenta = 80, seis = 6 → 486."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Numbers",
+      "sectionLabel": "Section 5: Numbers (Números)",
+      "topic": "Numbers",
+      "questionId": "s5-q61-how-do-you-correctly-say-15-000-in-spanish",
+      "sourceQuestionNumber": 61,
+      "prompt": "How do you correctly say 15,000 in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Quince miles"
+        },
+        {
+          "key": "B",
+          "text": "Quince mil"
+        },
+        {
+          "key": "C",
+          "text": "Cincuenta mil"
+        },
+        {
+          "key": "D",
+          "text": "Quinientos mil"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Quince mil",
+      "tricks": "'Mil' does not pluralize: 'quince mil'."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Numbers",
+      "sectionLabel": "Section 5: Numbers (Números)",
+      "topic": "Numbers",
+      "questionId": "s5-q159-how-do-you-say-21-in-spanish",
+      "sourceQuestionNumber": 159,
+      "prompt": "How do you say '21' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Veinte y uno"
+        },
+        {
+          "key": "B",
+          "text": "Veintiuno"
+        },
+        {
+          "key": "C",
+          "text": "Veinteuno"
+        },
+        {
+          "key": "D",
+          "text": "Veinte uno"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Veintiuno",
+      "tricks": "21 = 'veintiuno' (one word, no space). 21–29 are all one word."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Numbers",
+      "sectionLabel": "Section 5: Numbers (Números)",
+      "topic": "Numbers",
+      "questionId": "s5-q160-how-do-you-say-100-in-spanish",
+      "sourceQuestionNumber": 160,
+      "prompt": "How do you say '100' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Ciento"
+        },
+        {
+          "key": "B",
+          "text": "Cien"
+        },
+        {
+          "key": "C",
+          "text": "Mil"
+        },
+        {
+          "key": "D",
+          "text": "Cientos"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Cien",
+      "tricks": "100 = 'cien' (used alone); 'ciento' is used for 101–199."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Numbers",
+      "sectionLabel": "Section 5: Numbers (Números)",
+      "topic": "Numbers",
+      "questionId": "s5-q161-how-do-you-say-101-in-spanish",
+      "sourceQuestionNumber": 161,
+      "prompt": "How do you say '101' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Ciento uno"
+        },
+        {
+          "key": "B",
+          "text": "Cien uno"
+        },
+        {
+          "key": "C",
+          "text": "Cien y uno"
+        },
+        {
+          "key": "D",
+          "text": "Cientos uno"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "Ciento uno",
+      "tricks": "101 = 'ciento uno'. 'Cien' becomes 'ciento' for 101–199."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Numbers",
+      "sectionLabel": "Section 5: Numbers (Números)",
+      "topic": "Numbers",
+      "questionId": "s5-q162-what-is-doscientos-in-digits",
+      "sourceQuestionNumber": 162,
+      "prompt": "What is 'doscientos' in digits?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "20"
+        },
+        {
+          "key": "B",
+          "text": "120"
+        },
+        {
+          "key": "C",
+          "text": "200"
+        },
+        {
+          "key": "D",
+          "text": "2,000"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "200",
+      "tricks": "Doscientos = 200."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Numbers",
+      "sectionLabel": "Section 5: Numbers (Números)",
+      "topic": "Numbers",
+      "questionId": "s5-q163-how-do-you-say-1-000-000-in-spanish",
+      "sourceQuestionNumber": 163,
+      "prompt": "How do you say '1,000,000' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Mil"
+        },
+        {
+          "key": "B",
+          "text": "Millón"
+        },
+        {
+          "key": "C",
+          "text": "Billón"
+        },
+        {
+          "key": "D",
+          "text": "Cien mil"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Millón",
+      "tricks": "1,000,000 = 'un millón'."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Numbers",
+      "sectionLabel": "Section 5: Numbers (Números)",
+      "topic": "Numbers",
+      "questionId": "s5-q164-how-do-you-say-16-in-spanish",
+      "sourceQuestionNumber": 164,
+      "prompt": "How do you say '16' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Diez y seis"
+        },
+        {
+          "key": "B",
+          "text": "Dieciséis"
+        },
+        {
+          "key": "C",
+          "text": "Dieciseis"
+        },
+        {
+          "key": "D",
+          "text": "Seis y diez"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Dieciséis",
+      "tricks": "16 = 'dieciséis' (one word, with accent on the é)."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Numbers",
+      "sectionLabel": "Section 5: Numbers (Números)",
+      "topic": "Numbers",
+      "questionId": "s5-q165-how-do-you-say-200-when-counting-feminine-nouns-e-g-doscientas-p-ginas",
+      "sourceQuestionNumber": 165,
+      "prompt": "How do you say '200' when counting feminine nouns (e.g., 'doscientas páginas')?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "doscientos páginas"
+        },
+        {
+          "key": "B",
+          "text": "doscientas páginas"
+        },
+        {
+          "key": "C",
+          "text": "dos cientos páginas"
+        },
+        {
+          "key": "D",
+          "text": "dos cienras páginas"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "doscientas páginas",
+      "tricks": "Hundreds agree in gender: 'doscientas' for feminine nouns."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Numbers",
+      "sectionLabel": "Section 5: Numbers (Números)",
+      "topic": "Numbers",
+      "questionId": "s5-q166-what-is-noventa-in-digits",
+      "sourceQuestionNumber": 166,
+      "prompt": "What is 'noventa' in digits?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "19"
+        },
+        {
+          "key": "B",
+          "text": "90"
+        },
+        {
+          "key": "C",
+          "text": "900"
+        },
+        {
+          "key": "D",
+          "text": "9,000"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "90",
+      "tricks": "Noventa = 90."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Numbers",
+      "sectionLabel": "Section 5: Numbers (Números)",
+      "topic": "Numbers",
+      "questionId": "s5-q167-how-do-you-say-50-in-spanish",
+      "sourceQuestionNumber": 167,
+      "prompt": "How do you say '50' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Cuarenta"
+        },
+        {
+          "key": "B",
+          "text": "Cincuenta"
+        },
+        {
+          "key": "C",
+          "text": "Sesenta"
+        },
+        {
+          "key": "D",
+          "text": "Setenta"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Cincuenta",
+      "tricks": "Cincuenta = 50."
+    },
+    {
+      "assignmentId": 5,
+      "assignmentLabel": "Numbers",
+      "sectionLabel": "Section 5: Numbers (Números)",
+      "topic": "Numbers",
+      "questionId": "s5-q168-what-is-treinta-y-tres-in-digits",
+      "sourceQuestionNumber": 168,
+      "prompt": "What is 'treinta y tres' in digits?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "23"
+        },
+        {
+          "key": "B",
+          "text": "33"
+        },
+        {
+          "key": "C",
+          "text": "303"
+        },
+        {
+          "key": "D",
+          "text": "3,300"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "33",
+      "tricks": "Treinta = 30, tres = 3 → 33."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Days of the Week",
+      "sectionLabel": "Section 6: Days of the Week (Días de la Semana)",
+      "topic": "Days of the Week",
+      "questionId": "s6-q62-how-do-you-say-monday-in-spanish",
+      "sourceQuestionNumber": 62,
+      "prompt": "How do you say 'Monday' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Martes"
+        },
+        {
+          "key": "B",
+          "text": "Miércoles"
+        },
+        {
+          "key": "C",
+          "text": "Lunes"
+        },
+        {
+          "key": "D",
+          "text": "Jueves"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "Lunes",
+      "tricks": "Lunes = Monday."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Days of the Week",
+      "sectionLabel": "Section 6: Days of the Week (Días de la Semana)",
+      "topic": "Days of the Week",
+      "questionId": "s6-q63-how-do-you-say-friday-in-spanish",
+      "sourceQuestionNumber": 63,
+      "prompt": "How do you say 'Friday' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Jueves"
+        },
+        {
+          "key": "B",
+          "text": "Viernes"
+        },
+        {
+          "key": "C",
+          "text": "Sábado"
+        },
+        {
+          "key": "D",
+          "text": "Domingo"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Viernes",
+      "tricks": "Viernes = Friday."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Days of the Week",
+      "sectionLabel": "Section 6: Days of the Week (Días de la Semana)",
+      "topic": "Days of the Week",
+      "questionId": "s6-q64-which-day-comes-after-mi-rcoles-wednesday",
+      "sourceQuestionNumber": 64,
+      "prompt": "Which day comes after 'miércoles' (Wednesday)?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Martes"
+        },
+        {
+          "key": "B",
+          "text": "Lunes"
+        },
+        {
+          "key": "C",
+          "text": "Jueves"
+        },
+        {
+          "key": "D",
+          "text": "Viernes"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "Jueves",
+      "tricks": "Jueves (Thursday) comes after miércoles (Wednesday)."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Days of the Week",
+      "sectionLabel": "Section 6: Days of the Week (Días de la Semana)",
+      "topic": "Days of the Week",
+      "questionId": "s6-q65-what-is-el-fin-de-semana-in-english",
+      "sourceQuestionNumber": 65,
+      "prompt": "What is 'el fin de semana' in English?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Weekday"
+        },
+        {
+          "key": "B",
+          "text": "Weekend"
+        },
+        {
+          "key": "C",
+          "text": "Holiday"
+        },
+        {
+          "key": "D",
+          "text": "Vacation"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Weekend",
+      "tricks": "'Fin de semana' = weekend (Saturday and Sunday)."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Days of the Week",
+      "sectionLabel": "Section 6: Days of the Week (Días de la Semana)",
+      "topic": "Days of the Week",
+      "questionId": "s6-q66-how-do-you-say-sunday-in-spanish",
+      "sourceQuestionNumber": 66,
+      "prompt": "How do you say 'Sunday' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Sábado"
+        },
+        {
+          "key": "B",
+          "text": "Lunes"
+        },
+        {
+          "key": "C",
+          "text": "Domingo"
+        },
+        {
+          "key": "D",
+          "text": "Martes"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "Domingo",
+      "tricks": "Domingo = Sunday."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Days of the Week",
+      "sectionLabel": "Section 6: Days of the Week (Días de la Semana)",
+      "topic": "Days of the Week",
+      "questionId": "s6-q67-which-of-the-following-is-tuesday-in-spanish",
+      "sourceQuestionNumber": 67,
+      "prompt": "Which of the following is 'Tuesday' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Lunes"
+        },
+        {
+          "key": "B",
+          "text": "Martes"
+        },
+        {
+          "key": "C",
+          "text": "Miércoles"
+        },
+        {
+          "key": "D",
+          "text": "Jueves"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Martes",
+      "tricks": "Martes = Tuesday."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Days of the Week",
+      "sectionLabel": "Section 6: Days of the Week (Días de la Semana)",
+      "topic": "Days of the Week",
+      "questionId": "s6-q68-in-spanish-speaking-countries-which-day-is-typically-considered-the-first-day-of",
+      "sourceQuestionNumber": 68,
+      "prompt": "In Spanish-speaking countries, which day is typically considered the first day of the week?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Domingo"
+        },
+        {
+          "key": "B",
+          "text": "Sábado"
+        },
+        {
+          "key": "C",
+          "text": "Lunes"
+        },
+        {
+          "key": "D",
+          "text": "Martes"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "Lunes",
+      "tricks": "Lunes (Monday) is considered the first day of the week in Spanish-speaking countries."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Days of the Week",
+      "sectionLabel": "Section 6: Days of the Week (Días de la Semana)",
+      "topic": "Days of the Week",
+      "questionId": "s6-q69-how-do-you-say-today-is-wednesday-in-spanish",
+      "sourceQuestionNumber": 69,
+      "prompt": "How do you say 'Today is Wednesday' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Hoy es martes."
+        },
+        {
+          "key": "B",
+          "text": "Hoy es miércoles."
+        },
+        {
+          "key": "C",
+          "text": "Hoy es jueves."
+        },
+        {
+          "key": "D",
+          "text": "Hoy es viernes."
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Hoy es miércoles.",
+      "tricks": "Miércoles = Wednesday. 'Hoy es miércoles'."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Days of the Week",
+      "sectionLabel": "Section 6: Days of the Week (Días de la Semana)",
+      "topic": "Days of the Week",
+      "questionId": "s6-q70-how-do-you-say-thursday-in-spanish",
+      "sourceQuestionNumber": 70,
+      "prompt": "How do you say 'Thursday' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Viernes"
+        },
+        {
+          "key": "B",
+          "text": "Sábado"
+        },
+        {
+          "key": "C",
+          "text": "Miércoles"
+        },
+        {
+          "key": "D",
+          "text": "Jueves"
+        }
+      ],
+      "answerKey": "D",
+      "answerText": "Jueves",
+      "tricks": "Jueves = Thursday."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Days of the Week",
+      "sectionLabel": "Section 6: Days of the Week (Días de la Semana)",
+      "topic": "Days of the Week",
+      "questionId": "s6-q71-how-do-you-say-saturday-in-spanish",
+      "sourceQuestionNumber": 71,
+      "prompt": "How do you say 'Saturday' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Domingo"
+        },
+        {
+          "key": "B",
+          "text": "Lunes"
+        },
+        {
+          "key": "C",
+          "text": "Sábado"
+        },
+        {
+          "key": "D",
+          "text": "Viernes"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "Sábado",
+      "tricks": "Sábado = Saturday."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Days of the Week",
+      "sectionLabel": "Section 6: Days of the Week (Días de la Semana)",
+      "topic": "Days of the Week",
+      "questionId": "s6-q169-how-do-you-say-on-mondays-habitually-in-spanish",
+      "sourceQuestionNumber": 169,
+      "prompt": "How do you say 'on Mondays' (habitually) in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "El lunes"
+        },
+        {
+          "key": "B",
+          "text": "Los lunes"
+        },
+        {
+          "key": "C",
+          "text": "En lunes"
+        },
+        {
+          "key": "D",
+          "text": "A lunes"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Los lunes",
+      "tricks": "Habitual days use the definite plural article: 'los lunes'."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Days of the Week",
+      "sectionLabel": "Section 6: Days of the Week (Días de la Semana)",
+      "topic": "Days of the Week",
+      "questionId": "s6-q170-what-is-the-abbreviation-for-mi-rcoles-in-a-spanish-calendar",
+      "sourceQuestionNumber": 170,
+      "prompt": "What is the abbreviation for 'miércoles' in a Spanish calendar?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Ma"
+        },
+        {
+          "key": "B",
+          "text": "Mi"
+        },
+        {
+          "key": "C",
+          "text": "Ju"
+        },
+        {
+          "key": "D",
+          "text": "Vi"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Mi",
+      "tricks": "Miércoles is abbreviated as 'Mi' or 'X' in some calendars."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Days of the Week",
+      "sectionLabel": "Section 6: Days of the Week (Días de la Semana)",
+      "topic": "Days of the Week",
+      "questionId": "s6-q171-how-do-you-say-last-tuesday-in-spanish",
+      "sourceQuestionNumber": 171,
+      "prompt": "How do you say 'last Tuesday' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "el próximo martes"
+        },
+        {
+          "key": "B",
+          "text": "el martes pasado"
+        },
+        {
+          "key": "C",
+          "text": "todos los martes"
+        },
+        {
+          "key": "D",
+          "text": "cada martes"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "el martes pasado",
+      "tricks": "'Pasado' means last/past: 'el martes pasado'."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Days of the Week",
+      "sectionLabel": "Section 6: Days of the Week (Días de la Semana)",
+      "topic": "Days of the Week",
+      "questionId": "s6-q172-how-do-you-say-next-friday-in-spanish",
+      "sourceQuestionNumber": 172,
+      "prompt": "How do you say 'next Friday' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "el viernes pasado"
+        },
+        {
+          "key": "B",
+          "text": "los viernes"
+        },
+        {
+          "key": "C",
+          "text": "el próximo viernes"
+        },
+        {
+          "key": "D",
+          "text": "cada viernes"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "el próximo viernes",
+      "tricks": "'Próximo' means next: 'el próximo viernes'."
+    },
+    {
+      "assignmentId": 6,
+      "assignmentLabel": "Days of the Week",
+      "sectionLabel": "Section 6: Days of the Week (Días de la Semana)",
+      "topic": "Days of the Week",
+      "questionId": "s6-q173-which-sentence-means-i-work-every-saturday",
+      "sourceQuestionNumber": 173,
+      "prompt": "Which sentence means 'I work every Saturday'?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Trabajo el próximo sábado."
+        },
+        {
+          "key": "B",
+          "text": "Trabajo todos los sábados."
+        },
+        {
+          "key": "C",
+          "text": "Trabajo los sábados pasados."
+        },
+        {
+          "key": "D",
+          "text": "Trabajo cada el sábado."
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Trabajo todos los sábados.",
+      "tricks": "'Todos los sábados' = every Saturday."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Colors",
+      "sectionLabel": "Section 7: Colors (Colores)",
+      "topic": "Colors",
+      "questionId": "s7-q72-what-is-the-spanish-word-for-red",
+      "sourceQuestionNumber": 72,
+      "prompt": "What is the Spanish word for 'red'?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Azul"
+        },
+        {
+          "key": "B",
+          "text": "Rojo"
+        },
+        {
+          "key": "C",
+          "text": "Verde"
+        },
+        {
+          "key": "D",
+          "text": "Amarillo"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Rojo",
+      "tricks": "Rojo = red."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Colors",
+      "sectionLabel": "Section 7: Colors (Colores)",
+      "topic": "Colors",
+      "questionId": "s7-q73-how-do-you-say-blue-in-spanish",
+      "sourceQuestionNumber": 73,
+      "prompt": "How do you say 'blue' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Azul"
+        },
+        {
+          "key": "B",
+          "text": "Verde"
+        },
+        {
+          "key": "C",
+          "text": "Morado"
+        },
+        {
+          "key": "D",
+          "text": "Gris"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "Azul",
+      "tricks": "Azul = blue."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Colors",
+      "sectionLabel": "Section 7: Colors (Colores)",
+      "topic": "Colors",
+      "questionId": "s7-q74-what-color-is-amarillo",
+      "sourceQuestionNumber": 74,
+      "prompt": "What color is 'amarillo'?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Green"
+        },
+        {
+          "key": "B",
+          "text": "Orange"
+        },
+        {
+          "key": "C",
+          "text": "Yellow"
+        },
+        {
+          "key": "D",
+          "text": "Purple"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "Yellow",
+      "tricks": "Amarillo = yellow."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Colors",
+      "sectionLabel": "Section 7: Colors (Colores)",
+      "topic": "Colors",
+      "questionId": "s7-q75-what-is-negro-in-english",
+      "sourceQuestionNumber": 75,
+      "prompt": "What is 'negro' in English?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "White"
+        },
+        {
+          "key": "B",
+          "text": "Gray"
+        },
+        {
+          "key": "C",
+          "text": "Brown"
+        },
+        {
+          "key": "D",
+          "text": "Black"
+        }
+      ],
+      "answerKey": "D",
+      "answerText": "Black",
+      "tricks": "Negro = black."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Colors",
+      "sectionLabel": "Section 7: Colors (Colores)",
+      "topic": "Colors",
+      "questionId": "s7-q76-how-do-you-say-green-in-spanish",
+      "sourceQuestionNumber": 76,
+      "prompt": "How do you say 'green' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Verde"
+        },
+        {
+          "key": "B",
+          "text": "Rojo"
+        },
+        {
+          "key": "C",
+          "text": "Azul"
+        },
+        {
+          "key": "D",
+          "text": "Blanco"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "Verde",
+      "tricks": "Verde = green."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Colors",
+      "sectionLabel": "Section 7: Colors (Colores)",
+      "topic": "Colors",
+      "questionId": "s7-q77-what-color-is-blanco",
+      "sourceQuestionNumber": 77,
+      "prompt": "What color is 'blanco'?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Black"
+        },
+        {
+          "key": "B",
+          "text": "White"
+        },
+        {
+          "key": "C",
+          "text": "Gray"
+        },
+        {
+          "key": "D",
+          "text": "Brown"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "White",
+      "tricks": "Blanco = white."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Colors",
+      "sectionLabel": "Section 7: Colors (Colores)",
+      "topic": "Colors",
+      "questionId": "s7-q78-how-do-you-say-orange-in-spanish",
+      "sourceQuestionNumber": 78,
+      "prompt": "How do you say 'orange' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Morado"
+        },
+        {
+          "key": "B",
+          "text": "Naranja"
+        },
+        {
+          "key": "C",
+          "text": "Rosa"
+        },
+        {
+          "key": "D",
+          "text": "Café"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Naranja",
+      "tricks": "Naranja = orange."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Colors",
+      "sectionLabel": "Section 7: Colors (Colores)",
+      "topic": "Colors",
+      "questionId": "s7-q79-what-is-the-spanish-word-for-purple",
+      "sourceQuestionNumber": 79,
+      "prompt": "What is the Spanish word for 'purple'?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Morado"
+        },
+        {
+          "key": "B",
+          "text": "Rosa"
+        },
+        {
+          "key": "C",
+          "text": "Marrón"
+        },
+        {
+          "key": "D",
+          "text": "Azul"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "Morado",
+      "tricks": "Morado = purple."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Colors",
+      "sectionLabel": "Section 7: Colors (Colores)",
+      "topic": "Colors",
+      "questionId": "s7-q80-what-does-rosa-mean-in-english",
+      "sourceQuestionNumber": 80,
+      "prompt": "What does 'rosa' mean in English?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Red"
+        },
+        {
+          "key": "B",
+          "text": "Orange"
+        },
+        {
+          "key": "C",
+          "text": "Pink"
+        },
+        {
+          "key": "D",
+          "text": "Purple"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "Pink",
+      "tricks": "Rosa = pink."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Colors",
+      "sectionLabel": "Section 7: Colors (Colores)",
+      "topic": "Colors",
+      "questionId": "s7-q81-what-is-the-spanish-word-for-brown",
+      "sourceQuestionNumber": 81,
+      "prompt": "What is the Spanish word for 'brown'?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Gris"
+        },
+        {
+          "key": "B",
+          "text": "Negro"
+        },
+        {
+          "key": "C",
+          "text": "Marrón"
+        },
+        {
+          "key": "D",
+          "text": "Azul"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "Marrón",
+      "tricks": "Marrón = brown (also 'café' in Latin America)."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Colors",
+      "sectionLabel": "Section 7: Colors (Colores)",
+      "topic": "Colors",
+      "questionId": "s7-q82-la-camisa-es-the-shirt-is-grey",
+      "sourceQuestionNumber": 82,
+      "prompt": "'La camisa es ___'. (The shirt is grey.)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "roja"
+        },
+        {
+          "key": "B",
+          "text": "gris"
+        },
+        {
+          "key": "C",
+          "text": "verde"
+        },
+        {
+          "key": "D",
+          "text": "azul"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "gris",
+      "tricks": "Gris = grey/gray."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Colors",
+      "sectionLabel": "Section 7: Colors (Colores)",
+      "topic": "Colors",
+      "questionId": "s7-q83-which-sentence-is-grammatically-correct-el-cielo-azul",
+      "sourceQuestionNumber": 83,
+      "prompt": "Which sentence is grammatically correct? (El cielo / azul)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "El cielo es azules."
+        },
+        {
+          "key": "B",
+          "text": "El cielo es azul."
+        },
+        {
+          "key": "C",
+          "text": "El cielo están azul."
+        },
+        {
+          "key": "D",
+          "text": "El cielo son azul."
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "El cielo es azul.",
+      "tricks": "Adjectives agree with the noun: 'cielo' is masculine singular → 'azul' (azul is invariable for gender)."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Colors",
+      "sectionLabel": "Section 7: Colors (Colores)",
+      "topic": "Colors",
+      "questionId": "s7-q174-how-do-you-say-the-red-car-in-spanish-el-coche",
+      "sourceQuestionNumber": 174,
+      "prompt": "How do you say 'the red car' in Spanish? (El coche ___)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "El coche roja"
+        },
+        {
+          "key": "B",
+          "text": "El coche rojos"
+        },
+        {
+          "key": "C",
+          "text": "El coche rojo"
+        },
+        {
+          "key": "D",
+          "text": "El coche rojas"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "El coche rojo",
+      "tricks": "'Coche' is masculine singular → 'rojo'."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Colors",
+      "sectionLabel": "Section 7: Colors (Colores)",
+      "topic": "Colors",
+      "questionId": "s7-q175-which-is-correct-the-yellow-flowers-las-flores",
+      "sourceQuestionNumber": 175,
+      "prompt": "Which is correct? 'The yellow flowers' (Las flores ___)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "amarillo"
+        },
+        {
+          "key": "B",
+          "text": "amarilla"
+        },
+        {
+          "key": "C",
+          "text": "amarillos"
+        },
+        {
+          "key": "D",
+          "text": "amarillas"
+        }
+      ],
+      "answerKey": "D",
+      "answerText": "amarillas",
+      "tricks": "'Flores' is feminine plural → 'amarillas'."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Colors",
+      "sectionLabel": "Section 7: Colors (Colores)",
+      "topic": "Colors",
+      "questionId": "s7-q176-how-do-you-say-a-gray-cat-in-spanish",
+      "sourceQuestionNumber": 176,
+      "prompt": "How do you say 'a gray cat' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "un gato gris"
+        },
+        {
+          "key": "B",
+          "text": "una gato gris"
+        },
+        {
+          "key": "C",
+          "text": "un gata gris"
+        },
+        {
+          "key": "D",
+          "text": "unos gatos grises"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "un gato gris",
+      "tricks": "'Gato' is masculine singular → 'un gato gris'. 'Gris' is invariable for gender."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Colors",
+      "sectionLabel": "Section 7: Colors (Colores)",
+      "topic": "Colors",
+      "questionId": "s7-q177-which-color-means-light-blue-in-spanish",
+      "sourceQuestionNumber": 177,
+      "prompt": "Which color means 'light blue' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Azul oscuro"
+        },
+        {
+          "key": "B",
+          "text": "Azul claro"
+        },
+        {
+          "key": "C",
+          "text": "Azul marino"
+        },
+        {
+          "key": "D",
+          "text": "Azul eléctrico"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Azul claro",
+      "tricks": "'Claro' = light, so 'azul claro' = light blue."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Colors",
+      "sectionLabel": "Section 7: Colors (Colores)",
+      "topic": "Colors",
+      "questionId": "s7-q178-complete-el-cielo-es-hoy-cloudy-gray",
+      "sourceQuestionNumber": 178,
+      "prompt": "Complete: 'El cielo es ___ hoy.' (cloudy / gray)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "negro"
+        },
+        {
+          "key": "B",
+          "text": "blanco"
+        },
+        {
+          "key": "C",
+          "text": "gris"
+        },
+        {
+          "key": "D",
+          "text": "marrón"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "gris",
+      "tricks": "A cloudy sky looks gray → 'gris'."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Colors",
+      "sectionLabel": "Section 7: Colors (Colores)",
+      "topic": "Colors",
+      "questionId": "s7-q179-how-do-you-describe-the-green-trees-in-spanish",
+      "sourceQuestionNumber": 179,
+      "prompt": "How do you describe 'the green trees' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "los árboles verde"
+        },
+        {
+          "key": "B",
+          "text": "los árboles verdes"
+        },
+        {
+          "key": "C",
+          "text": "las árboles verde"
+        },
+        {
+          "key": "D",
+          "text": "la árbol verde"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "los árboles verdes",
+      "tricks": "'Árboles' is masculine plural → 'los árboles verdes'."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Colors",
+      "sectionLabel": "Section 7: Colors (Colores)",
+      "topic": "Colors",
+      "questionId": "s7-q180-what-is-morado-oscuro-in-english",
+      "sourceQuestionNumber": 180,
+      "prompt": "What is 'morado oscuro' in English?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Light purple"
+        },
+        {
+          "key": "B",
+          "text": "Dark purple"
+        },
+        {
+          "key": "C",
+          "text": "Dark red"
+        },
+        {
+          "key": "D",
+          "text": "Dark blue"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Dark purple",
+      "tricks": "'Oscuro' = dark, 'morado' = purple → dark purple."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Colors",
+      "sectionLabel": "Section 7: Colors (Colores)",
+      "topic": "Colors",
+      "questionId": "s7-q181-choose-the-correct-sentence-she-is-wearing-a-white-dress",
+      "sourceQuestionNumber": 181,
+      "prompt": "Choose the correct sentence: 'She is wearing a white dress.'",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Ella lleva un vestido blanca."
+        },
+        {
+          "key": "B",
+          "text": "Ella lleva un vestido blanco."
+        },
+        {
+          "key": "C",
+          "text": "Ella lleva una vestido blanco."
+        },
+        {
+          "key": "D",
+          "text": "Ella llevas un vestido blanco."
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Ella lleva un vestido blanco.",
+      "tricks": "'Vestido' is masculine → 'un vestido blanco'."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Colors",
+      "sectionLabel": "Section 7: Colors (Colores)",
+      "topic": "Colors",
+      "questionId": "s7-q182-what-color-is-associated-with-envy-in-the-spanish-expression-verde-de-envidia",
+      "sourceQuestionNumber": 182,
+      "prompt": "What color is associated with envy in the Spanish expression 'verde de envidia'?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Rojo"
+        },
+        {
+          "key": "B",
+          "text": "Amarillo"
+        },
+        {
+          "key": "C",
+          "text": "Verde"
+        },
+        {
+          "key": "D",
+          "text": "Azul"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "Verde",
+      "tricks": "'Verde de envidia' = green with envy."
+    },
+    {
+      "assignmentId": 7,
+      "assignmentLabel": "Colors",
+      "sectionLabel": "Section 7: Colors (Colores)",
+      "topic": "Colors",
+      "questionId": "s7-q183-how-do-you-say-the-blue-and-white-flag-in-spanish",
+      "sourceQuestionNumber": 183,
+      "prompt": "How do you say 'the blue and white flag' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "la bandera azul y blanca"
+        },
+        {
+          "key": "B",
+          "text": "la bandera azul y blanco"
+        },
+        {
+          "key": "C",
+          "text": "la bandera azules y blancas"
+        },
+        {
+          "key": "D",
+          "text": "el bandera azul y blanca"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "la bandera azul y blanca",
+      "tricks": "'Bandera' is feminine → both adjectives are feminine: 'azul' (invariable) and 'blanca'."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Telling Time",
+      "sectionLabel": "Section 8: Telling Time (La Hora)",
+      "topic": "Telling Time",
+      "questionId": "s8-q84-choose-the-correct-translation-for-10-30",
+      "sourceQuestionNumber": 84,
+      "prompt": "Choose the correct translation for 10:30.",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Son las diez y media"
+        },
+        {
+          "key": "B",
+          "text": "Son las diez y cuarto"
+        },
+        {
+          "key": "C",
+          "text": "Son las diez menos media"
+        },
+        {
+          "key": "D",
+          "text": "Es la diez y media"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "Son las diez y media",
+      "tricks": "'Y media' means 'half past'. 10:30 → 'Son las diez y media'. Note: plural 'son' for 10."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Telling Time",
+      "sectionLabel": "Section 8: Telling Time (La Hora)",
+      "topic": "Telling Time",
+      "questionId": "s8-q85-how-do-you-say-it-is-one-o-clock-in-spanish",
+      "sourceQuestionNumber": 85,
+      "prompt": "How do you say 'It is one o'clock' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Es la una"
+        },
+        {
+          "key": "B",
+          "text": "Son las una"
+        },
+        {
+          "key": "C",
+          "text": "Es las una"
+        },
+        {
+          "key": "D",
+          "text": "Son la una"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "Es la una",
+      "tricks": "Only 1 o'clock uses 'Es la una' (singular). All other hours use 'Son las...'."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Telling Time",
+      "sectionLabel": "Section 8: Telling Time (La Hora)",
+      "topic": "Telling Time",
+      "questionId": "s8-q86-c-mo-se-dice-it-is-1-15-en-espa-ol",
+      "sourceQuestionNumber": 86,
+      "prompt": "¿Cómo se dice 'It is 1:15' en español?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Son las una y cuarto."
+        },
+        {
+          "key": "B",
+          "text": "Es la una y quince."
+        },
+        {
+          "key": "C",
+          "text": "Son las trece y cuarto."
+        },
+        {
+          "key": "D",
+          "text": "Es la una y cuarto."
+        }
+      ],
+      "answerKey": "D",
+      "answerText": "Es la una y cuarto.",
+      "tricks": "1:15 → 'Es la una y cuarto.' (singular 'Es la' for 1 o'clock)."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Telling Time",
+      "sectionLabel": "Section 8: Telling Time (La Hora)",
+      "topic": "Telling Time",
+      "questionId": "s8-q87-how-do-you-say-it-is-midnight",
+      "sourceQuestionNumber": 87,
+      "prompt": "How do you say 'It is midnight'?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Es la medianoche."
+        },
+        {
+          "key": "B",
+          "text": "Son las doce de la tarde."
+        },
+        {
+          "key": "C",
+          "text": "Son las doce de la mañana."
+        },
+        {
+          "key": "D",
+          "text": "Es las doce."
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "Es la medianoche.",
+      "tricks": "'Es la medianoche' or 'Son las doce de la noche'."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Telling Time",
+      "sectionLabel": "Section 8: Telling Time (La Hora)",
+      "topic": "Telling Time",
+      "questionId": "s8-q88-qu-hora-es-3-00",
+      "sourceQuestionNumber": 88,
+      "prompt": "¿Qué hora es? (3:00)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Son las tres"
+        },
+        {
+          "key": "B",
+          "text": "Es la una"
+        },
+        {
+          "key": "C",
+          "text": "Son las dos"
+        },
+        {
+          "key": "D",
+          "text": "Son las cuatro"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "Son las tres",
+      "tricks": "3:00 → 'Son las tres en punto' (en punto = exactly)."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Telling Time",
+      "sectionLabel": "Section 8: Telling Time (La Hora)",
+      "topic": "Telling Time",
+      "questionId": "s8-q89-qu-hora-es-4-45",
+      "sourceQuestionNumber": 89,
+      "prompt": "¿Qué hora es? (4:45)",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Son las cuatro y cuarenta y cinco"
+        },
+        {
+          "key": "B",
+          "text": "Son las cinco menos cuarto"
+        },
+        {
+          "key": "C",
+          "text": "Es las cinco menos cuarto"
+        },
+        {
+          "key": "D",
+          "text": "Son cuatro menos cuarto"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Son las cinco menos cuarto",
+      "tricks": "4:45 = 15 minutes to 5 → 'Son las cinco menos cuarto'."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Telling Time",
+      "sectionLabel": "Section 8: Telling Time (La Hora)",
+      "topic": "Telling Time",
+      "questionId": "s8-q90-what-is-the-correct-way-to-say-8-30-in-spanish",
+      "sourceQuestionNumber": 90,
+      "prompt": "What is the correct way to say '8:30' in Spanish?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Son las ocho y media"
+        },
+        {
+          "key": "B",
+          "text": "Son las ocho y medio"
+        },
+        {
+          "key": "C",
+          "text": "Es las ocho y treinta"
+        },
+        {
+          "key": "D",
+          "text": "Son las ocho de la media"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "Son las ocho y media",
+      "tricks": "'Media' (half) is feminine → 'y media'. 8:30 → 'Son las ocho y media'."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Telling Time",
+      "sectionLabel": "Section 8: Telling Time (La Hora)",
+      "topic": "Telling Time",
+      "questionId": "s8-q91-qu-significa-son-las-nueve-menos-cuarto",
+      "sourceQuestionNumber": 91,
+      "prompt": "¿Qué significa 'Son las nueve menos cuarto'?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "9:15"
+        },
+        {
+          "key": "B",
+          "text": "8:45"
+        },
+        {
+          "key": "C",
+          "text": "9:45"
+        },
+        {
+          "key": "D",
+          "text": "8:15"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "8:45",
+      "tricks": "'Menos cuarto' = minus 15 minutes. 9:00 − 0:15 = 8:45."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Telling Time",
+      "sectionLabel": "Section 8: Telling Time (La Hora)",
+      "topic": "Telling Time",
+      "questionId": "s8-q92-son-las-cinco-menos-cuarto-qu-hora-es",
+      "sourceQuestionNumber": 92,
+      "prompt": "Son las cinco menos cuarto. ¿Qué hora es?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "4:45"
+        },
+        {
+          "key": "B",
+          "text": "5:45"
+        },
+        {
+          "key": "C",
+          "text": "20:45"
+        },
+        {
+          "key": "D",
+          "text": "1:45"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "4:45",
+      "tricks": "5:00 − 0:15 = 4:45."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Telling Time",
+      "sectionLabel": "Section 8: Telling Time (La Hora)",
+      "topic": "Telling Time",
+      "questionId": "s8-q93-qu-hora-es-son-las-diez-y-veinte",
+      "sourceQuestionNumber": 93,
+      "prompt": "¿Qué hora es: 'Son las diez y veinte'?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "10:02"
+        },
+        {
+          "key": "B",
+          "text": "10:20"
+        },
+        {
+          "key": "C",
+          "text": "9:40"
+        },
+        {
+          "key": "D",
+          "text": "10:12"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "10:20",
+      "tricks": "'Y veinte' means 'plus twenty minutes'. 10:20."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Telling Time",
+      "sectionLabel": "Section 8: Telling Time (La Hora)",
+      "topic": "Telling Time",
+      "questionId": "s8-q94-c-mo-se-dice-7-15-en-espa-ol",
+      "sourceQuestionNumber": 94,
+      "prompt": "¿Cómo se dice '7:15' en español?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Son las siete y cuarto"
+        },
+        {
+          "key": "B",
+          "text": "Son las siete y media"
+        },
+        {
+          "key": "C",
+          "text": "Son las siete en punto"
+        },
+        {
+          "key": "D",
+          "text": "Son las ocho menos cuarto"
+        }
+      ],
+      "answerKey": "A",
+      "answerText": "Son las siete y cuarto",
+      "tricks": "7:15 → 'Son las siete y cuarto' ('cuarto' = quarter)."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Telling Time",
+      "sectionLabel": "Section 8: Telling Time (La Hora)",
+      "topic": "Telling Time",
+      "questionId": "s8-q95-c-mo-se-dice-1-30-en-espa-ol",
+      "sourceQuestionNumber": 95,
+      "prompt": "¿Cómo se dice '1:30' en español?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Son las una y media"
+        },
+        {
+          "key": "B",
+          "text": "Es la una y media"
+        },
+        {
+          "key": "C",
+          "text": "Es la uno y treinta"
+        },
+        {
+          "key": "D",
+          "text": "Son las una y treinta"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Es la una y media",
+      "tricks": "1:30 → 'Es la una y media'. Note singular 'Es la' for 1 o'clock."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Telling Time",
+      "sectionLabel": "Section 8: Telling Time (La Hora)",
+      "topic": "Telling Time",
+      "questionId": "s8-q96-c-mo-se-dice-2-45-en-espa-ol",
+      "sourceQuestionNumber": 96,
+      "prompt": "¿Cómo se dice '2:45' en español?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Son las dos y cuarenta y cinco"
+        },
+        {
+          "key": "B",
+          "text": "Es la dos y cuarenta y cinco"
+        },
+        {
+          "key": "C",
+          "text": "Son las dos menos cuarto"
+        },
+        {
+          "key": "D",
+          "text": "Es las dos menos cuarto"
+        }
+      ],
+      "answerKey": "C",
+      "answerText": "Son las dos menos cuarto",
+      "tricks": "2:45 = 15 minutes to 3 → 'Son las tres menos cuarto'.",
+      "sourceIssue": "The PDF marks option C ('Son las dos menos cuarto') as correct, but the explanation says 2:45 should be 'Son las tres menos cuarto'."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Telling Time",
+      "sectionLabel": "Section 8: Telling Time (La Hora)",
+      "topic": "Telling Time",
+      "questionId": "s8-q97-c-mo-se-dice-8-50-en-espa-ol",
+      "sourceQuestionNumber": 97,
+      "prompt": "¿Cómo se dice '8:50' en español?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Son las ocho y cincuenta"
+        },
+        {
+          "key": "B",
+          "text": "Son las nueve menos diez"
+        },
+        {
+          "key": "C",
+          "text": "Son las ocho menos diez"
+        },
+        {
+          "key": "D",
+          "text": "Son las nueve y diez"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "Son las nueve menos diez",
+      "tricks": "8:50 = 10 minutes to 9 → 'Son las nueve menos diez'."
+    },
+    {
+      "assignmentId": 8,
+      "assignmentLabel": "Telling Time",
+      "sectionLabel": "Section 8: Telling Time (La Hora)",
+      "topic": "Telling Time",
+      "questionId": "s8-q98-son-las-seis-y-siete-qu-hora-es",
+      "sourceQuestionNumber": 98,
+      "prompt": "Son las seis y siete. ¿Qué hora es?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "7:16"
+        },
+        {
+          "key": "B",
+          "text": "6:07"
+        },
+        {
+          "key": "C",
+          "text": "7:06"
+        },
+        {
+          "key": "D",
+          "text": "6:17"
+        }
+      ],
+      "answerKey": "B",
+      "answerText": "6:07",
+      "tricks": "'Son las seis y siete' = 6:07. Final Quick Reference Sheet Articles Summary Masculine Singular el / un Feminine Singular la / una Masculine Plural los / unos Feminine Plural las / unas Special (stressed 'a-') el agua, el águila, un hambre Days of the Week Monday–Friday lunes, martes, miércoles, jueves, viernes Weekend sábado, domingo First day (ESP) lunes Habitual use los lunes (on Mondays) Numbers — Key 100 / 101–199 cien / ciento + number 21–29 veintiuno... (one word) Hundreds gender doscientas páginas (feminine) Thousands mil never pluralizes Telling Time 1:00 Es la una 2:00+ Son las dos/tres... X:30 Son las X y media X:15 Son las X y cuarto X:45 Son las (X+1) menos cuarto Por vs Para POR cause, exchange, duration, means, parts of day PARA purpose, recipient, deadline, destination SER vs ESTAR SER permanent traits, identity, origin, scheduled events ESTAR temporary states, location, emotions, progressive ¡Buena suerte en tu examen! ■ Good luck on your exam!"
+    }
+  ]
+}

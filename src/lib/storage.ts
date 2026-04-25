@@ -1,8 +1,8 @@
 import type { AttemptSummary, ChoiceKey, Mode } from '../types'
 
 const KEY = {
-  attempts: 'nptelQuiz.attempts.v1',
-  practiceStats: 'nptelQuiz.practiceStats.v1',
+  attempts: 'spanishQuiz.attempts.v1',
+  practiceStats: 'spanishQuiz.practiceStats.v1',
 } as const
 
 type PracticeStats = Record<

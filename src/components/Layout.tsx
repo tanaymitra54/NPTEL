@@ -21,10 +21,10 @@ export default function Layout() {
           <div className="flex justify-between items-center h-20">
             <Link to="/" className="flex flex-col gap-0.5">
               <div className="font-bold text-lg tracking-tight text-[#2C2A29] leading-none">
-                ESD Quiz
+                Spanish Quiz
               </div>
               <div className="text-xs font-medium text-[#9B7A7A] tracking-wide">
-                Education for Sustainable Development
+                Final Exam Study Guide
               </div>
             </Link>
             

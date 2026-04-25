@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
-import { bank, pickQuestions } from '../lib/questions'
+import { bank, getAssignmentLabelMap, pickQuestions } from '../lib/questions'
 import { parseWeeksFromQuery, parseCountFromQuery, getAssignmentIds } from '../lib/selection'
 import { scoreExam } from '../lib/scoring'
 import { makeAttemptId, recordAttempt, updatePracticeStat } from '../lib/storage'
@@ -20,6 +20,7 @@ function makeAnswerMap() {
 export default function Run() {
   const [sp] = useSearchParams()
   const navigate = useNavigate()
+  const assignmentLabels = useMemo(() => getAssignmentLabelMap(bank.questions), [])
 
   const [runConfig] = useState(() => {
     const mode = (sp.get('mode') === 'exam' ? 'exam' : 'practice') as Mode
@@ -33,6 +34,7 @@ export default function Run() {
   })
 
   const { mode, assignmentIds, questions } = runConfig
+  const topicNames = assignmentIds.map((id) => assignmentLabels.get(id) ?? `Topic ${id}`)
 
   const [idx, setIdx] = useState(0)
   const [direction, setDirection] = useState(1) // For animation
@@ -111,8 +113,8 @@ export default function Run() {
     
     if (mode === 'exam') {
       const payload = { summary, report, questions, answers }
-      sessionStorage.setItem('nptelQuiz.lastReport.v1', JSON.stringify(payload))
-      navigate('/report')
+        sessionStorage.setItem('spanishQuiz.lastReport.v1', JSON.stringify(payload))
+        navigate('/report')
     } else {
       navigate('/stats')
     }
@@ -154,7 +156,7 @@ export default function Run() {
                 {attemptedCount}/{questions.length}
               </span>
             </h1>
-            <p className="text-base text-[#787470] mt-2">Topics: {assignmentIds.join(', ')}</p>
+            <p className="text-base text-[#787470] mt-2">Topics: {topicNames.join(', ')}</p>
           </div>
           
           <motion.button

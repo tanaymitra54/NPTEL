@@ -1,12 +1,13 @@
 import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { bank } from '../lib/questions'
+import { bank, getAssignmentLabelMap } from '../lib/questions'
 import { clearAttempts, getAttempts, getPracticeStats } from '../lib/storage'
 
 export default function Stats() {
   const attempts = getAttempts()
   const practice = getPracticeStats()
+  const assignmentLabels = useMemo(() => getAssignmentLabelMap(bank.questions), [])
 
   const totals = useMemo(() => {
     let seen = 0
@@ -118,7 +119,7 @@ export default function Stats() {
                 <tr className="bg-white border-b border-[#E8E6DF] text-xs uppercase tracking-widest text-[#A8A4A0] font-semibold">
                   <th className="px-6 py-4 whitespace-nowrap">Date</th>
                   <th className="px-6 py-4 whitespace-nowrap">Mode</th>
-                  <th className="px-6 py-4 whitespace-nowrap">Weeks</th>
+                  <th className="px-6 py-4 whitespace-nowrap">Topics</th>
                   <th className="px-6 py-4 whitespace-nowrap">Score</th>
                 </tr>
               </thead>
@@ -140,7 +141,7 @@ export default function Stats() {
                         </span>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-[#787470]">
-                        {a.assignmentIds.join(', ')}
+                        {a.assignmentIds.map((id) => assignmentLabels.get(id) ?? `Topic ${id}`).join(', ')}
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
                         <div className="flex items-center gap-2">

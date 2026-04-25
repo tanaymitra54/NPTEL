@@ -1,33 +1,30 @@
 /**
- * Shared logic for week/question selection across Home and Run pages
+ * Shared logic for topic/question selection across Home and Run pages
  */
 
 export type GroupingMode = 'week' | 'mixed'
 
 /**
- * Normalize weeks based on grouping mode and ensure at least one week is selected
+ * Normalize selected topic IDs based on grouping mode and ensure at least one is selected.
  */
 export function normalizeWeeks(
   weeks: number[],
   grouping: GroupingMode,
-  fallbackWeek: number = 12
+  fallbackWeek: number = 1
 ): number[] {
-  // Ensure we have at least one week selected
   if (!weeks.length) {
     return [fallbackWeek]
   }
 
-  // In single week mode, only take the first week
   if (grouping === 'week') {
     return [weeks[0]]
   }
 
-  // In mixed mode, return all weeks sorted descending
-  return weeks.sort((a, b) => b - a)
+  return weeks.sort((a, b) => a - b)
 }
 
 /**
- * Get assignment IDs to use based on grouping mode
+ * Get assignment IDs to use based on grouping mode.
  */
 export function getAssignmentIds(
   weeks: number[],
@@ -38,7 +35,7 @@ export function getAssignmentIds(
 }
 
 /**
- * Parse weeks from URL query parameter
+ * Parse selected topic IDs from URL query parameter.
  */
 export function parseWeeksFromQuery(raw: string | null): number[] {
   if (!raw) return []
@@ -49,7 +46,7 @@ export function parseWeeksFromQuery(raw: string | null): number[] {
 }
 
 /**
- * Validate and sanitize question count
+ * Validate and sanitize question count.
  */
 export function normalizeCount(count: number | 'all'): number | 'all' {
   if (count === 'all') return 'all'
@@ -58,7 +55,7 @@ export function normalizeCount(count: number | 'all'): number | 'all' {
 }
 
 /**
- * Parse count from URL query parameter
+ * Parse count from URL query parameter.
  */
 export function parseCountFromQuery(raw: string | null): number | 'all' {
   if (!raw) return 10

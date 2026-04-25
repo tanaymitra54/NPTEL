@@ -1,4 +1,4 @@
-import raw from '../data/questions.json'
+import raw from '../data/spanish_questions.json'
 import type { Question, QuestionBank } from '../types'
 
 export const bank = raw as unknown as QuestionBank
@@ -17,7 +17,15 @@ export function getAssignments(questions: Question[]) {
       })
     }
   }
-  return [...map.values()].sort((a, b) => b.id - a.id)
+  return [...map.values()].sort((a, b) => a.id - b.id)
+}
+
+export function getAssignmentLabelMap(questions: Question[]) {
+  const labels = new Map<number, string>()
+  for (const q of questions) {
+    if (!labels.has(q.assignmentId)) labels.set(q.assignmentId, q.assignmentLabel)
+  }
+  return labels
 }
 
 export function pickQuestions(

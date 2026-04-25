@@ -1,5 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import { bank, getAssignmentLabelMap } from '../lib/questions'
 import type { ChoiceKey, Question } from '../types'
 
 type Payload = {
@@ -23,7 +24,7 @@ type Payload = {
 
 function readPayload(): Payload | null {
   try {
-    const raw = sessionStorage.getItem('nptelQuiz.lastReport.v1')
+    const raw = sessionStorage.getItem('spanishQuiz.lastReport.v1')
     if (!raw) return null
     return JSON.parse(raw) as Payload
   } catch {
@@ -34,6 +35,7 @@ function readPayload(): Payload | null {
 export default function Report() {
   const navigate = useNavigate()
   const payload = readPayload()
+  const assignmentLabels = getAssignmentLabelMap(bank.questions)
 
   if (!payload) {
     return (
@@ -62,9 +64,9 @@ export default function Report() {
         <div>
           <h1 className="text-2xl font-semibold text-[#2C2A29] mb-2">Performance Report</h1>
           <div className="flex flex-wrap items-center gap-3 text-xs font-medium text-[#787470]">
-            <span className="bg-[#FAF9F6] px-2.5 py-1 rounded-md border border-[#E8E6DF]">
-              Week {summary.assignmentIds.join(', ')}
-            </span>
+              <span className="bg-[#FAF9F6] px-2.5 py-1 rounded-md border border-[#E8E6DF]">
+               {summary.assignmentIds.map((id) => assignmentLabels.get(id) ?? `Topic ${id}`).join(', ')}
+              </span>
             <span className="bg-[#FAF9F6] px-2.5 py-1 rounded-md border border-[#E8E6DF]">
               {new Date(summary.createdAt).toLocaleDateString(undefined, { month: 'long', day: 'numeric', year: 'numeric' })}
             </span>
