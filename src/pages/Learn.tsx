@@ -207,7 +207,7 @@ export default function Learn() {
                 <span className="text-xs font-semibold text-orange-400 tracking-wide uppercase">Question</span>
               </div>
               
-              <h2 className="font-serif text-xl sm:text-2xl font-bold text-slate-50 leading-snug">
+              <h2 className="text-lg sm:text-xl font-bold text-slate-50 leading-snug">
                 {q.prompt}
               </h2>
             </section>

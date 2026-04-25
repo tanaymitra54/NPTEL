@@ -141,7 +141,7 @@ export default function Run() {
       <div className="mb-8">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
           <div>
-            <h1 className="font-serif text-3xl sm:text-4xl font-bold text-slate-50 capitalize flex items-center gap-3">
+            <h1 className="text-lg sm:text-xl font-bold text-slate-50 capitalize flex items-center gap-3">
               {mode === 'exam' ? (
                 <>
                   <ClipboardIcon className="w-8 h-8" />
@@ -230,7 +230,7 @@ export default function Run() {
             </div>
 
             {/* Question Prompt */}
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-slate-50 leading-snug mb-10">
+            <h2 className="text-lg sm:text-xl font-bold text-slate-50 leading-snug mb-10">
               {q.prompt}
             </h2>
 
