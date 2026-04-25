@@ -66,6 +66,7 @@ export default function Run() {
   const selectedKey = q ? answers[q.questionId] : undefined
   const isLocked = q ? Boolean(practiceLock[q.questionId]) : false
   const isCorrect = q && selectedKey ? selectedKey === q.answerKey : false
+  const correctChoice = q?.choices.find((choice) => choice.key === q.answerKey)
 
   const attemptedCount = useMemo(() => {
     let n = 0
@@ -123,8 +124,8 @@ export default function Run() {
   if (!questions.length || !q) {
     return (
       <div className="flex flex-col items-center justify-center py-20">
-        <h1 className="text-xl font-medium text-[#2C2A29] mb-4">No questions found</h1>
-        <Link to="/" className="text-[#D6A3A3] hover:underline">Return Home</Link>
+        <h1 className="text-xl font-medium text-slate-50 mb-4">No questions found</h1>
+        <Link to="/" className="text-orange-500 hover:underline">Return Home</Link>
       </div>
     )
   }
@@ -140,7 +141,7 @@ export default function Run() {
       <div className="mb-8">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
           <div>
-            <h1 className="text-3xl sm:text-4xl font-bold text-[#2C2A29] capitalize flex items-center gap-3">
+            <h1 className="font-serif text-3xl sm:text-4xl font-bold text-slate-50 capitalize flex items-center gap-3">
               {mode === 'exam' ? (
                 <>
                   <ClipboardIcon className="w-8 h-8" />
@@ -152,11 +153,11 @@ export default function Run() {
                   Practice
                 </>
               )} Session
-              <span className="text-base px-3 py-1.5 rounded-lg font-semibold bg-[#F0DADA] text-[#9B7A7A]">
+              <span className="text-base px-3 py-1.5 rounded-lg font-semibold bg-orange-500/20 text-orange-400">
                 {attemptedCount}/{questions.length}
               </span>
             </h1>
-            <p className="text-base text-[#787470] mt-2">Topics: {topicNames.join(', ')}</p>
+            <p className="text-base text-slate-400 mt-2">Topics: {topicNames.join(', ')}</p>
           </div>
           
           <motion.button
@@ -166,7 +167,7 @@ export default function Run() {
             disabled={mode === 'exam' && attemptedCount === 0}
             className={`flex items-center gap-2 px-6 py-3 rounded-xl text-base font-semibold transition-all duration-300 whitespace-nowrap ${
               mode === 'exam' && attemptedCount === 0 
-                ? 'bg-[#FAF9F6] text-[#A8A4A0] border border-[#E8E6DF] cursor-not-allowed' 
+                ? 'bg-slate-800/40 text-slate-500 border border-white/10 cursor-not-allowed' 
                 : 'gradient-accent text-white border-none shadow-md hover:shadow-lg'
             }`}
           >
@@ -187,18 +188,18 @@ export default function Run() {
         {/* Progress Bar */}
         <div className="w-full space-y-2">
           <motion.div 
-            className="w-full bg-[#E8E6DF] h-2 rounded-full overflow-hidden"
+            className="w-full bg-slate-900/60/10 h-2 rounded-full overflow-hidden"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
           >
             <motion.div 
-              className="bg-gradient-to-r from-[#D6A3A3] to-[#9B7A7A] h-full rounded-full"
+              className="bg-gradient-to-r from-orange-500 to-orange-400 h-full rounded-full"
               initial={{ width: 0 }}
               animate={{ width: `${progress}%` }}
               transition={{ duration: 0.5, ease: "easeOut" }}
             />
           </motion.div>
-          <p className="text-xs text-[#787470] font-medium">{Math.round(progress)}% Complete</p>
+          <p className="text-xs text-slate-400 font-medium">{Math.round(progress)}% Complete</p>
         </div>
       </div>
 
@@ -225,11 +226,11 @@ export default function Run() {
               <div className="w-8 h-8 rounded-lg gradient-accent flex items-center justify-center text-white text-sm font-bold">
                 {idx + 1}
               </div>
-              <span className="text-xs font-semibold text-[#9B7A7A] tracking-wide uppercase">Question</span>
+              <span className="text-xs font-semibold text-orange-400 tracking-wide uppercase">Question</span>
             </div>
 
             {/* Question Prompt */}
-            <h2 className="text-3xl sm:text-4xl font-bold text-[#2C2A29] leading-snug mb-10">
+            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-slate-50 leading-snug mb-10">
               {q.prompt}
             </h2>
 
@@ -245,22 +246,22 @@ export default function Run() {
                 
                 if (showFeedback) {
                   if (correct) {
-                    btnClass += "bg-[#F2F8F5] border-[#A8CBAE] text-[#2C2A29] shadow-sm"
-                    keyClass += "bg-[#A8CBAE] text-white"
+                    btnClass += "bg-emerald-500/10 border-emerald-500/30 text-slate-50 shadow-sm"
+                    keyClass += "bg-emerald-500/30 text-white"
                   } else if (sel && !correct) {
-                    btnClass += "bg-[#FCF5F5] border-[#E8B4B8] text-[#2C2A29] shadow-sm"
-                    keyClass += "bg-[#E8B4B8] text-white"
+                    btnClass += "bg-rose-500/10 border-rose-500/30 text-slate-50 shadow-sm"
+                    keyClass += "bg-rose-500/30 text-white"
                   } else {
-                    btnClass += "bg-white border-[#E8E6DF] opacity-50 text-[#787470]"
-                    keyClass += "bg-[#FAF9F6] text-[#A8A4A0]"
+                    btnClass += "bg-slate-900/60 border-white/10 opacity-50 text-slate-400"
+                    keyClass += "bg-slate-800/40 text-slate-500"
                   }
                 } else {
                   if (sel) {
-                    btnClass += "bg-[#F0DADA]/40 border-[#D6A3A3] text-[#2C2A29] shadow-sm"
-                    keyClass += "bg-[#D6A3A3] text-white"
+                    btnClass += "bg-orange-500/20/40 border-orange-500 text-slate-50 shadow-sm"
+                    keyClass += "bg-orange-500 text-white"
                   } else {
-                    btnClass += "bg-white border-[#E8E6DF] hover:border-[#D6A3A3]/50 hover:bg-[#FAF9F6] text-[#2C2A29] cursor-pointer"
-                    keyClass += "bg-[#FAF9F6] text-[#787470] border border-[#E8E6DF] group-hover:bg-[#D6A3A3] group-hover:text-white"
+                    btnClass += "bg-slate-900/60 border-white/10 hover:border-orange-500/50 hover:bg-slate-800/40 text-slate-50 cursor-pointer"
+                    keyClass += "bg-slate-800/40 text-slate-400 border border-white/10 group-hover:bg-orange-500 group-hover:text-white"
                   }
                 }
 
@@ -283,16 +284,36 @@ export default function Run() {
             
               {/* Feedback Message */}
               {mode === 'practice' && isLocked && (
-                <motion.div 
+                <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className={`p-5 rounded-xl mt-8 font-semibold text-lg flex items-center gap-3 ${
-                    isCorrect 
-                      ? 'bg-[#F2F8F5] text-[#3F6347]' 
-                      : 'bg-[#FCF5F5] text-[#8C464B]'
-                  }`}
+                  className="mt-8 space-y-4"
                 >
-                  {isCorrect ? '✓ Correct!' : `✗ Incorrect. The correct answer is ${q.answerKey}.`}
+                  <div
+                    className={`p-5 rounded-xl font-semibold text-lg flex items-center gap-3 ${
+                      isCorrect
+                        ? 'bg-emerald-500/10 text-emerald-400'
+                        : 'bg-rose-500/10 text-rose-400'
+                    }`}
+                  >
+                    {isCorrect
+                      ? '✓ Correct!'
+                      : `✗ Incorrect. The correct answer is ${q.answerKey}${correctChoice ? `: ${correctChoice.text}` : ''}.`}
+                  </div>
+
+                  <div className="rounded-xl border border-white/10 bg-slate-800/40 p-5">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-orange-400">Explanation</p>
+                    <p className="mt-2 text-sm text-slate-50 leading-relaxed">
+                      {q.tricks || 'No explanation available for this question.'}
+                    </p>
+                  </div>
+
+                  {q.sourceIssue && (
+                    <div className="rounded-xl border border-amber-500/30 bg-amber-500/10 p-5">
+                      <p className="text-xs font-semibold uppercase tracking-wide text-amber-500">Source Note</p>
+                      <p className="mt-2 text-sm text-amber-300 leading-relaxed">{q.sourceIssue}</p>
+                    </div>
+                  )}
                 </motion.div>
               )}
             </motion.div>
@@ -302,8 +323,8 @@ export default function Run() {
         {/* Question Navigator (Desktop Right, Mobile Below) */}
         <aside className="surface-card p-4 sm:p-5 h-fit lg:sticky lg:top-24">
           <div className="mb-3 flex items-center justify-between">
-            <p className="text-xs font-semibold tracking-wider uppercase text-[#9B7A7A]">Question Map</p>
-            <p className="text-xs text-[#787470]">{attemptedCount}/{questions.length}</p>
+            <p className="text-xs font-semibold tracking-wider uppercase text-orange-400">Question Map</p>
+            <p className="text-xs text-slate-400">{attemptedCount}/{questions.length}</p>
           </div>
 
           <div className="max-h-56 lg:max-h-[28rem] overflow-y-auto custom-scrollbar pr-1">
@@ -321,8 +342,8 @@ export default function Run() {
                       ${isCurrent 
                         ? 'gradient-accent text-white shadow-md' 
                         : a 
-                          ? 'bg-[#F2F8F5] border border-[#A8CBAE] text-[#3F6347] hover:bg-[#A8CBAE] hover:text-white' 
-                          : 'bg-white border border-[#E8E6DF] text-[#A8A4A0] hover:bg-[#FAF9F6] hover:text-[#787470]'
+                          ? 'bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 hover:bg-emerald-500/30 hover:text-white' 
+                          : 'bg-slate-900/60 border border-white/10 text-slate-500 hover:bg-slate-800/40 hover:text-slate-400'
                       }`}
                   >
                     {i + 1}
@@ -342,15 +363,15 @@ export default function Run() {
           disabled={idx === 0}
           className={`flex items-center gap-2 px-5 py-2.5 rounded-lg text-base font-semibold transition-all
             ${idx === 0 
-              ? 'text-[#A8A4A0] cursor-not-allowed bg-[#FAF9F6]' 
-              : 'text-[#787470] hover:text-[#2C2A29] hover:bg-white border border-[#E8E6DF] hover:border-[#D6A3A3]/40'}`}
+              ? 'text-slate-500 cursor-not-allowed bg-slate-800/40' 
+              : 'text-slate-400 hover:text-slate-50 hover:bg-slate-900/60 border border-white/10 hover:border-orange-500/40'}`}
         >
           <LeftArrowIcon className="w-5 h-5" />
           Previous
         </motion.button>
 
-        <div className="text-center text-sm text-[#787470]">
-          <span className="font-semibold text-[#2C2A29]">{idx + 1}</span> of {questions.length}
+        <div className="text-center text-sm text-slate-400">
+          <span className="font-semibold text-slate-50">{idx + 1}</span> of {questions.length}
         </div>
 
         <motion.button 
@@ -359,8 +380,8 @@ export default function Run() {
           disabled={idx === questions.length - 1}
           className={`flex items-center gap-2 px-5 py-2.5 rounded-lg text-base font-semibold transition-all
             ${idx === questions.length - 1 
-              ? 'text-[#A8A4A0] cursor-not-allowed bg-[#FAF9F6]' 
-              : 'text-[#787470] hover:text-[#2C2A29] hover:bg-white border border-[#E8E6DF] hover:border-[#D6A3A3]/40'}`}
+              ? 'text-slate-500 cursor-not-allowed bg-slate-800/40' 
+              : 'text-slate-400 hover:text-slate-50 hover:bg-slate-900/60 border border-white/10 hover:border-orange-500/40'}`}
         >
           Next
           <RightArrowIcon className="w-5 h-5" />

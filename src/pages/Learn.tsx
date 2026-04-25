@@ -123,8 +123,8 @@ export default function Learn() {
   if (!questions.length || !q) {
     return (
       <div className="flex flex-col items-center justify-center py-20">
-        <h1 className="text-xl font-medium text-[#2C2A29] mb-4">No questions found</h1>
-        <Link to="/" className="text-[#D6A3A3] hover:underline">Return Home</Link>
+        <h1 className="text-xl font-medium text-slate-50 mb-4">No questions found</h1>
+        <Link to="/" className="text-orange-500 hover:underline">Return Home</Link>
       </div>
     )
   }
@@ -140,14 +140,14 @@ export default function Learn() {
        <div className="mb-8">
          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
            <div>
-             <h1 className="text-2xl sm:text-3xl font-bold text-[#2C2A29] flex items-center gap-3">
+             <h1 className="font-serif text-2xl sm:text-3xl font-bold text-slate-50 flex items-center gap-3">
                <BookIcon className="w-7 h-7" />
                Learn Mode
-               <span className="text-sm px-3 py-1.5 rounded-lg font-semibold bg-[#F0DADA] text-[#9B7A7A]">
+               <span className="text-sm px-3 py-1.5 rounded-lg font-semibold bg-orange-500/20 text-orange-400">
                  {idx + 1}/{questions.length}
                </span>
              </h1>
-             <p className="text-sm text-[#787470] mt-2">Study all questions with detailed explanations</p>
+             <p className="text-sm text-slate-400 mt-2">Study all questions with detailed explanations</p>
            </div>
 
            <motion.div
@@ -166,18 +166,18 @@ export default function Learn() {
         {/* Progress Bar */}
         <div className="w-full space-y-2">
           <motion.div 
-            className="w-full bg-[#E8E6DF] h-2 rounded-full overflow-hidden"
+            className="w-full bg-slate-900/60/10 h-2 rounded-full overflow-hidden"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
           >
             <motion.div 
-              className="bg-gradient-to-r from-[#D6A3A3] to-[#9B7A7A] h-full rounded-full"
+              className="bg-gradient-to-r from-orange-500 to-orange-400 h-full rounded-full"
               initial={{ width: 0 }}
               animate={{ width: `${((idx + 1) / questions.length) * 100}%` }}
               transition={{ duration: 0.5, ease: "easeOut" }}
             />
           </motion.div>
-          <p className="text-xs text-[#787470] font-medium">{Math.round(((idx + 1) / questions.length) * 100)}% Through Course</p>
+          <p className="text-xs text-slate-400 font-medium">{Math.round(((idx + 1) / questions.length) * 100)}% Through Course</p>
         </div>
       </div>
 
@@ -204,18 +204,18 @@ export default function Learn() {
                 <div className="w-10 h-10 rounded-lg gradient-accent flex items-center justify-center text-white font-bold text-lg">
                   {idx + 1}
                 </div>
-                <span className="text-xs font-semibold text-[#9B7A7A] tracking-wide uppercase">Question</span>
+                <span className="text-xs font-semibold text-orange-400 tracking-wide uppercase">Question</span>
               </div>
               
-              <h2 className="text-xl sm:text-2xl font-bold text-[#2C2A29] leading-snug">
+              <h2 className="font-serif text-xl sm:text-2xl font-bold text-slate-50 leading-snug">
                 {q.prompt}
               </h2>
             </section>
 
             {/* Answer Section */}
             <section className="space-y-4">
-              <h3 className="text-base font-semibold text-[#2C2A29] flex items-center gap-2">
-                <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#A8CBAE] text-white text-sm font-bold">
+              <h3 className="text-base font-semibold text-slate-50 flex items-center gap-2">
+                <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-emerald-500/30 text-white text-sm font-bold">
                   <CheckIcon className="w-4 h-4" />
                 </span>
                 Correct Answer
@@ -231,15 +231,15 @@ export default function Learn() {
                       animate={{ opacity: 1, x: 0 }}
                       className={`w-full flex items-start p-6 rounded-xl border-2 text-left transition-all ${
                         isCorrect
-                          ? 'bg-[#F2F8F5] border-[#A8CBAE] text-[#2C2A29] shadow-sm'
-                          : 'bg-white border-[#E8E6DF] text-[#787470]'
+                          ? 'bg-emerald-500/10 border-emerald-500/30 text-slate-50 shadow-sm'
+                          : 'bg-slate-900/60 border-white/10 text-slate-400'
                       }`}
                     >
                       <div
                         className={`flex items-center justify-center min-w-10 h-10 rounded-lg text-base font-bold mr-4 mt-0.5 ${
                           isCorrect
-                            ? 'bg-[#A8CBAE] text-white'
-                            : 'bg-[#FAF9F6] text-[#A8A4A0]'
+                            ? 'bg-emerald-500/30 text-white'
+                            : 'bg-slate-800/40 text-slate-500'
                         }`}
                       >
                         {c.key}
@@ -247,7 +247,7 @@ export default function Learn() {
                       <div className="flex-1">
                         <p className="text-base font-medium">{c.text}</p>
                         {isCorrect && (
-                          <p className="text-xs font-semibold mt-3 text-[#3F6347] inline-flex items-center gap-1">
+                          <p className="text-xs font-semibold mt-3 text-emerald-400 inline-flex items-center gap-1">
                             ✓ This is the correct answer
                           </p>
                         )}
@@ -258,10 +258,25 @@ export default function Learn() {
               </div>
             </section>
 
+            <section className="border-t border-white/10 pt-10 space-y-4">
+              <h3 className="text-base font-semibold text-slate-50">Explanation</h3>
+              <div className="rounded-xl border border-white/10 bg-slate-800/40 p-6">
+                <p className="text-sm text-slate-50 leading-relaxed">
+                  {q.tricks || 'No explanation available for this question.'}
+                </p>
+              </div>
+              {q.sourceIssue && (
+                <div className="rounded-xl border border-amber-500/30 bg-amber-500/10 p-5">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-amber-500">Source Note</p>
+                  <p className="mt-2 text-sm text-amber-300 leading-relaxed">{q.sourceIssue}</p>
+                </div>
+              )}
+            </section>
+
             {/* Memory Toolkit */}
-            <section className="border-t border-[#E8E6DF] pt-10 space-y-6">
-              <h3 className="text-base font-semibold text-[#2C2A29] flex items-center gap-2">
-                <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#D6A3A3] text-white text-sm font-bold">
+            <section className="border-t border-white/10 pt-10 space-y-6">
+              <h3 className="text-base font-semibold text-slate-50 flex items-center gap-2">
+                <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-orange-500 text-white text-sm font-bold">
                   <LightbulbIcon className="w-4 h-4" />
                 </span>
                 Memory Toolkit
@@ -274,15 +289,15 @@ export default function Learn() {
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: tipIdx * 0.1 }}
-                    className="rounded-xl border border-[#E8E6DF] bg-white p-6 hover:shadow-md transition-all duration-300"
+                    className="rounded-xl border border-white/10 bg-slate-900/60 p-6 hover:shadow-md transition-all duration-300"
                   >
                     <div className="flex items-start gap-3">
-                      <div className="w-8 h-8 rounded-lg bg-[#F0DADA] flex items-center justify-center text-sm font-bold text-[#9B7A7A] flex-shrink-0 mt-0.5">
+                      <div className="w-8 h-8 rounded-lg bg-orange-500/20 flex items-center justify-center text-sm font-bold text-orange-400 flex-shrink-0 mt-0.5">
                         {tipIdx + 1}
                       </div>
                       <div className="flex-1">
-                        <p className="text-xs font-semibold text-[#9B7A7A] tracking-wide uppercase">{tip.title}</p>
-                        <p className="mt-2 text-sm text-[#2C2A29] leading-relaxed">{tip.body}</p>
+                        <p className="text-xs font-semibold text-orange-400 tracking-wide uppercase">{tip.title}</p>
+                        <p className="mt-2 text-sm text-slate-50 leading-relaxed">{tip.body}</p>
                       </div>
                     </div>
                   </motion.div>
@@ -301,7 +316,7 @@ export default function Learn() {
            disabled={idx === 0}
            className={`flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-semibold transition-all
              ${idx === 0 
-               ? 'text-[#A8A4A0] cursor-not-allowed bg-[#FAF9F6]' 
+               ? 'text-slate-500 cursor-not-allowed bg-slate-800/40' 
                : 'text-white gradient-dark shadow-md hover:shadow-lg hover:-translate-y-1'
              }`}
          >
@@ -310,8 +325,8 @@ export default function Learn() {
          </motion.button>
 
          <div className="text-center space-y-1">
-           <p className="text-xs font-semibold text-[#2C2A29]">{idx + 1} / {questions.length}</p>
-           <p className="text-xs text-[#787470]">Use arrow keys to navigate</p>
+           <p className="text-xs font-semibold text-slate-50">{idx + 1} / {questions.length}</p>
+           <p className="text-xs text-slate-400">Use arrow keys to navigate</p>
          </div>
 
          <motion.button
@@ -320,7 +335,7 @@ export default function Learn() {
            disabled={idx === questions.length - 1}
            className={`flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-semibold transition-all
              ${idx === questions.length - 1 
-               ? 'text-[#A8A4A0] cursor-not-allowed bg-[#FAF9F6]' 
+               ? 'text-slate-500 cursor-not-allowed bg-slate-800/40' 
                : 'text-white gradient-accent shadow-md hover:shadow-lg hover:-translate-y-1'
              }`}
          >

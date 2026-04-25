@@ -55,12 +55,12 @@ export default function Home() {
         className="text-center space-y-4 py-12 sm:py-16 soft-float"
       >
         <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl gradient-accent mb-4">
-          <span className="text-2xl text-white font-bold">ES</span>
+          <span className="font-serif text-2xl text-white font-bold">ES</span>
         </div>
-        <h1 className="text-5xl sm:text-6xl font-bold tracking-tight text-[#2C2A29] leading-tight">
+        <h1 className="font-serif text-5xl sm:text-6xl font-bold tracking-tight text-slate-50 leading-tight">
           Master Spanish MCQs
         </h1>
-        <p className="text-xl text-[#787470] max-w-2xl mx-auto leading-relaxed">
+        <p className="text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
           Practice all 183 study-guide questions by topic, with instant feedback and guided review.
         </p>
       </motion.div>
@@ -76,13 +76,13 @@ export default function Home() {
         <div className="space-y-6">
           <div className="flex items-center justify-between">
             <div>
-              <h2 className="text-2xl font-bold text-[#2C2A29]">Select Topics</h2>
-              <p className="text-sm text-[#787470] mt-1">Choose which grammar areas to practice</p>
+              <h2 className="font-serif text-2xl font-bold text-slate-50">Select Topics</h2>
+              <p className="text-sm text-slate-400 mt-1">Choose which grammar areas to practice</p>
             </div>
             <button
               type="button"
               onClick={() => setSelectedWeeks(assignments.map((a) => a.id))}
-              className="px-4 py-2 text-sm font-semibold rounded-lg border border-[#D6A3A3] text-[#9B7A7A] bg-white hover:bg-[#F0DADA]/40 transition-all duration-300"
+              className="px-4 py-2 text-sm font-semibold rounded-lg border border-orange-500 text-orange-400 bg-slate-900/60 hover:bg-orange-500/20/40 transition-all duration-300"
             >
               Select All
             </button>
@@ -114,7 +114,7 @@ export default function Home() {
                   className={`flex flex-col items-center justify-center px-3 py-4 rounded-xl border text-sm font-semibold transition-all duration-300 ${
                       checked
                         ? 'gradient-accent text-white border-transparent shadow-md'
-                        : 'bg-white border-[#E8E6DF] text-[#787470] hover:border-[#D6A3A3]/40 hover:shadow-sm'
+                        : 'bg-slate-900/60 border-white/10 text-slate-400 hover:border-orange-500/40 hover:shadow-sm'
                    } ${disabled ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}`}
                  >
                    <span className="text-center leading-tight">{a.label}</span>
@@ -123,20 +123,20 @@ export default function Home() {
                )
             })}
           </div>
-          <p className="text-sm text-[#787470] pl-1">
-            <span className="font-medium text-[#2C2A29]">{selectedWeeks.length}</span> topic{selectedWeeks.length !== 1 ? 's' : ''} • 
-            <span className="font-medium text-[#2C2A29] ml-1">{selectedQuestions.length}</span> questions
+          <p className="text-sm text-slate-400 pl-1">
+            <span className="font-medium text-slate-50">{selectedWeeks.length}</span> topic{selectedWeeks.length !== 1 ? 's' : ''} • 
+            <span className="font-medium text-slate-50 ml-1">{selectedQuestions.length}</span> questions
           </p>
         </div>
 
         {/* Settings Section */}
-        <div className="border-t border-[#E8E6DF] pt-8 space-y-6">
-          <h3 className="text-lg font-semibold text-[#2C2A29]">Session Settings</h3>
+        <div className="border-t border-white/10 pt-8 space-y-6">
+          <h3 className="text-lg font-semibold text-slate-50">Session Settings</h3>
           
-          <div className="flex items-center justify-between p-4 bg-[#FAF9F6] rounded-xl border border-[#E8E6DF]">
+          <div className="flex items-center justify-between p-4 bg-slate-800/40 rounded-xl border border-white/10">
             <div>
-              <p className="font-medium text-[#2C2A29]">Shuffle Questions</p>
-              <p className="text-xs text-[#787470] mt-1">Randomize the order of questions</p>
+              <p className="font-medium text-slate-50">Shuffle Questions</p>
+              <p className="text-xs text-slate-400 mt-1">Randomize the order of questions</p>
             </div>
             <label className="relative inline-flex items-center cursor-pointer">
               <input
@@ -145,17 +145,17 @@ export default function Home() {
                 checked={shuffle}
                 onChange={(e) => setShuffle(e.target.checked)}
               />
-              <div className="w-11 h-6 bg-[#E8E6DF] rounded-full peer peer-checked:after:translate-x-5 after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#D6A3A3] peer-checked:shadow-md"></div>
+              <div className="w-11 h-6 bg-slate-900/60/10 rounded-full peer peer-checked:after:translate-x-5 after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-slate-900/60 after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-orange-500 peer-checked:shadow-md"></div>
             </label>
           </div>
         </div>
 
         {/* Action Buttons */}
-        <div className="border-t border-[#E8E6DF] pt-8 space-y-4 sm:space-y-0">
+        <div className="border-t border-white/10 pt-8 space-y-4 sm:space-y-0">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
             <Link
               to="/stats"
-              className="inline-flex items-center justify-center px-6 py-3.5 text-sm font-semibold text-[#2C2A29] bg-white border border-[#E8E6DF] rounded-xl hover:bg-[#FAF9F6] transition-all duration-300 hover:border-[#D6A3A3]/30"
+              className="inline-flex items-center justify-center px-6 py-3.5 text-sm font-semibold text-slate-50 bg-slate-900/60 border border-white/10 rounded-xl hover:bg-slate-800/40 transition-all duration-300 hover:border-orange-500/30"
             >
               View Progress
             </Link>

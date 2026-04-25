@@ -5,11 +5,16 @@ export type ChoiceKey = 'A' | 'B' | 'C' | 'D'
 export type Question = {
   assignmentId: number
   assignmentLabel: string
+  sectionLabel?: string
+  topic?: string
   questionId: string
+  sourceQuestionNumber?: number
   prompt: string
   choices: Array<{ key: ChoiceKey; text: string }>
   answerKey: ChoiceKey
+  answerText?: string
   tricks?: string
+  sourceIssue?: string
 }
 
 export type QuestionBank = {

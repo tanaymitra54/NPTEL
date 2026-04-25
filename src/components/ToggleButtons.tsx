@@ -26,7 +26,7 @@ export function ToggleButtons({
 }: ToggleButtonsProps) {
   return (
     <div className="space-y-3">
-      <label className="text-sm font-medium text-[#787470]">{description}</label>
+      <label className="text-sm font-medium text-slate-400">{description}</label>
       <div className="flex bg-[#F5F3EC] p-1 rounded-lg">
         {options.map((option) => (
           <button
@@ -34,8 +34,8 @@ export function ToggleButtons({
             type="button"
             className={`flex-1 py-2.5 px-4 rounded-md text-sm font-medium transition-colors ${
               value === option.value
-                ? 'bg-white text-[#C28F8F] shadow-sm'
-                : 'text-[#787470] hover:text-[#2C2A29]'
+                ? 'bg-slate-900/60 text-orange-600 shadow-sm'
+                : 'text-slate-400 hover:text-slate-50'
             }`}
             onClick={() => onChange(option.value)}
           >
@@ -44,7 +44,7 @@ export function ToggleButtons({
         ))}
       </div>
       {options.find((o) => o.value === value)?.description && (
-        <p className="text-xs text-[#787470] pl-1">
+        <p className="text-xs text-slate-400 pl-1">
           {options.find((o) => o.value === value)?.description}
         </p>
       )}
@@ -70,7 +70,7 @@ export function ToggleGroup({
 }: ToggleGroupProps) {
   return (
     <div className="space-y-3">
-      <label className="text-sm font-medium text-[#787470]">{description}</label>
+      <label className="text-sm font-medium text-slate-400">{description}</label>
       <div className="flex bg-[#F5F3EC] p-1 rounded-lg">
         {options.map((option) => (
           <button
@@ -78,8 +78,8 @@ export function ToggleGroup({
             type="button"
             className={`flex-1 py-2 rounded-md text-sm font-medium transition-colors ${
               value === option.value
-                ? 'bg-white text-[#2C2A29] shadow-sm'
-                : 'text-[#787470] hover:text-[#2C2A29]'
+                ? 'bg-slate-900/60 text-slate-50 shadow-sm'
+                : 'text-slate-400 hover:text-slate-50'
             }`}
             onClick={() => onChange(option.value)}
           >
